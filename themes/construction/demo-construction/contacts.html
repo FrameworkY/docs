@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacts | Construction demo | Framework Y</title>
+    <meta name="description" content="Contacts page with Google Map.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../../script.js"></script>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../theme.css">
+
+    <link rel="icon" href="/images/favicon.png">
+    <!-- Extra optional content header -->
+</head>
+<body>
+    <div id="preloader"></div>
+    <header class="fixed-top">
+        <div class="navbar navbar-default navbar-fixed-top over" role="navigation">
+            <div class="navbar-mini scroll-hide scroll-show-mobile">
+                <div class="container">
+                    <div class="nav navbar-nav navbar-left">
+                        <span><i class="fa fa-phone"></i>+01-23-4226789</span>
+                        <hr />
+                        <span><i class="fa fa-envelope-o"></i>info@construction.com</span>
+                    </div>
+                    <div class="nav navbar-nav navbar-right">
+                        <ul class="nav navbar-nav over lan-menu">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                                    <img src="images/en.png" />EN <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><img src="images/it.png" />IT</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="navbar-form" role="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search for...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">GO</button>
+                                </span>
+                            </div>
+                        </form>
+                        <div class="minisocial-group">
+                            <a target="_blank" href="#"><i class="fa fa-facebook first"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar navbar-main middle-box-menu scroll-change">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav over">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="who-we-are.html">Who whe are</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <i class="caret"></i></a>
+                                <ul class="dropdown-menu multi-level">
+                                    <li><a href="services.html#section-0">General contracting</a></li>
+                                    <li><a href="services.html#section-1">Construction consultan</a></li>
+                                    <li><a href="services.html#section-2">Metal roofing</a></li>
+                                    <li><a href="services.html#section-3">House renovation</a></li>
+                                    <li><a href="services.html#section-4">Green building</a></li>
+                                    <li><a href="services.html#section-5">Interior design</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="works.html">Our works</a></li>
+                            <li><a href="blog.html">News</a></li>
+                            <li class="active current-active"><a href="contacts.html">Contacts</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="container box-menu-inner scroll-hide scroll-show-mobile">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="icon-box">
+                                <div class="icon-box-cell">
+                                    <i class="fa fa-mobile text-xl"></i>
+                                </div><div class="icon-box-cell">
+                                    <label class="text-m">1-700-(568-852)</label>
+                                    <p class="text-xs">We're on call 24/7</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="icon-box">
+                                <div class="icon-box-cell">
+                                    <i class="fa fa-clock-o text-xl"></i>
+                                </div><div class="icon-box-cell">
+                                    <label class="text-m">Mon - Fri 08:00 - 20:00</label>
+                                    <p class="text-xs">Operating Hours</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="icon-box">
+                                <div class="icon-box-cell">
+                                    <i class="fa fa-envelope-o text-xl"></i>
+                                </div><div class="icon-box-cell">
+                                    <label class="text-m">info@billiobiz.com</label>
+                                    <p class="text-xs">Write To Us</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="google-map" data-address="Via bettin 234, Belluno, italy" marker-pos-top="50" data-skin="black" data-zoom="15" data-marker="http://www.framework-y.com/themes/construction/demo-construction/images/marker.png"></div>
+    <div class="section-empty">
+        <div class="container content">
+            <hr class="space" />
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="http://www.framework-y.com/plugins/php/contact-form.php" class="form-box form-ajax" role="form" method="post">
+                        <h3>SEND A MESSAGGE</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Name</p>
+                                <input id="name" name="name" placeholder="name" type="text" class="form-control form-value" required>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Email</p>
+                                <input id="email" name="email" placeholder="email" type="email" class="form-control form-value" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <hr class="space xs" />
+                                <p>Phone</p>
+                                <input id="phone" name="phone" placeholder="phone" type="text" class="form-control form-value">
+                                <hr class="space xs" />
+                                <p>Messagge</p>
+                                <textarea id="messagge" name="messagge" class="form-control form-value" required></textarea>
+                                <hr class="space s" />
+                                <button class="anima-button circle-button btn-sm btn" type="submit"><i class="fa fa-envelope-o"></i>Send messagge</button>
+                            </div>
+                        </div>
+                        <div class="success-box">
+                            <div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
+                        </div>
+                        <div class="error-box">
+                            <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
+                        <h2>HOW TO REACH US</h2>
+                        <hr class="anima" />
+                    </div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <hr class="space m" />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
+                                <h2>OUR ADDRESS</h2>
+                                <hr class="anima" />
+                            </div>
+                            <p>
+                                Sturlly Technologies<br />
+                                PO Box 16122, Collins Street West,<br />
+                                Victoria 8007, United States.<br />
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
+                                <h2>CONTACTS</h2>
+                                <hr class="anima" />
+                            </div>
+                            <ul class="fa-ul text-s">
+                                <li><i class="fa-li fa fa-phone"></i>(+39) 320-30500975</li>
+                                <li><i class="fa-li fa fa-comments-o"></i>hello@pixor.it</li>
+                                <li><i class="fa-li fa fa-link"></i><a href="http://www.pixor.it/">www.pixor.it</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr class="space" />
+                <div class="col-md-12 text-center">
+                    <div class="btn-group" role="group">
+                        <a class="btn btn-default"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-default"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-default"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-default"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-default"><i class="fa fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 footer-left">
+                        <h4>CONTACTS</h4>
+                        <ul class="fa-ul text-s">
+                            <li><i class="fa-li fa fa-map-marker"></i> PO Box 16122, Collins Street West, Victoria 8007, United States.</li>
+                            <li><i class="fa-li fa fa-envelope"></i> federico@pixor.it</li>
+                            <li><i class="fa-li fa fa-mobile-phone"></i> (+39) 320 33022256</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 footer-center">
+                        <div class="btn-group navbar-social">
+                            <div class="btn-group social-group">
+                                <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                                <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer-right">
+                        <h4>ABOUT</h4>
+                        <p>
+                            L'orem ipsum dolor, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam sed do eiusmod tempor incididun.
+                        </p>
+                    </div>
+                </div>
+                <div class="row copy-row">
+                    <div class="col-md-12 copy-text">
+                        ALL RIGHT RESERVED | FRAMEWORK Y | ENVATO
+                    </div>
+                </div>
+            </div>
+        </div>
+        <link async rel="stylesheet" href="../../../plugins/font-awesome/css/font-awesome.min.css">
+        <script async src="../../../plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../../../plugins/imagesloaded.min.js"></script>
+        <script src='../../../plugins/google.maps.min.js'></script>
+        <script src='https://maps.googleapis.com/maps/api/js?sensor=false'></script>
+        <script src='../../../plugins/php/contact-form.js'></script>
+    </footer>
+</body>
+</html>

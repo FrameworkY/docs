@@ -1,0 +1,323 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Single room | Hotel demo | Framework Y</title>
+    <meta name="description" content="Elegance hotel and restaurant HTML template.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../../script.js"></script>
+    <script src='../../../plugins/parallax.min.js'></script>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../css/content-box.css">
+    <link rel="stylesheet" href='../../../plugins/flexslider/flexslider.css'>
+    <link rel="stylesheet" href="../../../plugins/php/contact-form.css">
+    <link rel="stylesheet" href="../../../css/animations.css">
+    <link rel="stylesheet" href="../theme.css">
+    <link rel="icon" href="/images/favicon.png">
+    <!-- Extra optional content header -->
+</head>
+<body>
+    <div id="preloader"></div>
+    <header class="fixed-top">
+        <div class="navbar navbar-default navbar-fixed-top over" role="navigation">
+            <div class="navbar-main navbar-middle scroll-change">
+                <div class="container">
+                    <div class="scroll-hide">
+                        <div class="container">
+                            <a class="navbar-brand center" href="#">
+                                <img src="images/logo.png" alt="logo" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="../../../index.html"><img src="images/logo.png" alt="logo" /></a>
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav over">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="rooms.html">Rooms</a></li>
+                            <li><a href="reservation.html">Reservation</a></li>
+                            <li class="scroll-show"><a href="#"><img src="images/logo-mini.png" alt="logo"></a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="where-we-are.html">Where we are</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contacts.html">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-title white ken-burn-out" data-parallax="scroll" data-position="top" data-image-src="images/title-3.jpg">
+        <div class="container">
+            <div class="title-base">
+                <hr class="anima" />
+                <h1>DELUXE ROOM – TWO DOUBLE BEDS</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-parallax-container">
+        <hr class="space" />
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="flexslider slider white nav-middle-mobile" id="slider-demo-5" data-options="controlNav:false,animationLoop:false,slideshow:false,sync:#slider-demo-5-nav-thumb">
+                        <ul class="slides">
+                            <li>
+                                <img src="images/gallery/image_9.jpg" />
+                            </li>
+                            <li>
+                                <img src="images/gallery/image_10.jpg" />
+                            </li>
+                            <li>
+                                <img src="images/gallery/image_5.jpg" />
+                            </li>
+                            <li>
+                                <img src="images/gallery/image_11.jpg" />
+                            </li>
+                            <li>
+                                <img src="images/gallery/image_14.jpg" />
+                            </li>
+                            <li>
+                                <img src="images/gallery/image_15.jpg" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="slider-demo-5-nav-thumb" class="flexslider carousel nav-thumb white nav-middle-mobile" data-options="controlNav:false,animationLoop:false,slideshow:false,asNavFor:#slider-demo-5,minWidth:50,numItems:5">
+                        <ul class="slides">
+                            <li>
+                                <img src="images/gallery/thumb_9.jpg" />
+                            </li>
+                            <li>
+                                <img src="images/gallery/thumb_10.jpg" />
+                            </li>
+                            <li>
+                                <img src="images/gallery/thumb_5.jpg" />
+                            </li>
+                            <li>
+                                <img src="images/gallery/thumb_11.jpg" />
+                            </li>
+                            <li>
+                                <img src="images/gallery/thumb_14.jpg" />
+                            </li>
+                            <li>
+                                <img src="images/gallery/thumb_15.jpg" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="reservation-box" data-anima="fade-right">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p>Check-in</p>
+                                <input type="text" data-toggle="datepicker" class="form-control" placeholder="name">
+                            </div>
+                            <div class="col-md-4">
+                                <p>Nights</p>
+                                <select name="rs-night" id="rs-night" class="form-control">
+                                    <option value="0">0</option>
+                                    <option value="1" selected="">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                </select>
+                            </div>
+                            <hr class="space s" />
+                            <div class="col-md-12">
+                                <p>Check-out</p>
+                                <input type="text" data-toggle="datepicker" class="form-control" placeholder="name" aria-describedby="basic-addon1">
+                            </div>
+                            <hr class="space s" />
+                            <div class="col-md-4">
+                                <p>Adults</p>
+                                <select name="rs-night" id="rs-night" class="form-control">
+                                    <option value="0">0</option>
+                                    <option value="1" selected="">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <p>Childrens</p>
+                                <select name="rs-night" id="rs-night" class="form-control">
+                                    <option value="0">0</option>
+                                    <option value="1" selected="">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12">
+                                <p style="visibility:hidden">Availability</p>
+                                <a class="btn btn-default nav-justified" href="#">Check Availability</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="space" />
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
+                                <h2>DELUXE ROOM – TWO DOUBLE BEDS</h2>
+                                <hr class="anima">
+                            </div>
+                        </div>
+                        <div class="col-md-4 box-price">
+                            <h2>$ 50 / night</h2>
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea coSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                    </p>
+                </div>
+                <hr class="space" />
+                <div class="col-md-12">
+                    <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
+                        <h2>INCLUDED SERVICES</h2>
+                        <hr class="anima">
+                    </div>
+                    <div class="row" data-anima="show-scale" data-timeline="asc">
+                        <div class="col-md-2">
+                            <div class="icon-box icon-box-top-bottom anima">
+                                <div class="icon-box-cell">
+                                    <i class="fa fa-bed text-xl"></i>
+                                </div><div class="icon-box-cell"><label class="text-m">2 double beds</label><p class="text-s">L'orem ipsum dolor</p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="icon-box icon-box-top-bottom anima">
+                                <div class="icon-box-cell">
+                                    <i class="fa fa-users text-xl"></i>
+                                </div><div class="icon-box-cell"><label class="text-m">Max 4 people</label><p class="text-s">L'orem ipsum dolor</p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="icon-box icon-box-top-bottom anima">
+                                <div class="icon-box-cell">
+                                    <i class="fa fa-coffee text-xl"></i>
+                                </div><div class="icon-box-cell"><label class="text-m">Breakfast</label><p class="text-s">From 6.00AM to 10.00AM</p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="icon-box icon-box-top-bottom anima">
+                                <div class="icon-box-cell">
+                                    <i class="fa fa-tint text-xl"></i>
+                                </div><div class="icon-box-cell"><label class="text-m">Private bathroom</label><p class="text-s">L'orem ipsum dolor</p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="icon-box icon-box-top-bottom anima">
+                                <div class="icon-box-cell">
+                                    <i class="fa fa-lock text-xl"></i>
+                                </div><div class="icon-box-cell"><label class="text-m">Strongbox included</label><p class="text-s">L'orem ipsum dolor</p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="icon-box icon-box-top-bottom anima">
+                                <div class="icon-box-cell">
+                                    <i class="fa fa-desktop text-xl"></i>
+                                </div><div class="icon-box-cell"><label class="text-m">HD Television</label><p class="text-s">L'orem ipsum dolor</p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="icon-box icon-box-top-bottom anima">
+                                <div class="icon-box-cell">
+                                    <i class="fa fa-wifi text-xl"></i>
+                                </div><div class="icon-box-cell"><label class="text-m">Free WiFi</label><p class="text-s">L'orem ipsum dolor</p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="icon-box icon-box-top-bottom anima">
+                                <div class="icon-box-cell">
+                                    <i class="fa fa-cutlery text-xl"></i>
+                                </div><div class="icon-box-cell"><label class="text-m">Room service</label><p class="text-s">L'orem ipsum dolor</p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="icon-box icon-box-top-bottom anima">
+                                <div class="icon-box-cell">
+                                    <i class="fa fa-car text-xl"></i>
+                                </div><div class="icon-box-cell"><label class="text-m">Car park</label><p class="text-s">L'orem ipsum dolor</p></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="space" />
+    </div>
+    <footer class="footer-parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 footer-left">
+                    <h4>CONTACTS</h4>
+                    <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-map-marker"></i> PO Box 16122, Collins Street West, Victoria 8007, United States.</li>
+                        <li><i class="fa-li fa fa-envelope"></i> federico@pixor.it</li>
+                        <li><i class="fa-li fa fa-mobile-phone"></i> (+39) 320 33022256</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 footer-center">
+                    <div class="btn-group navbar-social">
+                        <div class="btn-group social-group">
+                            <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 footer-right">
+                    <h4>ABOUT</h4>
+                    <p>
+                        L'orem ipsum dolor, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam sed do eiusmod tempor incididun.
+                    </p>
+                </div>
+            </div>
+            <div class="row copy-row">
+                <div class="col-md-12 copy-text">
+                    ALL RIGHT RESERVED | FRAMEWORK Y | ENVATO
+                </div>
+            </div>
+        </div>
+        <link async rel="stylesheet" href="../../../plugins/font-awesome/css/font-awesome.min.css">
+        <script src='../../../plugins/flexslider/jquery.flexslider-min.js'></script>
+        <script async src="../../../plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../../../plugins/imagesloaded.min.js"></script>
+        <script src='../../../plugins/php/datepicker.min.js'></script>
+    </footer>
+</body>
+</html>

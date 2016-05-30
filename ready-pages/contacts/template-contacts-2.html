@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacts template 2 | ready pages | Framework Y</title>
+    <meta name="description" content="Contacts page with full screen Google Maps and overlay box with contact infos.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../script.js"></script>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="/favicon.ico">
+    <script src="../../script-framework-y.js"></script>
+    <!-- Extra optional content header -->
+</head>
+<body>
+    <div id="preloader"></div>
+    <header class="fixed-top" data-menu-anima="fade-in">
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="navbar navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="../../index.html"><img src="../../images/logo.png" alt="logo" /></a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="section-map box-middle-container full-screen-size" data-sub-height="50">
+        <div class="google-map" data-address="via bettin 234, italy" data-skin="black" data-zoom="15" data-marker-pos="center-bottom" marker-pos-top="50" marker-pos-left="20" data-marker="http://www.framework-y.com/images/marker-map.png"></div>
+        <div class="overlaybox overlaybox-side">
+            <div class="container content">
+                <div class="overlaybox-inner box-middle text-center">
+                    <h2 class="text-m text-light">Phone: (+02) 320-35065782 <span class="space"></span> Skype: company.name</h2>
+                    <h2 class="text-m text-light">Email: <a href="mailto:hello@structura.com">hello@structura.com</a></h2>
+                    <hr />
+                    <p>
+                        <i class="fa fa-map-marker"></i><span class="space"></span>Greenwood Campbell
+                        The Sud Chambers
+                        Second Floor, 20 Erik Hill
+                        Bournemouth
+                        BH3 25BJ
+                    </p>
+                    <div class="btn-group social-group">
+                        <a target="_blank" href="#"><i class="fa fa-facebook-square"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-twitter-square"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-youtube-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-center">
+        <div class="content" style="margin-top: 0;">
+            <div class="container">
+                <div class="row">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.framework-y.com/">Tweet</a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                    <p class="footer-main">
+                        Designed and built with love by <a href="http://www.pixor.it/en/federico-schiocchet/" target="blank">Federico Schiocchet</a>
+                        and <a href="http://www.pixor.it/en/" target="blank">Pixor</a>.
+                        <br />
+                        © All Rights Reserved Federico Schiocchet - Pixor.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <link rel="stylesheet" href="../../plugins/font-awesome/css/font-awesome.min.css">
+        <script src="../../plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src='../../plugins/google.maps.min.js'></script>
+        <script src='https://maps.googleapis.com/maps/api/js?sensor=false'></script>
+    </footer>
+</body>
+</html>

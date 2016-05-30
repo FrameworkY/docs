@@ -1,0 +1,448 @@
+
+/* 
+===================
+THEME GLOBAL STYLES
+===================
+*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700);
+/*
+-------------
+MAIN TEXT
+-------------
+*/
+body, .adv-img p, .caption-bottom p, .adv-circle .caption p, .advs-box p, .list-blog p, .text-color {
+    font-family: 'Open Sans', sans-serif;
+    color: #757575;
+}
+/*
+-------------
+MAIN SUB TITLES COLOR
+-------------
+*/
+.mega-menu h5, .title-base h1, .title-icon h2, .title-icon h1, .title-base.title-small h2, .title-modern h1, .title-modern h2, .title-modern h3, .list-items .list-item h3,
+.timeline-title, footer h4, footer h5, footer h6, .advs-box h2, .advs-box h3, .advs-box h4, .advs-box .block-data p.bd-day, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h1 a,
+h2 a, h3 a, h4 a, h5 a, .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus, .advs-box .block-data p.bd-month {
+    color: #5F5F5F;
+}
+/*
+-------------
+MAIN TITLES STYLE
+-------------
+*/
+.header-title h1, .header-title h2, .header-title h3, .header-slider h1, .header-slider h2, .header-slider h3, .header-video h1, .header-video h2,
+.header-video h3, .header-base h1, .header-base h2, .header-base h3, .header-animation h1, .header-animation h2, .header-animation h3, .header-bootstrap h1,
+.advs-box h4, .niche-box-blog .block-title h2, .block-infos .bd-day, footer .main-title, footer i, footer .social-group i, .album-title, .adv-img h2,
+.adv-img h2, .adv-circle h2, .caption-bottom h2, .title-base h1, .title-icon h2, .title-icon h1, .title-base.title-small h2, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, .icon-box-cell label,
+.icon-list .list-item label, .icon-list .list-item label, .icon-box label, .counter[data-to], .progress-bar, .countdown .countdown-values, .progress-label, .progress-circle .inner-circle .counter-circle,
+inner-circle .sub, .timeline-title, .btn-default, .btn, .circle-button, .pagination > li > a, .nav-tabs > li > a, .list-items .list-item h3 {
+    font-weight: 400;
+}
+
+
+.niche-box-blog .block-title h2, .block-infos .bd-day, .list-blog h5, .niche-box-testimonails h5, .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    font-weight: 600;
+}
+
+footer .main-title, footer i, footer .social-group i {
+    font-weight: 900;
+}
+
+.input-group .input-group-btn, .social-button i.circle, .nav.inner, .nav.inner {
+    border: none !important;
+}
+
+    /*
+-------------
+COLORS
+-------------
+*/
+    .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus, .white.btn, .white .btn, .circle-button,
+    .btn.circle-button, .header-bootstrap, .popup-banner .panel-body, .box-menu-inner > .row, .pagination > li > a, .pagination > li > span,
+    .pagination > .disabled > a, .pagination > .disabled > a:focus, .header-title hr, .block-infos .block-comment, .nav.inner.ms-rounded > li > a, .btn-default, .advs-box.boxed,
+    .panel-default > .panel-heading, .panel-default .panel-footer, .advs-box-top-icon .icon, .advs-box-top-icon-img .icon, i.circle, .advs-box-multiple div.circle,
+    .advs-box-side-img hr, .call-action-box, .title-base hr, .white .title-base hr, .header-video.white .title-base hr, .header-slider.white .title-base hr,
+    .header-animation.white .title-base hr, .header-title.white .title-base hr, .nav.inner, .nav.inner.ms-mini, .popover-title,
+    .bg-color, .title-base .scroll-top, .title-modern .scroll-top, i.square, .header-base, .popup-banner.full-width-top, .popup-banner.full-width-bottom, .popup-banner.full-width-top, .progress-bar, .tagbox span {
+        background-color: #34A1C8;
+    }
+
+        .btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus, .btn-primary:focus, .btn-primary.focus, .btn-primary.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default, .pagination > li > a:focus, .circle-button:hover, .btn.circle-button:hover, .pagination > .active > a:hover, .pagination > .disabled > a:hover, .pagination > li > a:hover, .btn-default:hover, .nav.inner:not(.ms-minimal) > li:hover > a, .nav.inner > li.active > a, .nav.inner:not(.ms-minimal) .dropdown-menu, .nav.inner.ms-rounded li.active a, .minisocial-group.circle i:hover, .pagination > .active > a {
+            background-color: #2E87A7;
+            border-color: #2E87A7;
+        }
+
+.btn-primary:focus, .btn-primary.focus, .advs-box-multiple div.circle, .slimScrollBar, .white.circle-button:hover, .white .circle-button:hover, .boxed .circle-button:hover {
+    background-color: #2E87A7 !important;
+}
+
+
+.adv-img-button-content .caption i, .caption-bottom p, div.adv-img .caption-bottom p, .inner-circle .main, .mi-menu li .fa, .advs-box-top-icon.boxed .icon, .fullpage-arrow.arrow-circle .arrow i, .title-icon-bg h2, .btn-group.social-group i, .accordion-list .list-group-item > a i, .advs-box .block-data p, .advs-box.boxed .block-data p, .adv-img h2, .main-color, .adv-img-classic-box h2, .mega-menu .fa-ul .fa-li, .fullpage-varrow.varrow-circle .arrow i, .adv-circle.adv-circle-center i, li.panel-item .fa-li, header .social-group a i, .icon-menu .navbar-collapse ul.nav i, .side-menu i, .side-menu ul a i, .list-blog h5, .bs-menu li:hover > a, .bs-menu li.active > a, .hamburger-button:hover, .img-box.adv-circle i, .adv-img-full-content i.main-icon, .advs-box-side .icon, .advs-box-side-icon i, .tag-row i, .tag-row a i.circle, .social-group i.circle, .social-button i.circle, .niche-box-testimonails h5, .pricing-table .pricing-price, .pricing-table h3, .title-icon i, i, .fullpage-menu.white li.active a i, .list-items .list-item span, ul.list-texts li b, .timeline > li > .timeline-label h4, .footer-center .footer-title, .accordion-list .list-group-item > a.active, header .social-group a i.fa {
+    color: #34A1C8;
+}
+
+.bs-menu li:hover > a, .bs-menu li.active > a, .side-menu.ms-minimal li:hover > a, .side-menu.ms-minimal li:hover > span, .adv-circle.adv-circle-center-2 .caption p {
+    border-right-color: #34A1C8 !important;
+}
+
+.bs-menu.menu-left li:hover > a, .bs-menu.menu-left li.active > a, .bs-callout {
+    border-left-color: #34A1C8 !important;
+}
+
+.popover.bottom > .arrow:after, .title-modern h1, .title-modern h2, .title-modern h3, .accordion-list .list-group-item:last-child, .nav.ms-minimal > li:hover > a, .nav.ms-minimal > li.active > a {
+    border-bottom-color: #34A1C8;
+}
+
+hr.e, .white.btn, .white .btn, .circle-button, .btn.circle-button, .advs-box.boxed, .box-menu-inner > .row, .pagination > .active > a:hover, .pagination > li.disabled > a:hover, .pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > a, .pagination > li > span, .pagination > li.disabled > a, .nav.inner.ms-rounded li a, .btn-default, .btn, .advs-box.boxed .advs-box-content, .bs-panel, .block-infos .block-data, .tag-row i.circle, .niche-box-team .content-box hr, .call-action-box, .pagination > .active > a, .inner .dropdown-menu, .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus, .accordion-list .list-group-item, .accordion-list .list-group-item > a.active, .social-group i.circle, .social-button i.circle, .accordion-list .list-group-item > a.active:hover {
+    border-color: #34A1C8;
+}
+
+    .breadcrumb > li + li:before, .nav-pills > li.active > a, .nav-pills > li.active > a:hover,
+    .nav-pills > li.active > a:focus, .popup-banner.full-width-bottom, .boxed .social-group i.circle,
+    .circle-button, .btn.circle-button, .boxed .tag-row.icon-row span:after, .fullpage-menu i,
+    .pagination > li > a:focus, .popup-banner .panel-body, .popup-banner .popup-close, .album-box h2,
+    .box-menu-inner > .row, .box-menu-inner > .row i, .pagination > .disabled > a:hover, .pagination > li > a:hover,
+    .pagination > li > a, .pagination > li > span, .pagination > .disabled > a, .pagination > li.disabled > a,
+    .nav.inner.ms-rounded li a, .nav.inner.ms-rounded li a i, .call-action-box .anima-button.circle-button, .btn-default,
+    .btn, .input-group button, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default, .btn-default:hover,
+    .circle-button:hover, .advs-box.boxed p, .advs-box.boxed a, .advs-box.boxed i, .advs-box.boxed .tag-row span, .advs-box.boxed .tag-row,
+    .advs-box.boxed h4, .advs-box.boxed h4 a, .advs-box.boxed h3, .advs-box.boxed h3 a, .advs-box.boxed h2, .advs-box.boxed h2 a,
+    .nav.inner:not(.ms-minimal) > li > a, .nav.inner .dropdown-menu > li > a, .nav.inner .dropdown-menu > li > a:hover,
+    .nav.inner .dropdown-menu > li > a:focus, .btn-default i,
+    .btn i, .panel-default > .panel-heading, .panel-default .panel-footer, .popover-title, .tag-row i.circle, .advs-box-side-icon i.circle,
+    .call-action-box, .call-action-box i, .call-action-box p, .social-group i:hover, header .social-group a i:hover, i.circle, i.square, .header-bootstrap i,
+    .header-base .title-base h1, .header-base .title-base p, .header-base .breadcrumb.b a, .breadcrumb > .active, .img-box > i, .img-box span > i,
+    .img-box .caption > i, .pagination i, .dropdown-toggle i.caret, .circle-button:hover > i, .block-infos .block-comment i, .circle-button i, .btn.circle-button i {
+        color: #FFF;
+    }
+
+.inner .dropdown-submenu:hover > a:after, .inner .dropdown-submenu > a:after {
+    border-left-color: #FFF !important;
+}
+
+.advs-box.boxed hr {
+    border-top-color: #FFF;
+}
+
+.advs-box.boxed a, .call-action-box .anima-button.circle-button, .boxed .social-group i.circle {
+    border-color: white;
+}
+
+.advs-box-top-icon.boxed .icon {
+    background-color: #FFF;
+}
+
+.full-width-menu .nav, .white .title-base hr {
+    background-color: #FDFDFD;
+}
+
+    .full-width-menu .nav.inner > li:hover > a, .full-width-menu .nav.inner > li.active > a {
+        background-color: rgb(243, 243, 243) !important;
+    }
+
+    .full-width-menu .nav.inner > li > a, .full-width-menu .dropdown-menu > li > a {
+        color: #444 !important;
+    }
+
+.nav.inner .dropdown-menu > li > a:hover, .nav.inner .dropdown-menu > li > a:focus {
+    background-color: rgba(0, 0, 0, 0.07);
+}
+/* 
+===================
+FINISH THEME GLOBAL STYLES
+===================
+*/
+header .btn.circle-button {
+    color: #FFF !important;
+    margin-top: 10px;
+}
+
+.header-title.white hr {
+    display: none;
+}
+
+.header-title.white h1 {
+    padding-top: 11px;
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 35px;
+}
+.fp-slides .slide .container {
+        padding-top: 0px;
+}
+.fp-enabled footer .content {
+    background: #FBFBFB;
+    height: 30px;
+    border-top: 1px solid #E4E4E4;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.fp-enabled footer .container {
+    padding-top: 7px;
+    font-size: 10px;
+}
+.table > tbody > tr > th, .table > tbody > tr > td {
+    line-height: 29px;
+}
+
+.icon-box i.circle:not(.cover), .list-item i.circle:not(.cover),header .social-group i {
+    background-color: rgba(255, 255, 255, 0.00);
+    border: 1px solid #34A1C8;
+    color: #656565;
+    transition: background-color .3s;
+}
+header .social-group a i.fa {
+    border-radius:50% !important;
+    font-size: 12px;
+    line-height: 19px;
+}
+header .social-group a i.fa:hover {
+ border: 1px solid rgba(255, 255, 255, 0);
+}
+.advs-box-top-icon .icon, .advs-box-top-icon-img .icon {
+    line-height: 48px;
+}
+.adv-img-down-text h2 a {
+    color: #3E3E3E;
+    font-weight:600;
+    font-size: 15px;
+}
+.icon-box:hover i.circle:not(.cover) {
+    color: #FFF;
+    background-color: #34A1C8;
+    transition: background-color .3s;
+}
+.adv-circle h2 {
+      font-size: 15px;
+}
+.mfp-arrow:before, .mfp-arrow:after, .mfp-arrow .mfp-b, .mfp-arrow .mfp-a,.mfp-close-btn-in .mfp-close{
+    color: #000000;
+}
+.advs-box h4,.adv-circle h2  {
+    font-weight: 600;
+}
+
+.icon-box-cell label:not(.counter) {
+    font-weight: 600;
+    font-size: 15px !important;
+    color: #656565;
+}
+
+.advs-box-top-icon.boxed .icon, .advs-box-top-icon.boxed-inverse .icon, .advs-box-top-icon-img i.icon {
+    background-color: #FFF;
+    color: #34A1C8;
+}
+
+.advs-box-side-icon.boxed .icon-box i {
+    color: #FFF;
+}
+
+header .btn-text {
+    line-height: 30px;
+    margin-left: 15px;
+    border-bottom: none;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+}
+
+.my-ht {
+    position: relative;
+    margin-right: 15px;
+    display: inline-block;
+    bottom: -8px;
+}
+
+    .my-ht i {
+        margin-right: 5px;
+        top: 2px;
+        position: relative;
+    }
+
+.layer-parallax .flexslider, .layer-parallax .flexslider .slides, .layer-parallax {
+    height: 600px;
+}
+
+div.box-lightbox {
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.24);
+}
+
+div.mfp-bg {
+    background: #FFF;
+}
+
+button.mfp-close, button.mfp-arrow {
+    color: #444;
+}
+.text-xl.circle, .text-xl.square {
+    font-size:25px !important;
+}
+@media (min-width: 768px) {
+    header.menu-transparent .navbar-nav > li > a {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    header.menu-transparent.scroll-css .navbar-nav > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+.button-store img {
+    position: static;
+    margin: 0 !important;
+    right: 0;
+}
+
+.title-base p, .title-icon p {
+    font-size: 13px;
+}
+
+
+.button-store {
+    position: static;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+    .button-store:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+header.menu-transparent .navbar-brand {
+    height: 125px;
+}
+
+
+
+header.menu-transparent.scroll-css .navbar-brand {
+    height: 50px;
+}
+
+.section-slide .container-inner {
+    /* padding-top: 95px; */
+}
+
+
+.my-class-1 .flex-control-paging li a:hover {
+    background-color: white;
+}
+
+.my-class-1 .flexslider .flex-control-paging li a {
+    background-color: white;
+}
+
+    .my-class-1 .flexslider .flex-control-paging li a.flex-active {
+        background: rgba(255, 255, 255, 0.48);
+    }
+
+.my-class-1 .title-base hr, #contacts .title-base hr {
+    background-color: #FFF !important;
+}
+
+hr.f {
+    height: 50px;
+    border-top: 1px solid #FFF;
+    background: linear-gradient(to bottom, rgba(204, 204, 204, 0.19) 0%,rgba(0,0,0,0) 100%);
+}
+
+.advs-box-top-icon p {
+    max-width: 500px;
+}
+
+
+
+.well {
+    background: #FFF;
+    box-shadow: none;
+}
+
+.slimScrollBar {
+    margin: 5px;
+}
+
+.adv-img-classic-box .caption-inner p.sub-text {
+    font-size: 12px;
+    font-weight: 400;
+    height: 25px !important;
+}
+
+.adv-img-classic-box img {
+    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+
+.input-group .input-group-btn {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.adv-img-classic-box .caption-inner {
+    padding: 15px !important;
+}
+
+.navbar-default .navbar-nav li a, .navbar-mini {
+    font-size: 13px !important;
+    color: #696969;
+}
+
+.middle-box-menu.scroll-css {
+    padding-bottom: 0;
+}
+
+
+
+footer.footer-parallax {
+    margin-top: 100px;
+    background-color: #FFFFFF;
+    color: #6D6D6D;
+    height: 276px;
+}
+
+
+
+footer i, footer .social-group i {
+    font-weight: 400;
+}
+
+.dropdown-menu > li > a {
+    padding: 8px 20px;
+}
+
+
+.overlay-content.footer-parallax-container {
+    background: none;
+    margin-bottom: 0;
+}
+
+
+footer {
+    background-color: #FFF;
+}
+
+
+.copy-row .copy-text {
+    font-size: 10px;
+}
+
+.footer-base {
+    background-color: #34A1C8;
+    color: white;
+    margin-top: 100px;
+}
+
+    .footer-base h4, .footer-base .fa-ul .fa-li, .footer-base .btn-group.social-group i {
+        color: white;
+    }
+/*
+MOBILE
+ */
+@media (max-width: 768px) {
+    .menu-transparent .navbar-toggle {
+        margin-top: 37px;
+    }
+}

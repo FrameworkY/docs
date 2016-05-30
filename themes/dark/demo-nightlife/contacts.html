@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacts | Nightlife demo | Framework Y</title>
+    <meta name="description" content="Contacts page with Google Map skin dark, contact form and contact informations list.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../../script.js"></script>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../css/components.css">
+    <link rel="stylesheet" href="../../../css/image-box.css">
+    <link rel="stylesheet" href="../theme.css">
+    <link rel="icon" href="/images/favicon.png">
+    <!-- Extra optional content header -->
+</head>
+<body class="dark-skin">
+    <div id="preloader"></div>
+    <div class="background-page" style="background-image:url('images/hd-2.jpg')"></div>
+    <header class="fixed-top scroll-change" data-menu-anima="fade-left">
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="navbar-main navbar-middle">
+                <div class="container">
+                    <div class="scroll-hide">
+                        <div class="container">
+                            <a class="navbar-brand center" href="#">
+                                <img src="images/logo.png" alt="logo" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" /></a>
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i> 
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav" style="margin-left:0px">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a href="events.html" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Events <i class="caret"></i></a>
+                                <ul class="dropdown-menu multi-level">
+                                    <li><a href="events.html">All events</a></li>
+                                    <li><a href="single-event.html">Single event</a></li>
+                                    <li><a href="single-event-big.html">Big single event</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li class="scroll-show"><a href="index.html"><img src="images/logo-small.png" alt="logo"></a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contacts.html">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="overlay-content">
+        <div class="section-empty white">
+            <div class="container content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>ADDRESS</h2>
+                        <hr class="h" />
+                        <h4>2 Elizabeth St, Melbourne, 3000 Australia</h4>
+                        <hr class="space s" />
+                        <ul class="list-texts">
+                            <li><b>Phone:</b>  (123) 555-565026333</li>
+                            <li><b>Email:</b>  info@mtxclub.com</li>
+                            <li><b>Reservation:</b> info@mtxclub.com</li>
+                            <li><b>Tickets:</b>   ticket@mtxclub.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-8">
+                        <form action="http://www.framework-y.com/plugins/php/contact-form.php" class="form-box form-ajax" role="form" method="post">
+                            <h3>SEND A MESSAGGE</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>Name</p>
+                                    <input id="name" name="name" placeholder="name" type="text" class="form-control form-value" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>Email</p>
+                                    <input id="email" name="email" placeholder="email" type="email" class="form-control form-value" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <hr class="space xs" />
+                                    <p>Phone</p>
+                                    <input id="phone" name="phone" placeholder="phone" type="text" class="form-control form-value">
+                                    <hr class="space xs" />
+                                    <p>Messagge</p>
+                                    <textarea id="messagge" name="messagge" class="form-control form-value" required></textarea>
+                                    <hr class="space s" />
+                                    <button class="anima-button circle-button btn-sm btn" type="submit"><i class="fa fa-envelope-o"></i>Send messagge</button>
+                                </div>
+                            </div>
+                            <div class="success-box">
+                                <div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
+                            </div>
+                            <div class="error-box">
+                                <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-map" style="height:500px;">
+            <div class="google-map" data-address="New York, US" data-skin="black" data-zoom="15"></div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <hr class="space xs" />
+                    <div class="copy-row">
+                        <div class="tag-row">
+                            <span>Copyright © 2016</span>
+                            <span>47 Chandos Place London WC2N 4HS</span>
+                            <span>020 7836 0291</span>
+                            <span>info@soundoflondon.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-right">
+                    <div class="btn-group social-group">
+                        <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <link async rel="stylesheet" href="../../../plugins/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../../../css/animations.css">
+        <script async src="../../../plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../../../plugins/imagesloaded.min.js"></script>
+        <script src='../../../plugins/google.maps.min.js'></script>
+        <script src='https://maps.googleapis.com/maps/api/js?sensor=false'></script>
+        <script src='../../../plugins/php/contact-form.js'></script>
+        <style>
+        </style>
+    </footer>
+</body>
+</html>

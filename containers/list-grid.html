@@ -1,0 +1,2277 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>List grid | components | Framework Y</title>
+    <meta name="description" content="JQuery / HTML list and gallery with pagination and load more.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.css">
+    <script src="../script.js"></script>
+    <script async src="../script-framework-y.js"></script>
+    <link rel="stylesheet" href="../style-framework-y.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="icon" href="/favicon.ico"> <!-- Extra optional content header -->
+</head>
+<body data-spy="scroll" data-target="#framework-menu" data-offset="250" id="top-page">
+    <div id="preloader"></div>
+    <header class="fixed-top" data-menu-anima="fade-in">
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="navbar navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt="logo" /></a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav mega-menu-fullwidth">
+                            <li>
+                                <a href="../getting-started.html">Getting started</a>
+                            </li>
+                            <li class="dropdown mega-dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="../#">Titles <span class="caret"></span></a>
+                                <div class="mega-menu dropdown-menu multi-level row">
+                                    <div class="col">
+                                        <h5>Image background</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-photo"></i> <a href="../components/title/template-title-image.html">Image background</a></li>
+                                            <li><i class="fa-li fa fa-photo"></i> <a href="../components/title/template-title-image-fullscreen.html">Image full-screen</a></li>
+                                            <li><i class="fa-li fa fa-photo"></i> <a href="../components/title/template-title-image-fullscreen-parallax.html">Image full-screen parallax</a></li>
+                                            <li><i class="fa-li fa fa-photo"></i> <a href="../components/title/template-title-image-parallax.html">Image parallax</a></li>
+                                            <li><i class="fa-li fa fa-photo"></i> <a href="../components/title/template-title-image-parallax-ken-burn.html">Image parallax ken-burn</a></li>
+                                        </ul>
+                                        <hr class="space xs">
+                                        <h5>Slider background</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-sliders"></i> <a href="../components/title/template-title-slider.html">Slider background</a></li>
+                                            <li><i class="fa-li fa fa-sliders"></i> <a href="../components/title/template-title-slider-fullscreen.html">Slider full-screen</a></li>
+                                            <li><i class="fa-li fa fa-sliders"></i> <a href="../components/title/template-title-slider-fullscreen-parallax.html">Slider full-screen parallax</a></li>
+                                            <li><i class="fa-li fa fa-sliders"></i> <a href="../components/title/template-title-slider-parallax.html">Slider parallax</a></li>
+                                        </ul>
+                                        <hr class="space xs">
+                                        <h5>Animation background</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-leaf"></i> <a href="../components/title/template-title-animation.html">Animation background</a></li>
+                                            <li><i class="fa-li fa fa-leaf"></i> <a href="../components/title/template-title-animation-parallax.html">Animation background parallax</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h5>Video background</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-film"></i> <a href="../components/title/template-title-video-mp4.html">Video background MP4</a></li>
+                                            <li><i class="fa-li fa fa-film"></i> <a href="../components/title/template-title-video-youtube.html">Video background Youtube</a></li>
+                                            <li><i class="fa-li fa fa-film"></i> <a href="../components/title/template-title-video-fullscreen.html">Video full-screen</a></li>
+                                            <li><i class="fa-li fa fa-film"></i> <a href="../components/title/template-title-video-fullscreen-parallax.html">Video full-screen parallax</a></li>
+                                            <li><i class="fa-li fa fa-film"></i> <a href="../components/title/template-title-video-parallax.html">Video parallax</a></li>
+                                        </ul>
+                                        <hr class="space xs">
+                                        <h5>Base titles</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-dot-circle-o"></i> <a href="../components/title/template-title-base-1.html">Title base 1</a></li>
+                                            <li><i class="fa-li fa fa-dot-circle-o"></i> <a href="../components/title/template-title-base-2.html">Title base 2</a></li>
+                                            <li><i class="fa-li fa fa-dot-circle-o"></i> <a href="../components/title/template-title-bootstrap.html">Title bootstrap</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="dropdown mega-dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="../#">Headers <span class="caret"></span></a>
+                                <div class="mega-menu dropdown-menu multi-level row">
+                                    <div class="col">
+                                        <h5>Menu documentation</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-info"></i> <a href="../components/menu/menu-documentation.html">Documentation</a></li>
+                                            <li><i class="fa-li fa fa-info"></i> <a href="../components/menu/menu-documentation-dropdowns.html">Dropdowns documentation</a></li>
+                                            <li><i class="fa-li fa fa-info"></i> <a href="../components/menu/menu-documentation-sections.html">Sections documentation</a></li>
+                                            <li><i class="fa-li fa fa-info"></i> <a href="../components/menu/menu-animations.html">Menu animations</a></li>
+                                        </ul>
+                                        <hr class="space xs">
+                                        <h5>Inner menus</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-list-alt"></i> <a href="../components/menu/menu-inner-horizontal.html">Inner horizontal</a></li>
+                                            <li><i class="fa-li fa fa-list-alt"></i> <a href="../components/menu/menu-inner.html">Inner vertical</a></li>
+                                            <li><i class="fa-li fa fa-list-alt"></i> <a href="../components/menu/menu-inner-bootstrap.html">Bootstrap menu</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h5>Horizontal menus</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-list"></i> <a href="../components/menu/menu-classic.html">Menu classic</a></li>
+                                            <li><i class="fa-li fa fa-list"></i> <a href="../components/menu/menu-classic-transparent.html">Menu classic transparent</a></li>
+                                            <li><i class="fa-li fa fa-list"></i> <a href="../components/menu/menu-big-logo.html">Menu big logo</a></li>
+                                            <li><i class="fa-li fa fa-list"></i> <a href="../components/menu/menu-subline.html">Menu subline</a></li>
+                                            <li><i class="fa-li fa fa-list"></i> <a href="../components/menu/menu-subtitle.html">Menu subtitle</a></li>
+                                            <li><i class="fa-li fa fa-list"></i> <a href="../components/menu/menu-middle-logo.html">Menu middle logo</a></li>
+                                            <li><i class="fa-li fa fa-list"></i> <a href="../components/menu/menu-middle-logo-top.html">Menu middle logo top</a></li>
+                                            <li><i class="fa-li fa fa-list"></i> <a href="../components/menu/menu-middle-box.html">Menu middle box</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><i class="fa-li fa fa-list"></i> <a href="../components/menu/menu-icons.html">Menu icons</a></li>
+                                            <li><i class="fa-li fa fa-list"></i> <a href="../components/menu/menu-icons-top.html">Menu icons top</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h5>Side menus</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-info"></i> <a href="../components/menu/menu-side-animations.html">Menu side animations</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><i class="fa-li fa fa-bars"></i> <a href="../components/menu/menu-side.html">Side classic</a></li>
+                                            <li><i class="fa-li fa fa-bars"></i> <a href="../components/menu/menu-side-lateral.html">Side lateral</a></li>
+                                            <li><i class="fa-li fa fa-bars"></i> <a href="../components/menu/menu-side-simple.html">Side simple</a></li>
+ 
+                                            <li role="separator" class="divider"></li>
+                                            <li><i class="fa-li fa fa-bars"></i> <a href="../components/menu/menu-side-hamburger-button.html">Side hamburger button</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown mega-dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="../#">Components <span class="caret"></span></a>
+                                <div class="mega-menu dropdown-menu multi-level row">
+                                    <div class="col">
+                                        <h5>Main components</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-cube"></i> <a href="../components/components-base.html">Components base</a></li>
+                                            <li><i class="fa-li fa fa-book"></i> <a href="../components/components-bootstrap.html">Components Bootstrap</a></li>
+                                            <li><i class="fa-li fa fa-eye"></i> <a href="../components/animations.html">Animations engine</a></li>
+                                            <li><i class="fa-li fa fa-photo"></i> <a href="../components/image-box.html">Image boxes</a></li>
+                                            <li><i class="fa-li fa fa-th-large"></i> <a href="../components/content-box.html">Content boxes</a></li>
+                                            <li><i class="fa-li fa fa-facebook-official"></i> <a href="../components/social.html">Social media</a></li>
+                                            <li><i class="fa-li fa fa-paragraph"></i> <a href="../components/typography.html">Typography</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h5>Components</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-cubes"></i> <a href="../components/components.html">Icons</a></li>
+                                            <li><i class="fa-li fa fa-plus"></i> <a href="../components/components.html#counter">Counters</a></li>
+                                            <li><i class="fa-li fa fa-clock-o"></i> <a href="../components/components.html#countdown">Countdowns</a></li>
+                                            <li><i class="fa-li fa fa-tasks"></i> <a href="../components/components.html#progress-bar">Progress bars</a></li>
+                                            <li><i class="fa-li fa fa-circle-o"></i> <a href="../components/components.html#circle-progress-bar">Circle progress bars</a></li>
+                                            <li><i class="fa-li fa fa-calendar"></i> <a href="../components/components.html#timeline">Timeline</a></li>
+
+                                            <li><i class="fa-li fa fa-map-marker"></i> <a href="../components/components.html#google-maps">Google maps</a></li>
+                                            <li><i class="fa-li fa fa-table"></i> <a href="../components/components.html#table-bootgrid">Advanced table</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h5>Footer</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-download"></i> <a href="../components/footer/footer-background.html">Footer background image</a></li>
+                                            <li><i class="fa-li fa fa-download"></i> <a href="../components/footer/footer-parallax.html">Footer parallax</a></li>
+                                            <li><i class="fa-li fa fa-download"></i> <a href="../components/footer/footer-minimal.html">Footer minimal</a></li>
+                                            <li><i class="fa-li fa fa-download"></i> <a href="../components/footer/footer-base.html">Footer base</a></li>
+                                        </ul>
+                                        <hr class="space xs">
+                                        <h5>PHP</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-comments-o"></i> <a href="../components/php-contact-form.html">Contact form</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="../#">Containers <span class="caret"></span></a>
+                                <div class="mega-menu dropdown-menu multi-level row">
+                                    <div class="col">
+                                        <h5>Lists</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-list-ol"></i> <a href="../containers/list-grid.html">Grid</a></li>
+                                            <li><i class="fa-li fa fa-list-ol"></i> <a href="../containers/list-masonry.html">Masonry</a></li>
+                                        </ul>
+                                        <hr class="space xs">
+                                        <h5>Others</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-expand"></i> <a href="../containers/lightbox-popup.html">Lightbox and popups</a></li>
+                                            <li><i class="fa-li fa fa-sliders"></i> <a href="../containers/sliders.html">Sliders and carousels</a></li>
+                                            <li><i class="fa-li fa fa-toggle-down"></i> <a href="../containers/others.html#scroll-box">Scroll box</a></li>
+                                            <li><i class="fa-li fa fa-square-o"></i> <a href="../containers/others.html#tabs">Tabs</a></li>
+                                            <li><i class="fa-li fa fa-minus"></i> <a href="../containers/others.html#collapse">Collapse box</a></li>
+                                            <li><i class="fa-li fa fa-minus-square-o"></i> <a href="../containers/others.html#accordion-lists">Accordions</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h5>Sections</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-folder-o"></i> <a href="../sections/section-empty.html">Empty section</a></li>
+                                            <li><i class="fa-li fa fa-photo"></i> <a href="../sections/section-background-image.html">Background image</a></li>
+                                            <li><i class="fa-li fa fa-photo"></i> <a href="../sections/section-background-image-parallax.html">Background parallax</a></li>
+                                            <li><i class="fa-li fa fa-columns"></i> <a href="../sections/section-two-blocks.html">Two blocks</a></li>
+                                            <li><i class="fa-li fa fa-sliders"></i> <a href="../sections/section-slider.html">Slider</a></li>
+                                            <li><i class="fa-li fa fa-sliders"></i> <a href="../sections/section-carousel.html">Carousel</a></li>
+                                            <li><i class="fa-li fa fa-map-marker"></i> <a href="../sections/section-map.html">Google Maps</a></li>
+                                            <li><i class="fa-li fa fa-film"></i> <a href="../sections/section-background-video.html">Background video</a></li>
+                                            <li><i class="fa-li fa fa-leaf"></i> <a href="../sections/section-background-animation.html">Background animations</a></li>
+                                            <li><i class="fa-li fa fa-leaf"></i> <a href="../sections/section-background-animation-parallax.html">Background animations parallax</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown mega-dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="../#">Templates <span class="caret"></span></a>
+                                <div class="mega-menu dropdown-menu multi-level row">
+                                    <div class="col">
+                                        <h5>Base templates</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-photo"></i> <a href="../templates/base/template-background-image.html">Background image</a></li>
+                                            <li><i class="fa-li fa fa-sliders"></i> <a href="../templates/base/template-background-slider.html">Background slider</a></li>
+                                            <li><i class="fa-li fa fa-film"></i> <a href="../templates/base/template-background-video.html">Background video</a></li>
+                                        </ul>
+                                        <hr class="space xs">
+                                        <h5>Documentation</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-info"></i> <a href="../templates/base/template-background-image-documentation.html">Background image</a></li>
+                                            <li><i class="fa-li fa fa-info"></i> <a href="../templates/base/template-background-slider-documentation.html">Background slider</a></li>
+                                            <li><i class="fa-li fa fa-info"></i> <a href="../templates/base/template-background-video-documentation.html">Background video</a></li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="col">
+                                        <h5>Fullpage</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-info"></i> <a href="../templates/fullpage/template-fullpage-documentation.html">Fullpage documentation</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><i class="fa-li fa fa-arrows-v"></i> <a href="../templates/fullpage/template-fullpage-menu-icon-text.html">Fullpage background image</a></li>
+                                            <li><i class="fa-li fa fa-arrows-v"></i> <a href="../templates/fullpage/template-fullpage-parallax.html">Fullpage background parallax</a></li>
+                                            <li><i class="fa-li fa fa-arrows-v"></i> <a href="../templates/fullpage/template-fullpage-slider.html">Fullpage background slider</a></li>
+                                            <li><i class="fa-li fa fa-arrows-v"></i> <a href="../templates/fullpage/template-fullpage-slider-single.html">Fullpage background slider single</a></li>
+                                            <li><i class="fa-li fa fa-arrows-v"></i> <a href="../templates/fullpage/template-fullpage-video.html">Fullpage background video</a></li>
+                                            <li><i class="fa-li fa fa-arrows-v"></i> <a href="../templates/fullpage/template-fullpage-video-single.html">Fullpage background video single</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><i class="fa-li fa fa-arrows-v"></i> <a href="../templates/fullpage/template-fullpage-menu-classic.html">Fullpage menu classic</a></li>
+                                            <li><i class="fa-li fa fa-arrows-v"></i> <a href="../templates/fullpage/template-fullpage-menu-icon-text.html">Fullpage menu icons text</a></li>
+                                            <li><i class="fa-li fa fa-arrows-v"></i> <a href="../templates/fullpage/template-fullpage-menu-icon-tooltip.html">Fullpage menu icons</a></li>
+                                            <li><i class="fa-li fa fa-arrows-v"></i> <a href="../templates/fullpage/template-fullpage-menu-dots.html">Fullpage menu dots</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h5>Fullpage horizontal</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-arrows-h"></i> <a href="../templates/fullpage/template-fullpage-horizontal-1.html">Fullpage horizontal 1</a></li>
+                                            <li><i class="fa-li fa fa-arrows-h"></i> <a href="../templates/fullpage/template-fullpage-horizontal-2.html">Fullpage horizontal 2</a></li>
+                                            <li><i class="fa-li fa fa-arrows-h"></i> <a href="../templates/fullpage/template-fullpage-horizontal-3.html">Fullpage horizontal 3</a></li>
+                                        </ul>
+                                        <hr class="space xs">
+                                        <h5>Fullpage multiscroll</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-exchange"></i> <a href="../templates/fullpage/template-fullpage-multiscroll.html">Fullpage multiscroll 1</a></li>
+                                        </ul>
+                                        <hr class="space xs">
+                                        <h5>Fullpage two sides</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-info"></i> <a href="../templates/fullpage/template-fullpage-twosides-documentation.html">Two sides documentation</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><i class="fa-li fa fa-columns"></i> <a href="../templates/fullpage/template-fullpage-twosides.html">Two sides background image</a></li>
+                                            <li><i class="fa-li fa fa-columns"></i> <a href="../templates/fullpage/template-fullpage-twosides-slider.html">Two sides background slider</a></li>
+                                            <li><i class="fa-li fa fa-columns"></i> <a href="../templates/fullpage/template-fullpage-twosides-video.html">Two sides background video</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown mega-dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="../#">Ready pages <span class="caret"></span></a>
+                                <div class="mega-menu dropdown-menu multi-level row">
+                                    <div class="col">
+                                        <h5>Blog</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../ready-pages/blog/template-archive-blog-1.html">Blog archive 1</a></li>
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../ready-pages/blog/template-archive-blog-2.html">Blog archive 2</a></li>
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../ready-pages/blog/template-archive-blog-3.html">Blog archive 3</a></li>
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../ready-pages/blog/template-archive-blog-social.html">Blog archive social</a></li>
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../ready-pages/blog/template-archive-blog-grid.html">Blog grid</a></li>
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../ready-pages/blog/template-archive-blog-masonry.html">Blog masonry</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../ready-pages/blog/template-single-post-1.html">Post single 1</a></li>
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../ready-pages/blog/template-single-post-2.html">Post single 2</a></li>
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../ready-pages/blog/template-single-post-3.html">Post single 3</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h5>Portfolio</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-file-text-o"></i> <a href="../ready-pages/portfolio/template-archive-portfolio-1.html">Portfolio archive 1</a></li>
+                                            <li><i class="fa-li fa fa-file-text-o"></i> <a href="../ready-pages/portfolio/template-archive-portfolio-2.html">Portfolio archive 2</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><i class="fa-li fa fa-file-text-o"></i> <a href="../ready-pages/portfolio/template-single-portfolio-1.html">Portfolio single 1</a></li>
+                                            <li><i class="fa-li fa fa-file-text-o"></i> <a href="../ready-pages/portfolio/template-single-portfolio-2.html">Portfolio single 2</a></li>
+                                            <li><i class="fa-li fa fa-file-text-o"></i> <a href="../ready-pages/portfolio/template-single-portfolio-3.html">Portfolio single 3</a></li>
+                                            <li><i class="fa-li fa fa-file-text-o"></i> <a href="../ready-pages/portfolio/template-single-portfolio-4.html">Portfolio single 4</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h5>Gallery</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-camera-retro"></i> <a href="../ready-pages/gallery/template-gallery-masonry-2-cols.html">Gallery masonry - 2 cols</a></li>
+                                            <li><i class="fa-li fa fa-camera-retro"></i> <a href="../ready-pages/gallery/template-gallery-masonry-3-cols.html">Gallery masonry - 3 cols</a></li>
+                                            <li><i class="fa-li fa fa-camera-retro"></i> <a href="../ready-pages/gallery/template-gallery-masonry-4-cols.html">Gallery masonry - 4 cols</a></li>
+                                            <li><i class="fa-li fa fa-camera-retro"></i> <a href="../ready-pages/gallery/template-gallery-grid-2-cols.html">Gallery grid - 2 cols</a></li>
+                                            <li><i class="fa-li fa fa-camera-retro"></i> <a href="../ready-pages/gallery/template-gallery-grid-3-cols.html">Gallery grid - 3 cols</a></li>
+                                            <li><i class="fa-li fa fa-camera-retro"></i> <a href="../ready-pages/gallery/template-gallery-grid-4-cols.html">Gallery grid - 4 cols</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><i class="fa-li fa fa-camera-retro"></i> <a href="../ready-pages/gallery/template-gallery-album-grid.html">Gallery album grid</a></li>
+                                            <li><i class="fa-li fa fa-camera-retro"></i> <a href="../ready-pages/gallery/template-gallery-album-masonry.html">Gallery album masonry</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h5>Others</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-file-o"></i> <a href="../ready-pages/contacts/template-contacts-1.html">Contacts 1</a></li>
+                                            <li><i class="fa-li fa fa-file-o"></i> <a href="../ready-pages/contacts/template-contacts-2.html">Contacts 2</a></li>
+                                            <li><i class="fa-li fa fa-file-o"></i> <a href="../ready-pages/onepage/template-onepage-1.html">Onepage 1</a></li>
+                                            <li><i class="fa-li fa fa-file-o"></i> <a href="../ready-pages/onepage/template-onepage-2.html">Onepage 2</a></li>
+                                            <li><i class="fa-li fa fa-file-o"></i> <a href="../ready-pages/others/faq.html">Faq</a></li>
+                                            <li><i class="fa-li fa fa-file-o"></i> <a href="../ready-pages/others/coming-soon.html">Coming soon</a></li>
+                                            <li><i class="fa-li fa fa-file-o"></i> <a href="../ready-pages/others/404.html">404 Page not found</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right mega-menu-fullwidth">
+                            <li>
+                                <a href="../themes.html"><b>Themes</b></a>
+                            </li>
+                            <li>
+                                <a href="http://www.framework-y.com/buy-now.html"><b>Buy now</b></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-bootstrap">
+        <div class="title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="row vertical-row">
+                            <div class="col-md-2 vertical-col">
+                                <i class="fa fa-list"></i>
+                            </div>
+                            <div class="col-md-10 vertical-col">
+                                <span>List component</span>
+                                <h1>Grid list</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <ol class="breadcrumb b white right-side">
+                            <li><a href="../index.html">Home</a></li>
+                            <li class="active">Grid list</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-2">
+                <aside class="sidebar side-list bs-menu menu-left fixed-area scroll-change framework-y-menu">
+                    <nav class="sidebar-nav">
+                        <ul class="side-menu scroll-spy-menu" id="framework-menu">
+                            <li class="menu-subtitle">
+                                <a href="#">Table of contents</a>
+                            </li>
+                            <li class="active">
+                                <a href="#top-page">Introduction</a>
+                            </li>
+                            <li>
+                                <a href="#gallery-albums">Albums</a>
+                            </li>
+                            <li>
+                                <a href="#gallery-pagiantion">Pagination</a>
+                            </li>
+                            <li>
+                                <a href="#gallery-load-more">Infinite loading</a>
+                            </li>
+                            <li>
+                                <a href="#grid-gallery-animations">Animations</a>
+                            </li>
+                            <li>
+                                <a href="#grid-gallery-image-box">Image box examples</a>
+                            </li>
+                            <li>
+                                <a href="#grid-list-content-box">Content box examples</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+            </div>
+            <div class="col-md-10">
+                <div id="grid-gallery">
+                    <div class="title-modern st-icon">
+                        <h3>GRID GALLERY</h3>
+                        <i class="fa fa-angle-up scroll-top"></i>
+                        <hr />
+                    </div>
+                    <h4 class="documentation-subtitle">Examples</h4>
+                    <div class="tab-box pills documentation-tab" data-tab-anima="fade-in">
+                        <ul class="nav nav-pills">
+                            <li class="active"><a href="#">Base</a></li>
+                            <li onclick="setTimeout(function () { $('#demo-thumbs .img-box').renderLoadedImgs(); }, 100);"><a href="#">Items sizes</a></li>
+                        </ul>
+                        <div class="panel active">
+                            <div class="grid-list gallery">
+                                <div class="grid-box row">
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/large/large_wide_1.jpg">
+                                            <i class="fa fa-camera"></i>
+                                            <img src="../images/thumbs/thumb_wide_1.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box mfp-iframe i-center" href="www.youtube.com/watch?v=bpqhStV2_rc">
+                                            <i class="fa fa-film"></i>
+                                            <img src="../images/thumbs/thumb_wide_video_1.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/large/large_wide_3.jpg">
+                                            <i class="fa fa-camera"></i>
+                                            <img src="../images/thumbs/thumb_wide_3.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/large/large_wide_4.jpg">
+                                            <i class="fa fa-camera"></i>
+                                            <img src="../images/thumbs/thumb_wide_4.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/large/large_wide_5.jpg">
+                                            <i class="fa fa-camera"></i>
+                                            <img src="../images/thumbs/thumb_wide_5.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box i-center" href="../images/large/large_wide_6.jpg">
+                                            <i class="fa fa-camera"></i>
+                                            <img src="../images/thumbs/thumb_wide_6.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel" id="demo-thumbs">
+                            <h5>Size col-md-1 row-1</h5>
+                            <div class="grid-list gallery">
+                                <div class="grid-box row">
+                                    <div class="grid-item col-md-1 row-1">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-1 row-1">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-1 row-1">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-1 row-1">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-1 row-1">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-1 row-1">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-1 row-1">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-1 row-1">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-1 row-1">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-1 row-1">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-1 row-1">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-1 row-1">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="space xs" />
+                            <h5>Size col-md-2 row-4</h5>
+                            <div class="grid-list gallery">
+                                <div class="grid-box row">
+                                    <div class="grid-item col-md-2 row-4">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-2 row-4">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-2 row-4">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-2 row-4">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-2 row-4">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-2 row-4">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="space xs" />
+                            <h5>Size col-md-3 row-6</h5>
+                            <div class="grid-list gallery">
+                                <div class="grid-box row">
+                                    <div class="grid-item col-md-3 row-6">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-3 row-6">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-3 row-6">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-3 row-6">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="space xs" />
+                            <h5>Size col-md-4 row-7</h5>
+                            <div class="grid-list gallery">
+                                <div class="grid-box row">
+                                    <div class="grid-item col-md-4 row-7">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-4 row-7">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-4 row-7">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/thumbs/thumb_wide_5.jpg"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="space xs" />
+                            <h5>Size col-md-6 row-8</h5>
+                            <div class="grid-list gallery">
+                                <div class="grid-box row">
+                                    <div class="grid-item col-md-6 row-8">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/large/large_wide_5.jpg"></a>
+                                    </div>
+                                    <div class="grid-item col-md-6 row-8">
+                                        <a class="img-box" href="../images/large/large_wide_5.jpg"><img src="../images/large/large_wide_5.jpg"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="space s" />
+                    <h4 class="documentation-subtitle">Installation</h4>
+                    <div class="panel panel-default">
+<pre class="prettyprint well">
+&lt;script src='../plugins/imagesloaded.min.js'>&lt;/script>
+&lt;script src='../plugins/jquery.magnific-popup.min.js'>&lt;/script>
+&lt;link rel="stylesheet" href='../plugins/magnific-popup.css'>
+</pre>
+                    </div>
+                    <hr class="space s" />
+                    <h4 class="documentation-subtitle">Usage</h4>
+                    <div class="tab-box inverse gray documentation-tab" data-tab-anima="fade-in">
+                        <div class="panel active">
+<pre class="prettyprint">
+&lt;div class="grid-list gallery">
+    &lt;div class="grid-box row">
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                &lt;i class="fa fa-camera">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+            &lt;/a>
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                &lt;i class="fa fa-camera">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+            &lt;/a>
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box mfp-iframe i-center" href="www.youtube.com/watch?v=bpqhStV2_rc">
+                &lt;i class="fa fa-film">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb-wide.png" />
+            &lt;/a>
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                &lt;i class="fa fa-camera">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+            &lt;/a>
+        &lt;/div>
+    &lt;/div>
+&lt;/div>
+</pre>
+                        </div>
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#">HTML</a></li>
+                        </ul>
+                    </div>
+                    <hr class="space s" />
+                    <h4 class="documentation-subtitle">Main settings</h4>
+                    <table class="table table-bordered table-striped documentation-table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Items sizes</td>
+                                <td>HTML</td>
+                                <td>
+                                    Gallery items can have differents height and width.
+                                    You can create your CSS classes with your custom height and width or use the built-in classes:
+
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Class name</th>
+                                                <th>Description</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><code>row-1</code></td>
+                                                <td>
+                                                    Height: 25px;
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><code>row-2</code></td>
+                                                <td>
+                                                    Height: 50px;
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><code>row-3</code></td>
+                                                <td>
+                                                    Height: 75px;
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><code>row-4</code></td>
+                                                <td>
+                                                    Height: 100px;
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><code>row-5</code></td>
+                                                <td>
+                                                    Height: 125px;
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><code>row-6</code></td>
+                                                <td>
+                                                    Height: 150px;
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><code>row-7</code></td>
+                                                <td>
+                                                    Height: 175px;
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><code>row-8</code></td>
+                                                <td>
+                                                    Height: 200px;
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><code>row-9</code></td>
+                                                <td>
+                                                    Height: 225px;
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><code>row-10</code></td>
+                                                <td>
+                                                    Height: 250px;
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><code>row-11</code></td>
+                                                <td>
+                                                    Height: 275px;
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><code>row-12</code></td>
+                                                <td>
+                                                    Height: 300px;
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    Width of items use the Bootstrap column system like <code>col-md-4</code>. Complete documentation <a href="../components-bootstrap.html#grid-system">here <i class="fa fa-share"></i></a>
+                                    <br>Example:<br><br>
+<pre class="prettyprint">
+&lt;div class="grid-item col-md-4 row-5">
+    ...
+    &lt;a class="img-box" href="image.jpg">
+        &lt;i class="fa fa-camera">&lt;/i>
+        &lt;img src="image.jpg">
+    &lt;/a>
+    ...
+&lt;/div>
+</pre>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>List layout</td>
+                                <td>CSS class</td>
+                                <td>
+                                    You can set two list layouts: <br />
+                                    <span class="label label-default">1)</span> If your list is a <b>single row list</b>, add class <code>one-row-list</code> to grid list object.
+                                    <br />Example: <code>&lt;div class="grid-list one-row-list"> ... &lt;/div></code>.<br />
+                                    <span class="label label-default">2)</span> If your list is a <b>columns list</b>, add class <code>columns-list</code> to grid list object.
+                                    <br />Example: <code>&lt;div class="grid-list columns-list"> ... &lt;/div></code>.<br />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Gallery items</td>
+                                <td>CSS class</td>
+                                <td>
+                                    Gallery items of type video must use class <code>mfp-iframe</code>. Gallery items of type inline, like slider, must use class <code>mfp-inline</code>.
+                                    <br />Example:<br /><br />
+<pre class="prettyprint">
+&lt;div data-sort="2" class="maso-item col-md-4 row-9 cat1">
+    &lt;a class="img-box mfp-iframe i-bottom" href="www.youtube.com/watch?v=bpqhStV2_rc">
+        ...
+    &lt;/a>
+&lt;/div>
+</pre>
+                                </td>
+                            <tr>
+                                <td>Items margins</td>
+                                <td>CSS class</td>
+                                <td>
+                                    Add class <code>no-margins</code> to grid-box object to remove margins between items.
+                                    Example: <code>&lt;div class="grid-box no-margins"> ... &lt;/div></code>. Use CSS style below to set custom margins:<br /><br />
+<pre class="prettyprint">
+.grid-box .grid-item {
+    padding: 1px !important;
+}
+</pre>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr class="space s" />
+                    <div class="bs-callout documentation-callout bs-callout documentation-callout-information">
+                        <h5>Gallery items documentation</h5>
+                        <p>
+                            Gallery items are image boxes, part of <a href="../image-box.html">image box component</a>. You can use almost all image box types.
+                            To use its insert the image box into the gallery item container <code>grid-item</code>. Example:
+                            <br /><br />
+<pre class="prettyprint">
+&lt;div class="grid-box row">
+    ...
+    &lt;div class="grid-item col-md-4">
+        &lt;a class="img-box i-center" href="image.jpg">
+            &lt;i class="fa fa-camera">&lt;/i>
+            &lt;img src="image.jpg">
+        &lt;/a>
+    &lt;/div>
+    ...
+    &lt;div class="clear">&lt;/div>
+&lt;/div>
+</pre>
+                            <br />Complete documentation <a href="../image-box.html">here <i class="fa fa-share"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <hr class="space" />
+                <div id="gallery-albums">
+                    <div class="title-modern st-icon">
+                        <h3>GALLERY ALBUMS</h3>
+                        <i class="fa fa-angle-up scroll-top"></i>
+                        <hr />
+                    </div>
+                    <h4 class="documentation-subtitle">Examples</h4>
+                    <div class="album-main" data-album-anima="fade-right">
+                        <div class="album-list row">
+                            <div class="album-box col-md-4">
+                                <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover">
+                                    <a href="#" class="img-box anima-scale-up anima">
+                                        <img src="../images/large/large_wide_1.jpg">
+                                    </a>
+                                    <div class="caption">
+                                        <h2 class="album-name">Album pagination</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="album-box col-md-4">
+                                <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover">
+                                    <a href="#" class="img-box anima-scale-up anima">
+                                        <img src="../images/large/large_wide_2.jpg">
+                                    </a>
+                                    <div class="caption">
+                                        <h2 class="album-name">Infinite loading</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="album-box col-md-4" data-album-id="album-3">
+                                <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover">
+                                    <a href="#" class="img-box anima-scale-up anima">
+                                        <img src="../images/large/large_wide_3.jpg">
+                                    </a>
+                                    <div class="caption">
+                                        <h2 class="album-name">Album classic</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont-album-box">
+                            <p class="album-title"><span>...</span> <a class="button-list btn btn-default btn-sm"><i class="fa fa-arrow-left"></i> Album list</a></p>
+                            <div class="album-item">
+                                <div class="grid-list gallery">
+                                    <div class="grid-box row">
+                                        <div class="grid-item col-md-4">
+                                            <a class="img-box i-center" href="../images/large/large_wide_1.jpg">
+                                                <i class="fa fa-camera"></i>
+                                                <img src="../images/thumbs/thumb_wide_1.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="grid-item col-md-4">
+                                            <a class="img-box mfp-iframe i-center" href="www.youtube.com/watch?v=bpqhStV2_rc">
+                                                <i class="fa fa-film"></i>
+                                                <img src="../images/thumbs/thumb_wide_video_1.jpg" />
+                                            </a>
+                                        </div>
+                                        <div class="grid-item col-md-4">
+                                            <a class="img-box i-center" href="../images/large/large_wide_3.jpg">
+                                                <i class="fa fa-camera"></i>
+                                                <img src="../images/thumbs/thumb_wide_3.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="grid-item col-md-4">
+                                            <a class="img-box i-center" href="../images/large/large_wide_4.jpg">
+                                                <i class="fa fa-camera"></i>
+                                                <img src="../images/thumbs/thumb_wide_4.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="grid-item col-md-4">
+                                            <a class="img-box i-center" href="../images/large/large_wide_5.jpg">
+                                                <i class="fa fa-camera"></i>
+                                                <img src="../images/thumbs/thumb_wide_5.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="grid-item col-md-4">
+                                            <a class="img-box i-center" href="../images/large/large_wide_6.jpg">
+                                                <i class="fa fa-camera"></i>
+                                                <img src="../images/thumbs/thumb_wide_6.jpg">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class="pagination pagination-sm pagination-grid" data-page-items="3" data-pagination-anima="show-scale"></ul>
+                                </div>
+                            </div>
+                            <div class="album-item">
+                                <div class="grid-list gallery">
+                                    <div class="grid-box row">
+                                        <div class="grid-item col-md-4">
+                                            <a class="img-box i-center" href="../images/large/large_wide_5.jpg">
+                                                <i class="fa fa-camera"></i>
+                                                <img src="../images/thumbs/thumb_wide_5.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="grid-item col-md-4">
+                                            <a class="img-box mfp-iframe i-center" href="www.youtube.com/watch?v=bpqhStV2_rc">
+                                                <i class="fa fa-film"></i>
+                                                <img src="../images/thumbs/thumb_wide_video_1.jpg" />
+                                            </a>
+                                        </div>
+                                        <div class="grid-item col-md-4">
+                                            <a class="img-box i-center" href="../images/large/large_wide_6.jpg">
+                                                <i class="fa fa-camera"></i>
+                                                <img src="../images/thumbs/thumb_wide_6.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="grid-item col-md-4">
+                                            <a class="img-box i-center" href="../images/large/large_wide_8.jpg">
+                                                <i class="fa fa-camera"></i>
+                                                <img src="../images/thumbs/thumb_wide_8.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="grid-item col-md-4">
+                                            <a class="img-box mfp-iframe i-center" href="https://www.youtube.com/watch?v=-BrDlrytgm8">
+                                                <i class="fa fa-film"></i>
+                                                <img src="../images/thumbs/thumb_wide_video_3.jpg" />
+                                            </a>
+                                        </div>
+                                        <div class="grid-item col-md-4">
+                                            <a class="img-box i-center" href="../images/large/large_wide_11.jpg">
+                                                <i class="fa fa-camera"></i>
+                                                <img src="../images/thumbs/thumb_wide_11.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="grid-item col-md-4">
+                                            <a class="img-box i-center" href="../images/large/large_wide_3.jpg">
+                                                <i class="fa fa-camera"></i>
+                                                <img src="../images/thumbs/thumb_wide_3.jpg">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="list-nav">
+                                        <a href="#" class="circle-button btn btn-sm load-more-grid" data-pagination-anima="fade-bottom" data-page-items="3">Load More <i class="fa fa-arrow-down"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="album-item" id="album-3">
+                                <div class="grid-list gallery">
+                                    <div class="grid-box row">
+                                        <div class="grid-box row">
+                                            <div class="grid-item col-md-4">
+                                                <a class="img-box i-center" href="../images/large/large_wide_9.jpg">
+                                                    <i class="fa fa-camera"></i>
+                                                    <img src="../images/thumbs/thumb_wide_9.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="grid-item col-md-4">
+                                                <a class="img-box i-center" href="../images/large/large_wide_10.jpg">
+                                                    <i class="fa fa-camera"></i>
+                                                    <img src="../images/thumbs/thumb_wide_10.jpg">
+                                                </a>
+                                            </div>
+                                            <div class="grid-item col-md-4">
+                                                <a class="img-box i-center" href="../images/large/large_wide_11.jpg">
+                                                    <i class="fa fa-camera"></i>
+                                                    <img src="../images/thumbs/thumb_wide_11.jpg">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="space s" />
+                    <h4 class="documentation-subtitle">Installation</h4>
+                    <div class="panel panel-default">
+<pre class="prettyprint well">
+&lt;script src='../plugins/jquery.twbsPagination.min.js'>&lt;/script>
+&lt;link rel="stylesheet" href='../css/image-box.css'>
+</pre>
+                    </div>
+                    <hr class="space s" />
+                    <h4 class="documentation-subtitle">Usage</h4>
+                    <div class="tab-box inverse gray documentation-tab" data-tab-anima="fade-in">
+                        <div class="panel active">
+<pre class="prettyprint">
+&lt;div class="album-main" data-album-anima="fade-right">
+    &lt;div class="album-list row">
+        &lt;div class="album-box col-md-4">
+            &lt;div class="img-box scale adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover">
+                &lt;a href="#" class="img-box anima-scale-up anima">
+                    &lt;img src="http://www.framework-y.com/images/thumb-large.png">
+                &lt;/a>
+                &lt;div class="caption">
+                    &lt;h2 class="album-name">Album pagination&lt;/h2>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+        &lt;div class="album-box col-md-4">
+            &lt;div class="img-box scale adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover">
+                &lt;a href="#" class="img-box anima-scale-up anima">
+                    &lt;img src="http://www.framework-y.com/images/thumb-large.png">
+                &lt;/a>
+                &lt;div class="caption">
+                    &lt;h2 class="album-name">Infinite loading&lt;/h2>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+        &lt;div class="album-box col-md-4" data-album-id="album-3">
+            &lt;div class="img-box scale adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover">
+                &lt;a href="#" class="img-box anima-scale-up anima">
+                    &lt;img src="http://www.framework-y.com/images/thumb-large.png">
+                &lt;/a>
+                &lt;div class="caption">
+                    &lt;h2 class="album-name">Album classic&lt;/h2>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+        &lt;!-- INSERT OTHERS ALBUM MENU ITEMS HERE -->
+    &lt;/div>
+    &lt;div class="cont-album-box">
+        &lt;p class="album-title">
+            &lt;span>...&lt;/span> 
+            &lt;a class="button-list btn btn-default btn-sm">&lt;i class="fa fa-arrow-left">&lt;/i> Album list&lt;/a>
+        &lt;/p>
+        &lt;div class="album-item">
+            &lt;div class="grid-list gallery">
+                &lt;div class="grid-box row">
+                    &lt;div class="grid-item col-md-4">
+                        &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                            &lt;i class="fa fa-camera">&lt;/i>
+                            &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+                        &lt;/a>
+                    &lt;/div>
+                    &lt;div class="grid-item col-md-4">
+                        &lt;a class="img-box mfp-iframe i-center" href="www.youtube.com/watch?v=bpqhStV2_rc">
+                            &lt;i class="fa fa-film">&lt;/i>
+                            &lt;img src="http://www.framework-y.com/images/thumb-wide.png" />
+                        &lt;/a>
+                    &lt;/div>
+                    &lt;div class="grid-item col-md-4">
+                        &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                            &lt;i class="fa fa-camera">&lt;/i>
+                            &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+                        &lt;/a>
+                    &lt;/div>
+                    &lt;div class="grid-item col-md-4">
+                        &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                            &lt;i class="fa fa-camera">&lt;/i>
+                            &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+                        &lt;/a>
+                    &lt;/div>
+                &lt;/div>
+                &lt;ul class="pagination pagination-sm pagination-grid" data-page-items="3" data-pagination-anima="show-scale">&lt;/ul>
+            &lt;/div>
+        &lt;/div>
+        &lt;div class="album-item">
+            &lt;div class="grid-list gallery">
+                &lt;div class="grid-box row">
+                    &lt;div class="grid-item col-md-4">
+                        &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                            &lt;i class="fa fa-camera">&lt;/i>
+                            &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+                        &lt;/a>
+                    &lt;/div>
+                    &lt;div class="grid-item col-md-4">
+                        &lt;a class="img-box mfp-iframe i-center" href="www.youtube.com/watch?v=bpqhStV2_rc">
+                            &lt;i class="fa fa-film">&lt;/i>
+                            &lt;img src="http://www.framework-y.com/images/thumb-wide.png" />
+                        &lt;/a>
+                    &lt;/div>
+                    &lt;div class="grid-item col-md-4">
+                        &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                            &lt;i class="fa fa-camera">&lt;/i>
+                            &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+                        &lt;/a>
+                    &lt;/div>
+                    &lt;div class="grid-item col-md-4">
+                        &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                            &lt;i class="fa fa-camera">&lt;/i>
+                            &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+                        &lt;/a>
+                    &lt;/div>
+                    &lt;div class="grid-item col-md-4">
+                        &lt;a class="img-box mfp-iframe i-center" href="https://www.youtube.com/watch?v=-BrDlrytgm8">
+                            &lt;i class="fa fa-film">&lt;/i>
+                            &lt;img src="http://www.framework-y.com/images/thumb-wide.png" />
+                        &lt;/a>
+                    &lt;/div>
+                &lt;/div>
+                &lt;div class="list-nav">
+                    &lt;a href="#" class="circle-button btn btn-sm load-more-grid" data-pagination-anima="fade-bottom" data-page-items="3">
+                        Load More &lt;i class="fa fa-arrow-down">&lt;/i>
+                    &lt;/a>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+        &lt;div class="album-item" id="album-3">
+            &lt;div class="grid-list gallery">
+                &lt;div class="grid-box row">
+                    &lt;div class="grid-box row">
+                        &lt;div class="grid-item col-md-4">
+                            &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                                &lt;i class="fa fa-camera">&lt;/i>
+                                &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+                            &lt;/a>
+                        &lt;/div>
+                        &lt;div class="grid-item col-md-4">
+                            &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                                &lt;i class="fa fa-camera">&lt;/i>
+                                &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+                            &lt;/a>
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+        &lt;!-- INSERT OTHERS ALBUMS HERE -->
+    &lt;/div>
+&lt;/div>
+</pre>
+                        </div>
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#">HTML</a></li>
+                            <li><a href="#">No filters</a></li>
+                        </ul>
+                    </div>
+                    <hr class="space s" />
+                    <h4 class="documentation-subtitle">Main settings</h4>
+                    <table class="table table-bordered table-striped documentation-table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>HTML initialization</td>
+                                <td>CSS class</td>
+                                <td>
+                                    Initialization detect the class <code>grid-list</code>, if this class is not present initialization not start.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Albums items</td>
+                                <td>Mixed</td>
+                                <td>
+                                    Album items used in the example are part of <a href="../image-box.html">image box component</a>.
+                                    <div class="bs-callout documentation-callout bs-callout documentation-callout-danger">
+                                        <h5>Plugin dependency</h5>
+                                        <p>This feature require image box styles (<code>../css/image-box.css</code>)</p>
+                                    </div>
+                                    Advanced image box documentation <a href="../image-box.html#advanced-image-box">here <i class="fa fa-share"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Albums settings</td>
+                                <td>Mixed</td>
+                                <td>
+                                    Albums are auto linked to albums menu by calculate item index. You can manually link album menu item to an album with attribute <code>data-album-id="album-id"</code>,
+                                    you can see a example on album 3 of above code. Album name read the text of element with class <code>album-name</code>, add this class to album item name of menu.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Albums animations</td>
+                                <td>HTML</td>
+                                <td>
+                                    You can set a animation for albums by add attribute <code>data-album-anima="animation-name"</code> to album object.
+                                    <br>Example: <code>&lt;div class="album-main" data-album-anima="fade-bottom"&gt; ... &lt;/div&gt;</code>.
+                                    Animations list available on <a href="../animations.html#animations-types">animation page</a>.
+                                    <div class="bs-callout documentation-callout bs-callout documentation-callout-danger">
+                                        <h5>Plugin dependency</h5>
+                                        <p>This feature require animations component (<code>../css/animations.css</code>)</p>
+                                    </div>
+                                    Animations documentation <a href="../animations.html">here <i class="fa fa-share"></i></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <hr class="space" />
+                <div id="gallery-pagiantion">
+                    <div class="title-modern st-icon">
+                        <h3>LIST PAGINATION</h3>
+                        <i class="fa fa-angle-up scroll-top"></i>
+                        <hr />
+                    </div>
+                    <h4 class="documentation-subtitle">Examples</h4>
+                    <div class="grid-list gallery">
+                        <div class="grid-box row">
+                            <div class="grid-item col-md-4">
+                                <a class="img-box i-center" href="../images/large/large_wide_1.jpg">
+                                    <i class="fa fa-camera"></i>
+                                    <img src="../images/thumbs/thumb_wide_1.jpg">
+                                </a>
+                            </div>
+                            <div class="grid-item col-md-4">
+                                <a class="img-box mfp-iframe i-center" href="www.youtube.com/watch?v=bpqhStV2_rc">
+                                    <i class="fa fa-film"></i>
+                                    <img src="../images/thumbs/thumb_wide_video_1.jpg" />
+                                </a>
+                            </div>
+                            <div class="grid-item col-md-4">
+                                <a class="img-box i-center" href="../images/large/large_wide_3.jpg">
+                                    <i class="fa fa-camera"></i>
+                                    <img src="../images/thumbs/thumb_wide_3.jpg">
+                                </a>
+                            </div>
+                            <div class="grid-item col-md-4">
+                                <a class="img-box i-center" href="../images/large/large_wide_4.jpg">
+                                    <i class="fa fa-camera"></i>
+                                    <img src="../images/thumbs/thumb_wide_4.jpg">
+                                </a>
+                            </div>
+                            <div class="grid-item col-md-4">
+                                <a class="img-box i-center" href="../images/large/large_wide_5.jpg">
+                                    <i class="fa fa-camera"></i>
+                                    <img src="../images/thumbs/thumb_wide_5.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <ul class="pagination-sm pagination-grid" data-page-items="3" data-pagination-anima="show-scale"></ul>
+                    </div>
+                    <hr class="space s" />
+                    <h4 class="documentation-subtitle">Installation</h4>
+                    <div class="panel panel-default">
+<pre class="prettyprint well">
+&lt;script src='../plugins/jquery.twbsPagination.min.js'>&lt;/script>
+</pre>
+                    </div>
+                    <hr class="space s" />
+                    <h4 class="documentation-subtitle">Usage</h4>
+                    <div class="tab-box inverse gray documentation-tab" data-tab-anima="fade-in">
+                        <div class="panel active">
+<pre class="prettyprint">
+&lt;div class="grid-list gallery">
+    &lt;div class="grid-box row">
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                &lt;i class="fa fa-camera">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+            &lt;/a>
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box mfp-iframe i-center" href="http://www.youtube.com/watch?v=bpqhStV2_rc">
+                &lt;i class="fa fa-film">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb-wide.png" />
+            &lt;/a>
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                &lt;i class="fa fa-camera">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+            &lt;/a>
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                &lt;i class="fa fa-camera">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+            &lt;/a>
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                &lt;i class="fa fa-camera">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+            &lt;/a>
+        &lt;/div>
+    &lt;/div>
+    &lt;ul class="pagination-sm pagination-grid" data-page-items="3" data-pagination-anima="show-scale">&lt;/ul>
+&lt;/div>
+</pre>
+                        </div>
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#">HTML</a></li>
+                        </ul>
+                    </div>
+                    <hr class="space s" />
+                    <h4 class="documentation-subtitle">Main settings</h4>
+                    <table class="table table-bordered table-striped documentation-table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>HTML initialization</td>
+                                <td>HTML</td>
+                                <td>
+                                    To implement the pagination add object <code>&lt;ul class="pagination-sm pagination-grid" data-page-items="6"&gt;&lt;/ul&gt;</code> to the bottom of gallery container.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Items per page</td>
+                                <td>HTML</td>
+                                <td>
+                                    You can set how many items are showed in a page with attribute <code>data-page-items="123"</code>.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>HTML settings</td>
+                                <td>Data attribute</td>
+                                <td>
+                                    Most of settings can be passed through data-options attribute <code>data-options="option:value,option:value, ..."</code>.
+                                    <br>Full options <a target="_blank" rel="nofollow" href="http://esimakin.github.io/twbs-pagination/#options-and-events">here <i class="fa fa-share"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Scroll top</td>
+                                <td>HTML</td>
+                                <td>
+                                    To scroll to top of list after every pagination change add option <code>scrollTop:true</code> to data-option array. Useful for long lists.
+                                    Example: <code>data-options="scrollTop:true"</code>.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pagination animations</td>
+                                <td>HTML</td>
+                                <td>
+                                    You can set a animation for pagination by add attribute <code>data-pagination-anima="animation-name"</code> to album object.
+                                    <br>Example: <code>&lt;ul class="pagination-sm pagination-grid" data-page-items="6" data-pagination-anima="fade-top"&gt;&lt;/ul&gt;</code>.
+                                    Animations list available on <a href="animations.html#animations-types">animation page</a>.
+                                    <div class="bs-callout documentation-callout bs-callout documentation-callout-danger">
+                                        <h5>Plugin dependency</h5>
+                                        <p>This feature require animations component (<code>../css/animations.css</code>)</p>
+                                    </div>
+                                    Animations documentation <a href="animations.html">here <i class="fa fa-share"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Dimensions</td>
+                                <td>HTML</td>
+                                <td>
+                                    You can set three differents pagination sizes: <code>pagination-sm</code>, <code>pagination</code>, <code>pagination-lg</code>.
+                                    Example: <code>&lt;ul class="pagination pagination-lg pagination-grid" data-page-items="6">&lt;/ul></code>.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Centered pagination</td>
+                                <td>HTML</td>
+                                <td>
+                                    To center the pagination insert it into a container with class <code>list-nav</code>.
+                                    Example: <code>&lt;div class="list-nav">&lt;ul class="pagination-sm pagination-grid">&lt;/ul>&lt;/div></code>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Hide first and last buttons</td>
+                                <td>CSS Class</td>
+                                <td>
+                                    Add class <code>hide-first-last</code> to pagination object.
+                                    Example: <code>&lt;ul class="hide-first-last pagination-lg pagination-grid" data-page-items="6">&lt;/ul></code>.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr class="space s" />
+                    <h4 class="documentation-subtitle">Complete documentation and external resources</h4>
+                    <div class="btn-group documentation-buttons" role="group">
+                        <a href="http://esimakin.github.io/twbs-pagination/" target="_blank" rel="nofollow" class="btn-primary btn btn-default">Documentation</a>
+                        <a href="http://esimakin.github.io/twbs-pagination/" target="_blank" rel="nofollow" class="btn btn-default">Plugin website</a>
+                        <a href="https://github.com/esimakin/twbs-pagination" target="_blank" rel="nofollow" class="btn btn-default">Github page</a>
+                    </div>
+                </div>
+                <hr class="space" />
+                <div id="gallery-load-more">
+                    <div class="title-modern st-icon">
+                        <h3>LIST INFINITE LOADING</h3>
+                        <i class="fa fa-angle-up scroll-top"></i>
+                        <hr />
+                    </div>
+                    <h4 class="documentation-subtitle">Examples</h4>
+                    <div class="grid-list gallery">
+                        <div class="grid-box row" data-lightbox-anima="show-scale">
+                            <div class="grid-item col-md-4">
+                                <a class="img-box i-center" href="../images/large/large_wide_1.jpg">
+                                    <i class="fa fa-camera"></i>
+                                    <img src="../images/thumbs/thumb_wide_1.jpg">
+                                </a>
+                            </div>
+                            <div class="grid-item col-md-4">
+                                <a class="img-box mfp-iframe i-center" href="www.youtube.com/watch?v=bpqhStV2_rc">
+                                    <i class="fa fa-film"></i>
+                                    <img src="../images/thumbs/thumb_wide_video_1.jpg" />
+                                </a>
+                            </div>
+                            <div class="grid-item col-md-4">
+                                <a class="img-box i-center" href="../images/large/large_wide_3.jpg">
+                                    <i class="fa fa-camera"></i>
+                                    <img src="../images/thumbs/thumb_wide_3.jpg">
+                                </a>
+                            </div>
+                            <div class="grid-item col-md-4">
+                                <a class="img-box i-center" href="../images/large/large_wide_4.jpg">
+                                    <i class="fa fa-camera"></i>
+                                    <img src="../images/thumbs/thumb_wide_4.jpg">
+                                </a>
+                            </div>
+                            <div class="grid-item col-md-4">
+                                <a class="img-box i-center" href="../images/large/large_wide_5.jpg">
+                                    <i class="fa fa-camera"></i>
+                                    <img src="../images/thumbs/thumb_wide_5.jpg">
+                                </a>
+                            </div>
+                            <div class="grid-item col-md-4">
+                                <a class="img-box i-center" href="../images/large/large_wide_6.jpg">
+                                    <i class="fa fa-camera"></i>
+                                    <img src="../images/thumbs/thumb_wide_6.jpg">
+                                </a>
+                            </div>
+                            <div class="grid-item col-md-4">
+                                <a class="img-box i-center" href="../images/large/large_wide_7.jpg">
+                                    <i class="fa fa-camera"></i>
+                                    <img src="../images/thumbs/thumb_wide_7.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="list-nav">
+                            <a href="#" class="circle-button btn btn-sm load-more-grid" data-pagination-anima="fade-bottom" data-page-items="3" data-options="lazyLoad:true">
+                                Load More
+                                <i class="fa fa-arrow-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <hr class="space s" />
+                    <h4 class="documentation-subtitle">Installation</h4>
+                    <div class="panel panel-default">
+<pre class="prettyprint well">
+&lt;script src='../plugins/jquery.twbsPagination.min.js'>&lt;/script>
+</pre>
+                    </div>
+                    <hr class="space s" />
+                    <h4 class="documentation-subtitle">Usage</h4>
+                    <div class="tab-box inverse gray documentation-tab" data-tab-anima="fade-in">
+                        <div class="panel active">
+
+<pre class="prettyprint">
+&lt;div class="grid-list gallery">
+    &lt;div class="grid-box row" data-lightbox-anima="show-scale">
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                &lt;i class="fa fa-camera">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+            &lt;/a>
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box mfp-iframe i-center" href="http://www.youtube.com/watch?v=bpqhStV2_rc">
+                &lt;i class="fa fa-film">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb-video-wide.png" />
+            &lt;/a>
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                &lt;i class="fa fa-camera">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+            &lt;/a>
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                &lt;i class="fa fa-camera">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+            &lt;/a>
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                &lt;i class="fa fa-camera">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+            &lt;/a>
+        &lt;/div>
+    &lt;/div>
+    &lt;div class="list-nav">
+        &lt;a href="#" class="circle-button btn btn-sm load-more-grid" data-pagination-anima="fade-bottom" data-page-items="3">
+            Load More
+            &lt;i class="fa fa-arrow-down">&lt;/i>
+        &lt;/a>
+    &lt;/div>
+&lt;/div>
+</pre>
+                        </div>
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#">HTML</a></li>
+                        </ul>
+                    </div>
+                    <hr class="space s" />
+                    <h4 class="documentation-subtitle">Main settings</h4>
+                    <table class="table table-bordered table-striped documentation-table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>HTML initialization</td>
+                                <td>CSS class</td>
+                                <td>
+                                    Initialization detect the class <code>grid-list</code>, if this class is not present initialization not start,
+                                    you can use also <b>manual initialization</b> for stop initialization on page load.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Javascript initialization</td>
+                                <td>Javascript</td>
+                                <td>
+                                    You can use the Framework Y function or Isotope function:<br />
+                                    <span class="label label-default">1 )</span> Framework Y function is <code>$('#target').initIsotope();</code> target must be <code>&lt;div id="target" class="grid-list">&lt;/div></code>.<br />
+                                    <span class="label label-default">2 )</span> Isotope function is <code>$('#target').isotope(itemSelector: '.grid-item', option:value, ...);</code>.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Lazy Load</td>
+                                <td>Attribute</td>
+                                <td>
+                                    To set lazy loading, feature that auto load next items when page scroll to bottom, add attribute <code>data-options="lazyLoad:true"</code> to load-more object.
+                                    Example: <code>&lt;a href="#" class="circle-button btn-sm btn load-more-grid" data-page-items="8" data-options="lazyLoad:true">Load More&lt;/a></code>.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Manual initialization</td>
+                                <td>HTML</td>
+                                <td>
+                                    To stop initialization on page load add attribute <code>data-trigger="manual"</code> list obejct.
+                                    Example: <code>&lt;div class="grid-list" id="target" data-trigger="manual"> ... &lt;/div></code>.
+                                    Now you can initialize the list with <b>Javascript initialization</b>.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <hr class="space" />
+                <div id="grid-gallery-animations">
+                    <div class="title-modern st-icon">
+                        <h3>LIST ANIMATIONS</h3>
+                        <i class="fa fa-angle-up scroll-top"></i>
+                        <hr />
+                    </div>
+                    <h4 class="documentation-subtitle">Examples</h4>
+                    <div class="grid-list gallery">
+                        <div class="grid-box row" data-lightbox-anima="show-scale">
+                            <div class="grid-item col-md-4">
+                                <a class="img-box i-center img-scale-up-2x" data-anima="fade-bottom" data-trigger="hover" href="../images/large/large_wide_1.jpg">
+                                    <i class="fa fa-camera anima"></i>
+                                    <img src="../images/thumbs/thumb_wide_1.jpg">
+                                </a>
+                            </div>
+                            <div class="grid-item col-md-4">
+                                <a class="img-box mfp-iframe i-center img-scale-up" data-anima="show-scale" data-trigger="hover" data-anima-out="hide" href="www.youtube.com/watch?v=bpqhStV2_rc">
+                                    <i class="fa fa-film anima"></i>
+                                    <img src="../images/thumbs/thumb_wide_video_1.jpg" />
+                                </a>
+                            </div>
+                            <div class="grid-item col-md-4">
+                                <a class="img-box i-center img-scale-rotate" href="../images/large/large_wide_3.jpg">
+                                    <i class="fa fa-camera"></i>
+                                    <img src="../images/thumbs/thumb_wide_3.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="space s" />
+                    <h4 class="documentation-subtitle">Usage</h4>
+                    <div class="tab-box inverse gray documentation-tab" data-tab-anima="fade-in">
+                        <div class="panel active">
+<pre class="prettyprint">
+&lt;div class="grid-list gallery">
+    &lt;div class="grid-box row">
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box i-center img-scale-up-2x" data-anima="fade-bottom" data-trigger="hover" href="http://www.framework-y.com/images/thumb-large.png">
+                &lt;i class="fa fa-camera anima">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+            &lt;/a>
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box mfp-iframe i-center img-scale-up" data-anima="show-scale" data-trigger="hover" data-anima-out="hide" href="http://www.youtube.com/watch?v=bpqhStV2_rc">
+                &lt;i class="fa fa-film anima">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb-video-wide.png" />
+            &lt;/a>
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box i-center img-scale-rotate" href="http://www.framework-y.com/images/thumb-large.png">
+                &lt;i class="fa fa-camera">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+            &lt;/a>
+        &lt;/div>
+    &lt;/div>
+&lt;/div>
+</pre>
+                        </div>
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#">HTML</a></li>
+                        </ul>
+                    </div>
+                    <hr class="space s" />
+                    <h4 class="documentation-subtitle">Main settings</h4>
+                    <table class="table table-bordered table-striped documentation-table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lightbox animations</td>
+                                <td>Mixed</td>
+                                <td>
+                                    Add attribute <code>data-lightbox-anima="animation-name"</code> to grid-box object.
+                                    Example: <code>&lt;div class="grid-box row" data-lightbox-anima="show-scale"> ... &lt;/div></code>.
+                                    <br /><br />
+                                    You can use also standard animation of single item. Go to <a href="../lightbox-popup.html">lightbox and popups component <i class="fa fa-share"></i></a> for more details.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Thumbs animations</td>
+                                <td>Mixed</td>
+                                <td>
+                                    Please see <a href="../image-box.html">image box component</a> for more details. Animations list <a href="../animations.html#animations-types">here <i class="fa fa-share"></i></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr class="space s" />
+                    <div class="bs-callout documentation-callout bs-callout documentation-callout-information">
+                        <h5>List items animations documentation</h5>
+                        <p>List items animations is part of <a href="../image-box.html">image box component</a>. Complete documentation <a href="../image-box.html">here <i class="fa fa-share"></i></a></p>
+                    </div>
+                    <div class="bs-callout documentation-callout bs-callout documentation-callout-information">
+                        <h5>Animations documentation</h5>
+                        <p>List items animations is part of <a href="../animations.html">animations component</a>. Complete documentation <a href="../animations.html">here <i class="fa fa-share"></i></a></p>
+                    </div>
+                </div>
+                <hr class="space" />
+                <div id="grid-gallery-image-box">
+                    <div class="title-modern st-icon">
+                        <h3>LIST IMAGE BOX EXAMPLES</h3>
+                        <i class="fa fa-angle-up scroll-top"></i>
+                        <hr />
+                    </div>
+                    <h4 class="documentation-subtitle">Examples</h4>
+                    <div class="tab-box pills documentation-tab" data-tab-anima="fade-in">
+                        <ul class="nav nav-pills">
+                            <li class="active"><a href="#">Image box with caption</a></li>
+                            <li><a href="#">Circle image box</a></li>
+                            <li><a href="#">Advanced image box</a></li>
+                        </ul>
+                        <div class="panel active">
+                            <div class="grid-list gallery">
+                                <div class="grid-box row">
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box lightbox thumbnail" href="../images/large/large_wide_1.jpg">
+                                            <span><img src="../images/thumbs/thumb_wide_1.jpg"></span>
+                                            <span class="caption">
+                                                <b>Hello World</b><br />
+                                                Sed do eiusmod tempor incididunt ut labore
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box lightbox thumbnail" href="../images/large/large_wide_11.jpg">
+                                            <span><img src="../images/thumbs/thumb_wide_11.jpg"></span>
+                                            <span class="caption">
+                                                <b>Hello World</b><br />
+                                                Sed do eiusmod tempor incididunt ut labore
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box lightbox thumbnail" href="../images/large/large_wide_4.jpg">
+                                            <span><img src="../images/thumbs/thumb_wide_4.jpg"></span>
+                                            <span class="caption">
+                                                <b>Hello World</b><br />
+                                                Sed do eiusmod tempor incididunt ut labore
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="grid-list gallery">
+                                <div class="grid-box row">
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box lightbox circle inner thumbnail i-center img-scale-up" data-anima="fade-left" data-trigger="hover" data-anima-out="hide" href="../images/default-bg-square-1w.jpg">
+                                            <i class="fa fa-krw anima"></i>
+                                            <img src="../images/thumbs/thumb_2.jpg">
+                                            <span class="caption">
+                                                <b>Hello World</b>
+                                                Sed do eiusmod tempor incididunt ut labore
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box lightbox circle inner thumbnail i-center img-scale-up" data-anima="fade-left" data-trigger="hover" data-anima-out="hide" href="../images/default-bg-square-1w.jpg">
+                                            <i class="fa fa-sort-numeric-asc anima"></i>
+                                            <img src="../images/thumbs/thumb_12.jpg">
+                                            <span class="caption">
+                                                <b>Hello World</b>
+                                                Sed do eiusmod tempor incididunt ut labore
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box lightbox circle inner thumbnail i-center img-scale-up" data-anima="fade-left" data-trigger="hover" data-anima-out="hide" href="../images/default-bg-square-1w.jpg">
+                                            <i class="fa fa-bullseye anima"></i>
+                                            <img src="../images/thumbs/thumb_7.jpg">
+                                            <span class="caption">
+                                                <b>Hello World</b>
+                                                Sed do eiusmod tempor incididunt ut labore
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="grid-list gallery">
+                                <div class="grid-box row">
+                                    <div class="grid-item col-md-4">
+                                        <div class="img-box lightbox scale adv-img adv-img-side-content i-top-right" data-anima="fade-left" data-trigger="hover">
+                                            <i class="fa fa-camera-retro anima"></i>
+                                            <a class="img-box lightbox anima-scale-up anima" href="../images/large/large_5.jpg">
+                                                <img src="../images/large/large_wide_5.jpg">
+                                            </a>
+                                            <div class="caption">
+                                                <h2>Hello World</h2>
+                                                <p>
+                                                    L'orem ipsum dolor, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                </p>
+                                                <button class="btn btn-default btn-xs" type="button">Read more ...</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <div class="img-box lightbox scale adv-img adv-img-side-content i-top-right" data-anima="fade-left" data-trigger="hover">
+                                            <i class="fa fa-camera-retro anima"></i>
+                                            <a class="img-box lightbox anima-scale-up anima" href="../images/large/large_wide_3.jpg">
+                                                <img src="../images/large/large_wide_3.jpg">
+                                            </a>
+                                            <div class="caption">
+                                                <h2>Hello World</h2>
+                                                <p>
+                                                    L'orem ipsum dolor, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                </p>
+                                                <button class="btn btn-default btn-xs" type="button">Read more ...</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <div class="img-box lightbox scale adv-img adv-img-side-content i-top-right" data-anima="fade-left" data-trigger="hover">
+                                            <i class="fa fa-camera-retro anima"></i>
+                                            <a class="img-box lightbox anima-scale-up anima" href="../images/large/large_wide_8.jpg">
+                                                <img src="../images/large/large_wide_8.jpg">
+                                            </a>
+                                            <div class="caption">
+                                                <h2>Hello World</h2>
+                                                <p>
+                                                    L'orem ipsum dolor, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                </p>
+                                                <button class="btn btn-default btn-xs" type="button">Read more ...</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="space s" />
+                    <h4 class="documentation-subtitle">Usage</h4>
+                    <div class="tab-box inverse gray documentation-tab" data-tab-anima="fade-in">
+                        <div class="panel active">
+<pre class="prettyprint">
+&lt;div class="grid-list gallery">
+    &lt;div class="grid-box row">
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box lightbox thumbnail" href="http://www.framework-y.com/images/thumb-large.png">
+                &lt;span>&lt;img src="http://www.framework-y.com/images/thumb-wide.png">&lt;/span>
+                &lt;span class="caption">
+                    &lt;b>Hello World&lt;/b>&lt;br />
+                    Sed do eiusmod tempor incididunt ut labore
+                &lt;/span>
+            &lt;/a>
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box lightbox thumbnail" href="http://www.framework-y.com/images/thumb-large.png">
+                &lt;span>&lt;img src="http://www.framework-y.com/images/thumb-wide.png">&lt;/span>
+                &lt;span class="caption">
+                    &lt;b>Hello World&lt;/b>&lt;br />
+                    Sed do eiusmod tempor incididunt ut labore
+                &lt;/span>
+            &lt;/a>
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box lightbox thumbnail" href="http://www.framework-y.com/images/thumb-large.png">
+                &lt;span>&lt;img src="http://www.framework-y.com/images/thumb-wide.png">&lt;/span>
+                &lt;span class="caption">
+                    &lt;b>Hello World&lt;/b>&lt;br />
+                    Sed do eiusmod tempor incididunt ut labore
+                &lt;/span>
+            &lt;/a>
+        &lt;/div>
+    &lt;/div>
+&lt;/div> 
+</pre>
+                        </div>
+                        <div class="panel">
+<pre class="prettyprint">
+&lt;div class="grid-list gallery">
+    &lt;div class="grid-box row">
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box lightbox circle inner thumbnail i-center img-scale-up" data-anima="fade-left" data-trigger="hover" data-anima-out="hide" href="http://www.framework-y.com/images/thumb.png">
+                &lt;i class="fa fa-krw anima">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb.png">
+                &lt;span class="caption">
+                    &lt;b>Hello World&lt;/b>
+                    Sed do eiusmod tempor incididunt ut labore
+                &lt;/span>
+            &lt;/a>
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box lightbox circle inner thumbnail i-center img-scale-up" data-anima="fade-left" data-trigger="hover" data-anima-out="hide" href="http://www.framework-y.com/images/thumb.png">
+                &lt;i class="fa fa-sort-numeric-asc anima">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb.png">
+                &lt;span class="caption">
+                    &lt;b>Hello World&lt;/b>
+                    Sed do eiusmod tempor incididunt ut labore
+                &lt;/span>
+            &lt;/a>
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;a class="img-box lightbox circle inner thumbnail i-center img-scale-up" data-anima="fade-left" data-trigger="hover" data-anima-out="hide" href="http://www.framework-y.com/images/thumb.png">
+                &lt;i class="fa fa-bullseye anima">&lt;/i>
+                &lt;img src="http://www.framework-y.com/images/thumb.png">
+                &lt;span class="caption">
+                    &lt;b>Hello World&lt;/b>
+                    Sed do eiusmod tempor incididunt ut labore
+                &lt;/span>
+            &lt;/a>
+        &lt;/div>
+    &lt;/div>
+&lt;/div> 
+</pre>
+                        </div>
+                        <div class="panel">
+<pre class="prettyprint">
+&lt;div class="grid-list gallery">
+    &lt;div class="grid-box row">
+        &lt;div class="grid-item col-md-4">
+            &lt;div class="img-box lightbox scale adv-img adv-img-side-content i-top-right" data-anima="fade-left" data-trigger="hover">
+                &lt;i class="fa fa-camera-retro anima">&lt;/i>
+                &lt;a class="img-box lightbox anima-scale-up anima" href="http://www.framework-y.com/images/thumb-large.png">
+                    &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+                &lt;/a>
+                &lt;div class="caption">
+                    &lt;h2>Hello World&lt;/h2>
+                    &lt;p class="sub">&lt;i class="fa fa-calendar-o">&lt;/i> Category | 25 dec 2015&lt;/p>
+                    &lt;p>
+                        L'orem ipsum dolor, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    &lt;/p>
+                    &lt;button class="btn btn-default btn-xs" type="button">Read more ...&lt;/button>
+                &lt;/div>
+            &lt;/div> 
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;div class="img-box lightbox scale adv-img adv-img-side-content i-top-right" data-anima="fade-left" data-trigger="hover">
+                &lt;i class="fa fa-camera-retro anima">&lt;/i>
+                &lt;a class="img-box lightbox anima-scale-up anima" href="http://www.framework-y.com/images/thumb-large.png">
+                    &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+                &lt;/a>
+                &lt;div class="caption">
+                    &lt;h2>Hello World&lt;/h2>
+                    &lt;p class="sub">&lt;i class="fa fa-calendar-o">&lt;/i> Category | 25 dec 2015&lt;/p>
+                    &lt;p>
+                        L'orem ipsum dolor, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    &lt;/p>
+                    &lt;button class="btn btn-default btn-xs" type="button">Read more ...&lt;/button>
+                &lt;/div>
+            &lt;/div> 
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;div class="img-box lightbox scale adv-img adv-img-side-content i-top-right" data-anima="fade-left" data-trigger="hover">
+                &lt;i class="fa fa-camera-retro anima">&lt;/i>
+                &lt;a class="img-box lightbox anima-scale-up anima" href="http://www.framework-y.com/images/thumb-large.png">
+                    &lt;img src="http://www.framework-y.com/images/thumb-wide.png">
+                &lt;/a>
+                &lt;div class="caption">
+                    &lt;h2>Hello World&lt;/h2>
+                    &lt;p class="sub">&lt;i class="fa fa-calendar-o">&lt;/i> Category | 25 dec 2015&lt;/p>
+                    &lt;p>
+                        L'orem ipsum dolor, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    &lt;/p>
+                    &lt;button class="btn btn-default btn-xs" type="button">Read more ...&lt;/button>
+                &lt;/div>
+            &lt;/div> 
+        &lt;/div>
+    &lt;/div>
+&lt;/div> 
+</pre>
+                        </div>
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#">Image box with caption</a></li>
+                            <li><a href="#">Circle image box</a></li>
+                            <li><a href="#">Advanced image box</a></li>
+                        </ul>
+                    </div>
+                    <hr class="space s" />
+                    <div class="bs-callout documentation-callout bs-callout documentation-callout-information">
+                        <h5>List items documentation</h5>
+                        <p>
+                            List items are image boxes, part of <a href="../image-box.html">image box component</a>. You can use almost all image box types.
+                            <br />Complete documentation <a href="../image-box.html">here <i class="fa fa-share"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <hr class="space" />
+                <div id="grid-list-content-box">
+                    <div class="title-modern st-icon">
+                        <h3>LIST CONTENT BOX EXAMPLES</h3>
+                        <i class="fa fa-angle-up scroll-top"></i>
+                        <hr />
+                    </div>
+                    <h4 class="documentation-subtitle">Examples</h4>
+                    <div class="tab-box pills documentation-tab" data-tab-anima="fade-in">
+                        <ul class="nav nav-pills">
+                            <li class="active"><a href="#">Advanced content boxes</a></li>
+                            <li><a href="#">Niche content boxes</a></li>
+                        </ul>
+                        <div class="panel active">
+                            <div class="grid-list">
+                                <div class="grid-box row">
+                                    <div class="grid-item col-md-4">
+                                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                                            <a class="img-box">
+                                                <img class="anima" src="../images/large/large_wide_2.jpg" />
+                                            </a>
+                                            <div class="circle anima-rotate-20 anima">02 <span>OCT, 15</span></div>
+                                            <div class="advs-box-content">
+                                                <h4 class="subtitle">The Framework Y</h4>
+                                                <div class="tag-row">
+                                                    <span><i class="fa fa-calendar"></i>26.05.2015</span>
+                                                    <span><i class="fa fa-bookmark"></i>Category</span>
+                                                </div>
+                                                <p>
+                                                    L'orem ipsum dolor "sitamet", consectetur 'adipisicing' elit, sed do eiusmod tempor incididunt
+                                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, q rem aperiam ...
+                                                </p>
+                                                <a class="btn btn-default btn-primary">
+                                                    Enter
+                                                </a>
+                                                <a class="btn btn-default">
+                                                    Read more
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                                            <a class="img-box">
+                                                <img class="anima" src="../images/large/large_wide_7.jpg" />
+                                            </a>
+                                            <div class="circle anima-rotate-20 anima">15 <span>NOV, 15</span></div>
+                                            <div class="advs-box-content">
+                                                <h4 class="subtitle">The Framework Y</h4>
+                                                <div class="tag-row">
+                                                    <span><i class="fa fa-calendar"></i>26.05.2015</span>
+                                                    <span><i class="fa fa-bookmark"></i>Category</span>
+                                                </div>
+                                                <p>
+                                                    L'orem ipsum dolor "sitamet", consectetur 'adipisicing' elit, sed do eiusmod tempor incididunt
+                                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, q rem aperiam ...
+                                                </p>
+                                                <a class="btn btn-default btn-primary">
+                                                    Enter
+                                                </a>
+                                                <a class="btn btn-default">
+                                                    Read more
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                                            <a class="img-box">
+                                                <img class="anima" src="../images/large/large_wide_12.jpg" />
+                                            </a>
+                                            <div class="circle anima-rotate-20 anima">03 <span>SET, 15</span></div>
+                                            <div class="advs-box-content">
+                                                <h4 class="subtitle">The Framework Y</h4>
+                                                <div class="tag-row">
+                                                    <span><i class="fa fa-calendar"></i>26.05.2015</span>
+                                                    <span><i class="fa fa-bookmark"></i>Category</span>
+                                                </div>
+                                                <p>
+                                                    L'orem ipsum dolor "sitamet", consectetur 'adipisicing' elit, sed do eiusmod tempor incididunt
+                                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, q rem aperiam ...
+                                                </p>
+                                                <a class="btn btn-default btn-primary">
+                                                    Enter
+                                                </a>
+                                                <a class="btn btn-default">
+                                                    Read more
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="grid-list">
+                                <div class="grid-box row">
+                                    <div class="grid-item col-md-4">
+                                        <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                                            <a class="img-box">
+                                                <img class="anima" src="../images/team-member-1.jpg" />
+                                            </a>
+                                            <div class="content-box">
+                                                <h2>JACK CHRISTIAN</h2>
+                                                <h4>FOUNDER AND CEO</h4>
+                                                <hr class="e" />
+                                                <div class="btn-group social-group">
+                                                    <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                                    <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                                                </div>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem has been the industry.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                                            <a class="img-box">
+                                                <img class="anima" src="../images/team-member-2.jpg" />
+                                            </a>
+                                            <div class="content-box">
+                                                <h2>JACK CHRISTIAN</h2>
+                                                <h4>FOUNDER AND CEO</h4>
+                                                <hr class="e" />
+                                                <div class="btn-group social-group">
+                                                    <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                                    <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                                                </div>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem has been the industry.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                                            <a class="img-box">
+                                                <img class="anima" src="../images/team-member-3.jpg" />
+                                            </a>
+                                            <div class="content-box">
+                                                <h2>JACK CHRISTIAN</h2>
+                                                <h4>FOUNDER AND CEO</h4>
+                                                <hr class="e" />
+                                                <div class="btn-group social-group">
+                                                    <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                                    <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                                                </div>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem has been the industry.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="space s" />
+                    <h4 class="documentation-subtitle">Usage</h4>
+                    <div class="tab-box inverse gray documentation-tab" data-tab-anima="fade-in">
+                        <div class="panel active">
+<pre class="prettyprint">
+&lt;div class="grid-list">
+    &lt;div class="grid-box row">
+        &lt;div class="grid-item col-md-4">
+            &lt;div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                &lt;a class="img-box">
+                    &lt;img class="anima" src="http://www.framework-y.com/images/thumb-large.png" />
+                &lt;/a>
+                &lt;div class="circle anima-rotate-20 anima">02 &lt;span>OCT, 15&lt;/span>&lt;/div>
+                &lt;div class="advs-box-content">
+                    &lt;h4 class="subtitle">The Framework Y&lt;/h4>
+                    &lt;div class="tag-row">
+                        &lt;span>&lt;i class="fa fa-calendar">&lt;/i>26.05.2015&lt;/span>
+                        &lt;span>&lt;i class="fa fa-bookmark">&lt;/i>Category&lt;/span>
+                    &lt;/div>
+                    &lt;p>
+                        L'orem ipsum dolor "sitamet", consectetur 'adipisicing' elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, q rem aperiam ...
+                    &lt;/p>
+                    &lt;a class="btn btn-default btn-primary">
+                        Enter
+                    &lt;/a>
+                    &lt;a class="btn btn-default">
+                        Read more
+                    &lt;/a>
+                &lt;/div>
+            &lt;/div> 
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                &lt;a class="img-box">
+                    &lt;img class="anima" src="http://www.framework-y.com/images/thumb-large.png" />
+                &lt;/a>
+                &lt;div class="circle anima-rotate-20 anima">15 &lt;span>NOV, 15&lt;/span>&lt;/div>
+                &lt;div class="advs-box-content">
+                    &lt;h4 class="subtitle">The Framework Y&lt;/h4>
+                    &lt;div class="tag-row">
+                        &lt;span>&lt;i class="fa fa-calendar">&lt;/i>26.05.2015&lt;/span>
+                        &lt;span>&lt;i class="fa fa-bookmark">&lt;/i>Category&lt;/span>
+                    &lt;/div>
+                    &lt;p>
+                        L'orem ipsum dolor "sitamet", consectetur 'adipisicing' elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, q rem aperiam ...
+                    &lt;/p>
+                    &lt;a class="btn btn-default btn-primary">
+                        Enter
+                    &lt;/a>
+                    &lt;a class="btn btn-default">
+                        Read more
+                    &lt;/a>
+                &lt;/div>
+            &lt;/div> 
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                &lt;a class="img-box">
+                    &lt;img class="anima" src="http://www.framework-y.com/images/thumb-large.png" />
+                &lt;/a>
+                &lt;div class="circle anima-rotate-20 anima">03 &lt;span>SET, 15&lt;/span>&lt;/div>
+                &lt;div class="advs-box-content">
+                    &lt;h4 class="subtitle">The Framework Y&lt;/h4>
+                    &lt;div class="tag-row">
+                        &lt;span>&lt;i class="fa fa-calendar">&lt;/i>26.05.2015&lt;/span>
+                        &lt;span>&lt;i class="fa fa-bookmark">&lt;/i>Category&lt;/span>
+                    &lt;/div>
+                    &lt;p>
+                        L'orem ipsum dolor "sitamet", consectetur 'adipisicing' elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, q rem aperiam ...
+                    &lt;/p>
+                    &lt;a class="btn btn-default btn-primary">
+                        Enter
+                    &lt;/a>
+                    &lt;a class="btn btn-default">
+                        Read more
+                    &lt;/a>
+                &lt;/div>
+            &lt;/div> 
+        &lt;/div>
+    &lt;/div>
+&lt;/div>  
+</pre>
+                        </div>
+                        <div class="panel">
+<pre class="prettyprint">
+&lt;div class="grid-list">
+    &lt;div class="grid-box row">
+        &lt;div class="grid-item col-md-4">
+            &lt;div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                &lt;a class="img-box">
+                    &lt;img class="anima" src="http://www.framework-y.com/images/thumb-large.png" />
+                &lt;/a>
+                &lt;div class="content-box">
+                    &lt;h2>JACK CHRISTIAN&lt;/h2>
+                    &lt;h4>FOUNDER AND CEO&lt;/h4>
+                    &lt;hr class="e" />
+                    &lt;div class="btn-group social-group">
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-facebook">&lt;/i>&lt;/a>
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-twitter">&lt;/i>&lt;/a>
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-instagram">&lt;/i>&lt;/a>
+                    &lt;/div>
+                    &lt;p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem has been the industry.&lt;/p>
+                &lt;/div>
+            &lt;/div> 
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                &lt;a class="img-box">
+                    &lt;img class="anima" src="http://www.framework-y.com/images/thumb-large.png" />
+                &lt;/a>
+                &lt;div class="content-box">
+                    &lt;h2>JACK CHRISTIAN&lt;/h2>
+                    &lt;h4>FOUNDER AND CEO&lt;/h4>
+                    &lt;hr class="e" />
+                    &lt;div class="btn-group social-group">
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-facebook">&lt;/i>&lt;/a>
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-twitter">&lt;/i>&lt;/a>
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-instagram">&lt;/i>&lt;/a>
+                    &lt;/div>
+                    &lt;p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem has been the industry.&lt;/p>
+                &lt;/div>
+            &lt;/div> 
+        &lt;/div>
+        &lt;div class="grid-item col-md-4">
+            &lt;div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                &lt;a class="img-box">
+                    &lt;img class="anima" src="http://www.framework-y.com/images/thumb-large.png" />
+                &lt;/a>
+                &lt;div class="content-box">
+                    &lt;h2>JACK CHRISTIAN&lt;/h2>
+                    &lt;h4>FOUNDER AND CEO&lt;/h4>
+                    &lt;hr class="e" />
+                    &lt;div class="btn-group social-group">
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-facebook">&lt;/i>&lt;/a>
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-twitter">&lt;/i>&lt;/a>
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-instagram">&lt;/i>&lt;/a>
+                    &lt;/div>
+                    &lt;p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem has been the industry.&lt;/p>
+                &lt;/div>
+            &lt;/div> 
+        &lt;/div>
+    &lt;/div>
+&lt;/div>  
+</pre>
+                        </div>
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#">Advanced content boxes</a></li>
+                            <li><a href="#">Niche content boxes</a></li>
+                        </ul>
+                    </div>
+                    <hr class="space s" />
+                    <div class="bs-callout documentation-callout bs-callout documentation-callout-information">
+                        <h5>List items documentation</h5>
+                        <p>
+                            List items are content boxes, part of <a href="../content-box.html">content box component</a>. You can use almost all content box types.
+                            <br />Complete documentation <a href="../content-box.html">here <i class="fa fa-share"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-center">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.framework-y.com/">Tweet</a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                    <p class="footer-main">
+                        Designed and built with love by <a href="http://www.pixor.it/en/federico-schiocchet/" target="blank">Federico Schiocchet</a>
+                        and <a href="http://www.pixor.it/en/" target="blank">Pixor</a>.
+                        <br />
+                        © All Rights Reserved Federico Schiocchet - Pixor.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <link async rel="stylesheet" href="../plugins/font-awesome/css/font-awesome.min.css">
+        <script async src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+
+        <script src="../plugins/jquery.slimscroll.min.js"></script>
+
+        <link rel="stylesheet" href="../style-framework-y.css">
+        <link rel="stylesheet" href="../css/animations.css">
+
+        <script src="../plugins/jquery.magnific-popup.min.js"></script>
+        <link rel="stylesheet" href="../plugins/magnific-popup.css">
+        <script src="../plugins/imagesloaded.min.js"></script>
+
+        <script src="../plugins/jquery.twbsPagination.min.js"></script>
+        <link rel="stylesheet" href="../css/image-box.css">
+        <link rel="stylesheet" href="../css/content-box.css">
+
+        <script src="../plugins/prettify.js"></script>
+        <link rel="stylesheet" href="../plugins/prettify.css">
+        <link rel="stylesheet" href="../css/components.css">
+        <script src="../plugins/jquery.tab-accordion.js"></script>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,2 @@
+[0228/162348:INFO:CONSOLE(0)] "XMLHttpRequest cannot load file:///C:/Program%20Files%20(x86)/Common%20Files/Adobe/CEPServiceManager4/extensions/FontAwesomePS/css/basic.less. Cross origin requests are only supported for HTTP.," source: (0)
+[0228/162348:INFO:CONSOLE(0)] "Uncaught Error: NETWORK_ERR: XMLHttpRequest Exception 101," source: file:///C:/Program%20Files%20(x86)/Common%20Files/Adobe/CEPServiceManager4/extensions/FontAwesomePS/js/libs/less-1.4.1.min.js(1)

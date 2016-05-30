@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu side | components | Framework Y</title>
+    <meta name="description" content="Side lateral menu with scroll box and drodowns.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../script.js"></script>
+    <script src="../../script-framework-y.js"></script>
+    <link rel="stylesheet" href="../../style-framework-y.css">
+    <link rel="stylesheet" href="../../style.css">
+
+    <link rel="icon" href="/favicon.ico"> <!-- Extra optional content header -->
+</head>
+<body class="side-menu-container">
+    <div id="preloader"></div>
+    <header class="demo side-menu-header" data-menu-anima="default">
+        <div class="navbar-header">
+            <a class="hamburger-button" data-menu-anima="fade-left">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a class="navbar-brand" href="../../index.html"><img src="../../images/logo.png" alt="logo" /></a>
+        </div>
+        <div class="side-menu-fixed">
+            <div class="top-area">
+                <a class="brand" href="../../index.html">
+                    <img src="../../images/logo.png" alt="logo">
+                </a>
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit">GO</button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <aside class="sidebar mi-menu box-middle-container">
+                <nav class="sidebar-nav box-middle">
+                    <ul class="side-menu ms-simple">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-home"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-book"></i>
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-info"></i>
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-share"></i>
+                                Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-users"></i>
+                                Team
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </aside>
+            <div class="bottom-area">
+                <div class="social-group">
+                    <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                    <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                    <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                    <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+                <p>© Copyright 2016. All rights reserved. </p>
+            </div>
+        </div>
+    </header>
+    <div class="header-bootstrap">
+        <div class="title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="row vertical-row">
+                            <div class="col-md-2">
+                                <i class="fa fa-bars"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <span>Menu component</span>
+                                <h1>Side menu simple</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <ol class="breadcrumb b white right-side">
+                            <li><a href="../../index.html">Home</a></li>
+                            <li class="active">Side menu simple</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="documentation-subtitle">Usage</h4>
+                <div class="tab-box inverse gray documentation-tab" data-tab-anima="fade-in">
+                    <div class="panel active">
+<pre class="prettyprint">
+&lt;header class="side-menu-header" data-menu-anima="default">
+    &lt;div class="navbar-header">
+        &lt;a class="hamburger-button" data-menu-anima="fade-left">
+            &lt;i class="fa fa-bars">&lt;/i>
+        &lt;/a>
+        &lt;a class="navbar-brand" href="index.html">&lt;img src="images/logo.png" alt="logo" />&lt;/a>
+    &lt;/div>
+    &lt;div class="side-menu-fixed">
+        &lt;div class="top-area">
+            &lt;a class="brand" href="index.html">
+                &lt;img src="images/logo.png" alt="logo">
+            &lt;/a>
+            &lt;form class="navbar-form" role="search">
+                &lt;div class="input-group">
+                    &lt;input type="text" class="form-control" placeholder="Search for...">
+                    &lt;span class="input-group-btn">
+                        &lt;button class="btn btn-default" type="submit">GO&lt;/button>
+                    &lt;/span>
+                &lt;/div>
+            &lt;/form>
+        &lt;/div>
+        &lt;aside class="sidebar mi-menu box-middle-container">
+            &lt;nav class="sidebar-nav box-middle">
+                &lt;ul class="side-menu ms-simple">
+                    &lt;li>
+                        &lt;a href="#">
+                            &lt;i class="fa fa-home">&lt;/i>
+                            Home
+                        &lt;/a>
+                    &lt;/li>
+                    &lt;li>
+                        &lt;a href="#">
+                            &lt;i class="fa fa-book">&lt;/i>
+                            Portfolio
+                        &lt;/a>
+                    &lt;/li>
+                    &lt;li>
+                        &lt;a href="#">
+                            &lt;i class="fa fa-info">&lt;/i>
+                            About
+                        &lt;/a>
+                    &lt;/li>
+                    &lt;li>
+                        &lt;a href="#">
+                            &lt;i class="fa fa-share">&lt;/i>
+                            Services
+                        &lt;/a>
+                    &lt;/li>
+                    &lt;li>
+                        &lt;a href="#">
+                            &lt;i class="fa fa-users">&lt;/i>
+                            Team
+                        &lt;/a>
+                    &lt;/li>
+                &lt;/ul>
+            &lt;/nav>
+        &lt;/aside>
+        &lt;div class="bottom-area">
+            &lt;div class="social-group">
+                &lt;a target="_blank" href="#">&lt;i class="fa fa-facebook-square">&lt;/i>&lt;/a>
+                &lt;a target="_blank" href="#">&lt;i class="fa fa-twitter-square">&lt;/i>&lt;/a>
+                &lt;a target="_blank" href="#">&lt;i class="fa fa-instagram">&lt;/i>&lt;/a>
+                &lt;a target="_blank" href="#">&lt;i class="fa fa-youtube-square">&lt;/i>&lt;/a>
+            &lt;/div>
+            &lt;p>© Copyright 2016. All rights reserved. &lt;/p>
+        &lt;/div>
+    &lt;/div>
+&lt;/header>
+</pre>
+                    </div>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">HTML</a></li>
+                    </ul>
+                </div>
+                <hr class="space s" />
+                <div class="bs-callout documentation-callout bs-callout documentation-callout-information">
+                    <h5>Menu example</h5>
+                    <p>This is a example of <a href="menu-side.html">menu side</a>. Complete documentation <a href="menu-side.html">here <i class="fa fa-share"></i></a></p>
+                </div>
+                <div class="bs-callout documentation-callout bs-callout documentation-callout-information">
+                    <h5>Menu documentation</h5>
+                    <p>Menu side simple is part of <a href="menu-documentation.html">menu component</a>. Complete documentation <a href="menu-documentation.html">here <i class="fa fa-share"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </div>    <footer class="footer-center">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.framework-y.com/">Tweet</a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                    <p class="footer-main">
+                        Designed and built with love by <a href="http://www.pixor.it/en/federico-schiocchet/" target="blank">Federico Schiocchet</a>
+                        and <a href="http://www.pixor.it/en/" target="blank">Pixor</a>.
+                        <br />
+                        © All Rights Reserved Federico Schiocchet - Pixor.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <link rel="stylesheet" href="../../plugins/font-awesome/css/font-awesome.min.css">
+        <script src="../../plugins/bootstrap/js/bootstrap.min.js"></script>
+
+        <script src="../../plugins/jquery.slimscroll.min.js"></script>
+        <link rel="stylesheet" href="../../css/animations.css">
+        <link rel="stylesheet" href="../../style-framework-y.css">
+        <script src="../../plugins/prettify.js"></script>
+        <link rel="stylesheet" href="../../plugins/prettify.css">
+        <link rel="stylesheet" href="../../css/components.css">
+        <script src="../../plugins/jquery.tab-accordion.js"></script>
+    </footer>
+</body>
+</html>

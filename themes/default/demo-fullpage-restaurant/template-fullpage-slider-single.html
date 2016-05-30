@@ -1,0 +1,807 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restaurant demo | Fullpage slider | Framework Y</title>
+    <meta name="description" content="Fullpage slider template based on HTML/JQuery plugin fullpage.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../../script.js"></script>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../plugins/jquery.fullPage.css">
+    <link rel="stylesheet" href="../../../plugins/flexslider/flexslider.css">
+    <link rel="stylesheet" href="../../../css/animations.css">
+    <link rel="stylesheet" href="../../../css/content-box.css">
+    <link rel="stylesheet" href="../../../css/image-box.css">
+    <link rel="stylesheet" href='../../../css/components.css'>
+    <link rel="icon" href="/favicon.ico">
+    <!-- Extra optional content header -->
+</head>
+<body>
+    <div id="preloader"></div>
+
+    <nav id="fullpage-menu" class="fullpage-menu left">
+        <ul>
+            <li>
+                <a><i class="fa fa-home"></i><span>Home</span></a><hr />
+            </li>
+            <li>
+                <a><i class="fa fa-star"></i><span>Top menu</span></a><hr />
+            </li>
+            <li>
+                <a><i class="fa fa-cutlery"></i><span>Complete menu</span></a><hr />
+            </li>
+            <li>
+                <a><i class="fa fa-users"></i><span>Staff</span></a><hr />
+            </li>
+            <li>
+                <a><i class="fa fa-map-marker"></i><span>Contacts</span></a><hr />
+            </li>
+        </ul>
+    </nav>
+    <div class="background-page hidden-xs">
+        <div class="flexslider slider" data-options="directionNav:false,animation:fade,slideshowSpeed:5000">
+            <ul class="slides">
+                <li>
+                    <div class="bg-cover" style="background-image:url('images/bg-full-2-1.jpg')"></div>
+                </li>
+                <li>
+                    <div class="bg-cover" style="background-image:url('images/bg-full-2-2.jpg')"></div>
+                </li>
+                <li>
+                    <div class="bg-cover" style="background-image:url('images/bg-full-2-3.jpg')"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="fullpage-main" data-options="verticalCentered:false">
+        <div class="section overlay-container">
+            <div class="container content text-center">
+                <img src="images/logo.png" style="margin-top:100px" />
+                <h1>WELCOME TO OUR RESTAURANT</h1>
+                <p style="max-width:550px; margin: auto">
+                    L'orem ipsum dolor, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    coSed ut perspiciatis unde omnis.
+                </p>
+            </div>
+        </div>
+        <div class="section overlay-container">
+            <div class="container content" style="margin-top:200px">
+                <div class="row">
+                    <div class="col-md-3" data-fullpage-anima="fade-left" data-timeline="asc">
+                        <h1>OUR MENU <br />GREAT FOOD <br />GOOD PRICE</h1>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="grid-list gallery">
+                            <div class="grid-box row">
+                                <div class="grid-item col-md-4">
+                                    <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover" data-anima-out="hide">
+                                        <a href="#" class="img-box lightbox anima-scale-up anima">
+                                            <img src="images/thumb-food-2.jpg">
+                                        </a>
+                                        <div class="caption anima anima-fade-bottom">
+                                            <h2>25,00 $</h2>
+                                            <p>
+                                                Bleached wheat flour, sugar, soy oil, salt, yeast, corn syrup solids.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="caption-bottom">
+                                        <h2>Vegetarian pasta</h2>
+                                        <p>Tempor incididunt sed</p>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-md-4">
+                                    <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover" data-anima-out="hide">
+                                        <a href="#" class="img-box lightbox anima-scale-up anima">
+                                            <img src="images/thumb-food-3.jpg">
+                                        </a>
+                                        <div class="caption anima anima-fade-bottom">
+                                            <h2>45,00 $</h2>
+                                            <p>
+                                                Bleached wheat flour, sugar, soy oil, salt, yeast, corn syrup solids.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="caption-bottom">
+                                        <h2>Roast chicken</h2>
+                                        <p>Tempor incididunt sed</p>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-md-4">
+                                    <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover" data-anima-out="hide">
+                                        <a href="#" class="img-box lightbox anima-scale-up anima">
+                                            <img src="images/thumb-food-5.jpg">
+                                        </a>
+                                        <div class="caption anima anima-fade-bottom">
+                                            <h2>15,00 $</h2>
+                                            <p>
+                                                Bleached wheat flour, sugar, soy oil, salt, yeast, corn syrup solids.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="caption-bottom">
+                                        <h2>Seasonal soup</h2>
+                                        <p>Tempor incididunt sed</p>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-md-4">
+                                    <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover" data-anima-out="hide">
+                                        <a href="#" class="img-box lightbox anima-scale-up anima">
+                                            <img src="images/thumb-food-1.jpg">
+                                        </a>
+                                        <div class="caption anima anima-fade-bottom">
+                                            <h2>30,00 $</h2>
+                                            <p>
+                                                Bleached wheat flour, sugar, soy oil, salt, yeast, corn syrup solids.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="caption-bottom">
+                                        <h2>Mixed meat</h2>
+                                        <p>Tempor incididunt sed</p>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-md-4">
+                                    <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover" data-anima-out="hide">
+                                        <a href="#" class="img-box lightbox anima-scale-up anima">
+                                            <img src="images/thumb-food-4.jpg">
+                                        </a>
+                                        <div class="caption anima anima-fade-bottom">
+                                            <h2>35,00 $</h2>
+                                            <p>
+                                                Bleached wheat flour, sugar, soy oil, salt, yeast, corn syrup solids.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="caption-bottom">
+                                        <h2>Chinese food</h2>
+                                        <p>Tempor incididunt sed</p>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-md-4">
+                                    <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover" data-anima-out="hide">
+                                        <a href="#" class="img-box lightbox anima-scale-up anima">
+                                            <img src="images/thumb-food-6.jpg">
+                                        </a>
+                                        <div class="caption anima anima-fade-bottom">
+                                            <h2>30,00 $</h2>
+                                            <p>
+                                                Bleached wheat flour, sugar, soy oil, salt, yeast, corn syrup solids.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="caption-bottom">
+                                        <h2>Pasta e ragù</h2>
+                                        <p>Tempor incididunt sed</p>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-md-4">
+                                    <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover" data-anima-out="hide">
+                                        <a href="#" class="img-box lightbox anima-scale-up anima">
+                                            <img src="images/thumb-food-7.jpg">
+                                        </a>
+                                        <div class="caption anima anima-fade-bottom">
+                                            <h2>35,00 $</h2>
+                                            <p>
+                                                Bleached wheat flour, sugar, soy oil, salt, yeast, corn syrup solids.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="caption-bottom">
+                                        <h2>Pink salmon</h2>
+                                        <p>Tempor incididunt sed</p>
+                                    </div>
+                                </div>
+                                <div class="grid-item col-md-4">
+                                    <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover" data-anima-out="hide">
+                                        <a href="#" class="img-box lightbox anima-scale-up anima">
+                                            <img src="images/thumb-food-8.jpg">
+                                        </a>
+                                        <div class="caption anima anima-fade-bottom">
+                                            <h2>30,00 $</h2>
+                                            <p>
+                                                Bleached wheat flour, sugar, soy oil, salt, yeast, corn syrup solids.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="caption-bottom">
+                                        <h2>Pasta mediterranea</h2>
+                                        <p>Tempor incididunt sed</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="pagination-sm pagination pagination-grid" data-page-items="3" data-pagination-anima="show-scale"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section overlay-container">
+            <div class="container content" style="margin-top:100px">
+                <div class="row">
+                    <h1 class="main-title text-center">COMPLETE MENU </h1>
+                    <hr class="space m" />
+                    <div class="tab-box" data-tab-anima="fade-bottom">
+                        <ul class="nav nav-tabs nav-center">
+                            <li class="active"><a href="#">Starters</a></li>
+                            <li><a href="#">First dishes</a></li>
+                            <li><a href="#">Second dishes</a></li>
+                            <li><a href="#">Drinks</a></li>
+                        </ul>
+                        <div class="panel active">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="list-items">
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Birthday Cake</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>4.5$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>White Chocolate Truffle</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>2$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Dark Belgian Cake</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>2.5$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="list-items">
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Chocolate Toffee Nut</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>5$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Peppermint Brownie</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>5$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Starbucks® Biscotti</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>6$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="list-items">
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Ham & Cheese Danish</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>2$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Chocolate Crepe Cake</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>2$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Cheese Pandesal</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>3.5$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="list-items">
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Cheese and Garlic</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>15.5$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Pesto and Shiitake </h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>20$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Dark Belgian Cake</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>7.5$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="list-items">
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Carbonara</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>15$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Broccoli</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>25$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Starbucks® Biscotti</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>46$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="list-items">
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Pizza</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>2$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Chocolate Crepe Cake</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>2$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Cheese Pandesal</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>3.5$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="list-items">
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Bacon, Egg and Emmental </h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>8.5$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Meatloaf on Cheese</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>8$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Dark Belgian Cake</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>8.5$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="list-items">
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Focaccia Bread</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>8$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Chicken BBQ</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>8$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Basil on Flat Bread</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>6$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="list-items">
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Pumpernickel </h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>7$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Chocolate Crepe Cake</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>5$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Cheese Pandesal</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>3.5$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="list-items">
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Beer</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>2.5$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Red wine bottle</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>20$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>White wine bottle</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>20.5$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="list-items">
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Cocktail</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>5$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Short</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>5$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Golden short</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>6$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="list-items">
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Whisky</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>2$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Vodka</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>2$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-item">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <h3>Cheese Pandesal</h3>
+                                                    <p>Text of secondary area</p>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <span>3.5$</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section overlay-container">
+            <div class="container content" style="margin-top:200px">
+                <div class="row">
+                    <div class="col-md-3" data-fullpage-anima="fade-left" data-timeline="asc">
+                        <h1>OUR STAFF <br />THE CHEFS <br />THE PEOPLE</h1>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                                    <a class="img-box">
+                                        <img class="anima" src="images/chef-1.jpg" />
+                                    </a>
+                                    <div class="content-box">
+                                        <h2>JACK CHRISTIAN</h2>
+                                        <h4>MAIN CHEF</h4>
+                                        <hr class="e" />
+                                        <div class="btn-group social-group">
+                                            <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                            <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                            <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                                        </div>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem has been the industry.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                                    <a class="img-box">
+                                        <img class="anima" src="images/chef-2.jpg" />
+                                    </a>
+                                    <div class="content-box">
+                                        <h2>JOURY CALMITU</h2>
+                                        <h4>CHINESE CHEF</h4>
+                                        <hr class="e" />
+                                        <div class="btn-group social-group">
+                                            <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                            <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                            <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                                        </div>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem has been the industry.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                                    <a class="img-box">
+                                        <img class="anima" src="images/chef-3.jpg" />
+                                    </a>
+                                    <div class="content-box">
+                                        <h2>CHEN LEE</h2>
+                                        <h4>ASSISTANT</h4>
+                                        <hr class="e" />
+                                        <div class="btn-group social-group">
+                                            <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                            <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                            <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                                        </div>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem has been the industry.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section overlay-container">
+            <div class="container content" style="margin-top:100px">
+                <div class="row">
+                    <div class="col-md-3" data-fullpage-anima="fade-left" data-timeline="asc">
+                        <h1>WHERE WE ARE AND<br />WHO <br />WE ARE</h1>
+                        <ul class="fa-ul text-s">
+                            <li><i class="fa-li fa fa-map-marker"></i>251 Monroe Ave, Kenilworth, NJ 07033, USA</li>
+                            <li><i class="fa-li fa fa-envelope-o"></i> <a href="mailto:hello@restaurant.com">hello@restaurant.com</a></li>
+                            <li><i class="fa-li fa fa-phone"></i> 02-359-60566662</li>
+                        </ul>
+                        <p></p>
+                    </div>
+                    <div class="col-md-9" data-fullpage-anima="fade-left" data-timeline="asc">
+                        <div class="google-map" data-address="New York, US" data-skin="gray"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <link async rel="stylesheet" href="../../../plugins/font-awesome/css/font-awesome.min.css">
+        <script async src="../../../plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../../../plugins/flexslider/jquery.flexslider-min.js"></script>
+        <script src="../../../plugins/jquery.fullPage.min.js"></script>
+        <script src="../../../plugins/jquery.twbsPagination.min.js"></script>
+        <script src='../../../plugins/jquery.tab-accordion.js'></script>
+        <script src='../../../plugins/google.maps.min.js'></script>
+        <script src='https://maps.googleapis.com/maps/api/js?sensor=false'></script>
+    </footer>
+</body>
+</html>

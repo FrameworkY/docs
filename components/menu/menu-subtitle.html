@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu subtitle | components | Framework Y</title>
+    <meta name="description" content="Menu with subtitle and description on menu items.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../script.js"></script>
+    <script src="../../script-framework-y.js"></script>
+    <link rel="stylesheet" href="../../style-framework-y.css">
+    <link rel="stylesheet" href="../../style.css">
+
+    <link rel="icon" href="/favicon.ico"> <!-- Extra optional content header -->
+</head>
+<body>
+    <div id="preloader"></div>
+    <header class="demo subtitle-header">
+        <div class="navbar navbar-default" role="navigation">
+            <div class="navbar navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="../../index.html"><img src="../../images/logo.png" alt="logo" /></a>
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav subheader-bootstrap">
+                            <li class="active"><a href="#">Home<span class="sub">Go back</span></a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown<i class="caret"></i><span class="sub">A simple list</span></a>
+                                <ul class="dropdown-menu multi-level">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">About<span class="sub">Who we are</span></a></li>
+                            <li><a href="#">Services<span class="sub">Our core business</span></a></li>
+                            <li><a href="#">Contact us<span class="sub">We answer 24/7</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-bootstrap">
+        <div class="title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="row vertical-row">
+                            <div class="col-md-2">
+                                <i class="fa fa-bars"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <span>Menu component</span>
+                                <h1>Menu subtitle</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <ol class="breadcrumb b white right-side">
+                            <li><a href="../../index.html">Home</a></li>
+                            <li class="active">Menu subtitle</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="documentation-subtitle">Usage</h4>
+                <div class="tab-box inverse gray documentation-tab" data-tab-anima="fade-in">
+                    <div class="panel active">
+<pre class="prettyprint">
+&lt;header>
+    &lt;div class="navbar navbar-default" role="navigation">
+        &lt;div class="navbar navbar-main">
+            &lt;div class="container">
+                &lt;div class="navbar-header">
+                    &lt;a class="navbar-brand" href="../../index.html">&lt;img src="../../images/logo.png" alt="logo" />&lt;/a>
+                    &lt;button type="button" class="navbar-toggle">
+                        &lt;i class="fa fa-bars">&lt;/i> 
+                    &lt;/button>
+                &lt;/div>
+                &lt;div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    &lt;ul class="nav navbar-nav subheader-bootstrap">
+                        &lt;li class="active">&lt;a href="#">Home&lt;span class="sub">Go back&lt;/span>&lt;/a>&lt;/li>
+                        &lt;li class="dropdown">
+                            &lt;a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown&lt;i class="caret">&lt;/i>
+                                &lt;span class="sub">A simple list&lt;/span>
+                            &lt;/a>
+                            &lt;ul class="dropdown-menu multi-level">
+                                &lt;li>&lt;a href="#">Action&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="#">Another action&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="#">Something else here&lt;/a>&lt;/li>
+                            &lt;/ul>
+                        &lt;/li>
+                        &lt;li>&lt;a href="#">About&lt;span class="sub">Who we are&lt;/span>&lt;/a>&lt;/li>
+                        &lt;li>&lt;a href="#">Services&lt;span class="sub">Our core business&lt;/span>&lt;/a>&lt;/li>
+                        &lt;li>&lt;a href="#">Contact us&lt;span class="sub">We answer 24/7&lt;/span>&lt;/a>&lt;/li>
+                    &lt;/ul>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+&lt;/header>
+</pre>
+                    </div>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">HTML</a></li>
+                    </ul>
+                </div>
+                <hr class="space s" />
+                <div class="bs-callout documentation-callout bs-callout documentation-callout-information">
+                    <h5>Menu documentation</h5>
+                    <p>Menu subtitle is part of <a href="menu-documentation.html">menu component</a>. Complete documentation <a href="menu-documentation.html">here <i class="fa fa-share"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-center">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.framework-y.com/">Tweet</a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                    <p class="footer-main">
+                        Designed and built with love by <a href="http://www.pixor.it/en/federico-schiocchet/" target="blank">Federico Schiocchet</a>
+                        and <a href="http://www.pixor.it/en/" target="blank">Pixor</a>.
+                        <br />
+                        © All Rights Reserved Federico Schiocchet - Pixor.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <style>
+            .navbar-brand > img {
+                margin-top: 12px;
+            }
+
+            @media (max-width: 768px) {
+                .navbar-brand > img {
+                    margin-top: 2px;
+                }
+            }
+        </style>
+        <link rel="stylesheet" href="../../plugins/font-awesome/css/font-awesome.min.css">
+        <script src="../../plugins/bootstrap/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="../../style-framework-y.css">
+        <script src="../../plugins/prettify.js"></script>
+        <link rel="stylesheet" href="../../plugins/prettify.css">
+        <link rel="stylesheet" href="../../css/components.css">
+        <script src="../../plugins/jquery.tab-accordion.js"></script>
+    </footer>
+</body>
+</html>

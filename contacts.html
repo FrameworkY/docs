@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacts | Hotel demo | Framework Y</title>
+    <meta name="description" content="Hotel room page, HTML full-page template.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../../script.js"></script>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href='../../../plugins/jquery.fullPage.css'>
+    <link rel="stylesheet" href="../../../plugins/php/contact-form.css">
+    <link rel="stylesheet" href='../../../plugins/flexslider/flexslider.css'>
+    <link rel="stylesheet" href="../theme.css">
+</head>
+<body class="side-menu-container">
+    <div id="preloader"></div>
+    <header class="side-menu-header side-menu-lateral" data-menu-anima="default">
+        <div class="navbar-header">
+            <a class="hamburger-button" data-menu-anima="fade-left">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" /></a>
+        </div>
+        <div class="side-menu-fixed">
+            <div class="top-area">
+                <a class="brand" href="index.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </div>
+            <aside class="sidebar mi-menu">
+                <nav class="sidebar-nav scroll-content">
+                    <ul class="side-menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="panel-item">
+                            <span>Rooms<span class="fa arrow"></span></span>
+                            <div class="collapse panel bg-menu" style="background-image:url(images/menu-bg.png)">
+                                <ul class="collapse" style="margin-top:169px;">
+                                    <li><a href="room.html">Deluxe room</a></li>
+                                    <li><a href="room.html">Family room</a></li>
+                                    <li><a href="room.html">Single room</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="restaurant.html">Restaurant</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <div class="bottom-area">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                    <img src="../../../images/en.png" />
+                </a>
+                <span class="space"></span>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                    <img src="../../../images/it.png" />
+                </a>
+                <hr class="space xs" />
+                <div class="social-group">
+                    <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                    <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                    <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                    <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+                <p>Copyright 2016. All rights reserved. </p>
+            </div>
+        </div>
+    </header>
+    <nav class="fullpage-varrow">
+        <div class="arrow down"><i class="fa fa-angle-down"></i></div>
+    </nav>
+    <div id="fullpage-main">
+        <div id="s1" class="section overlay-container" style="background-image:url('images/hd-7.jpg');">
+            <div class="container content box-middle">
+                <h2 class="text-xl">CONTACTS</h2>
+                <hr class="space m" />
+                <hr class="e" style="float:left" />
+                <hr class="space m" />
+                <h2>Address</h2>
+                <p>
+                    654000, Via Rustice 50, Palermo Sicilia, Italy
+                </p>
+                <hr class="space s" />
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>Phone/fax</h2>
+                        <p>
+                            +39 (123) 91-12-22, +39 (123) 91-00-68
+                        </p>
+                        <hr class="space" />
+                        <div class="btn-group social-group">
+                            <a target="_blank" href="#" data-toggle="tooltip" data-placement="top" title="Facebook">
+                                <i class="fa fa-facebook text-s circle"></i>
+                            </a>
+                            <a target="_blank" href="#" data-toggle="tooltip" data-placement="top" title="Twitter">
+                                <i class="fa fa-twitter text-s circle"></i>
+                            </a>
+                            <a target="_blank" href="#" data-toggle="tooltip" data-placement="top" title="Google+">
+                                <i class="fa fa-google-plus text-s circle"></i>
+                            </a>
+                            <a target="_blank" href="#" data-toggle="tooltip" data-placement="top" title="LinkedIn">
+                                <i class="fa fa-linkedin text-s circle"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>E-mail</h2>
+                        <p>
+                            info@richmondhotel.com
+                        </p>
+                        <hr class="space" />
+                        <a href="#" class="anima-button circle-button btn btn-sm" onclick="$.fn.fullpage.moveTo(3, 0);"><i class="fa fa-long-arrow-down"></i>CONTACT US</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="s2" class="section overlay-container" style="background-image:url('images/hd-5.jpg');">
+            <div class="section-map full-screen-size">
+                <div class="google-map" data-address="New York, US" marker-pos-top="100" data-marker="http://www.framework-y.com/themes/elegance/demo-hotel-2/images/map-marker.png" data-zoom="15"></div>
+            </div>
+        </div>
+        <div id="s3" class="section overlay-container text-center">
+            <div class="container content box-middle">
+                <h2 class="text-xl">SEND US A MESSAGE</h2>
+                <hr class="space m" />
+                <hr class="e" />
+                <hr class="space m" />
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <form action="http://www.framework-y.com/plugins/php/contact-form.php" class="form-box form-ajax" role="form" method="post">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <p>Name</p>
+                                    <input id="name" name="name" placeholder="name" type="text" class="form-control form-value" required>
+                                </div>
+                                <div class="col-md-4">
+                                    <p>Email</p>
+                                    <input id="email" name="email" placeholder="email" type="email" class="form-control form-value" required>
+                                </div>
+                                <div class="col-md-4">
+                                    <p>Phone</p>
+                                    <input id="phone" name="phone" placeholder="phone" type="text" class="form-control form-value">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <hr class="space xs" />
+                                    <p>Messagge</p>
+                                    <textarea id="messagge" name="messagge" class="form-control form-value" required></textarea>
+                                    <hr class="space s" />
+                                    <button class="anima-button circle-button btn-sm btn" type="submit"><i class="fa fa-envelope-o"></i>Send messagge</button>
+                                </div>
+                            </div>
+                            <div class="success-box">
+                                <div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
+                            </div>
+                            <div class="error-box">
+                                <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <link async rel="stylesheet" href="../../../plugins/font-awesome/css/font-awesome.min.css">
+        <script async src="../../../plugins/bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../../../css/animations.css">
+        <script src="../../../plugins/imagesloaded.min.js"></script>
+        <script src='../../../plugins/jquery.fullPage.min.js'></script>
+        <script src="../../../plugins/bootstrap/js/bootstrap.popover.min.js"></script>
+        <script src='../../../plugins/google.maps.min.js'></script>
+        <script src='https://maps.googleapis.com/maps/api/js?sensor=false'></script>
+        <script src='../../../plugins/jquery.slimscroll.min.js'></script>
+        <script src='../../../plugins/php/datepicker.min.js'></script>
+        <script src='../../../plugins/php/contact-form.js'></script>
+        <style>
+            .fullpage-varrow .down i {
+                font-size: 25px;
+                text-align: center;
+                width: 90px;
+                text-shadow: none;
+            }
+
+            i.circle {
+                width: 62px;
+                height: 62px;
+            }
+        </style>
+    </footer>
+</body>
+
+
+
+</html>

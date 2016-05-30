@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacts | Nature demo | Framework Y</title>
+    <meta name="description" content="Template HTML construction and building theme demo.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../../script.js"></script>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../css/animations.css">
+    <link rel="stylesheet" href="../theme.css">
+    <link rel="icon" href="/images/favicon.png">
+    <!-- Extra optional content header -->
+</head>
+<body>
+    <div id="preloader"></div>
+    <header class="bg-transparent menu-transparent scroll-change">
+        <div class="navbar navbar-default navbar-fixed-top over" role="navigation">
+            <div class="navbar navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand scroll-hide" href="index.html"><img src="images/logo-light.png" alt="logo" /></a>
+                        <a class="navbar-brand scroll-show" href="index.html"><img src="images/logo.png" alt="logo" /></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <div class="nav navbar-nav navbar-right">
+                            <ul class="nav navbar-nav over">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="accomodations.html">Accomodations</a></li>
+                                <li><a href="activites.html">Activites</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li class="active current-active"><a href="contacts.html">Contacts</a></li>
+                            </ul>
+                            <ul class="nav navbar-nav over lan-menu">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                                        <img src="images/en.png" />EN <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"><img src="images/it.png" />IT</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="section-map box-middle-container full-screen-size" data-sub-height="0">
+        <div class="google-map" data-address="via bettin 234, italy" data-skin="green" data-zoom="15" data-marker-pos="col-md-6-right" marker-pos-top="50" data-marker="http://www.framework-y.com/themes/construction/demo-nature/images/marker.png"></div>
+        <div class="overlaybox overlaybox-side">
+            <div class="container content">
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6 overlaybox-inner box-middle">
+                        <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
+                            <h2>CONTACTS</h2>
+                            <hr class="anima" />
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="fa-ul text-s" style="margin-top:25px;">
+                                    <li><i class="fa-li fa fa-map-marker"></i>Street Carbone 25/A, London, UK</li>
+                                    <li><i class="fa-li fa fa-phone"></i>(+05) 320-3256472</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="fa-ul text-s" style="margin-top:25px;">
+                                    <li><i class="fa-li fa fa-envelope"></i>info@naturewild.com</li>
+                                    <li><i class="fa-li fa fa-envelope"></i>hello@naturewild.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr class="space s" />
+                        <form action="http://www.framework-y.com/plugins/php/contact-form.php" class="form-box form-ajax" role="form" method="post">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <input id="name" name="name" placeholder="name" type="text" class="form-control form-value" required>
+                                </div>
+                                <div class="col-md-4">
+                                    <input id="email" name="email" placeholder="email" type="email" class="form-control form-value" required>
+                                </div>
+                                <div class="col-md-4">
+                                    <input id="phone" name="phone" placeholder="phone" type="text" class="form-control form-value">
+                                </div>
+                            </div>
+                            <hr class="space xs" />
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <textarea id="messagge" name="messagge" placeholder="messagge" class="form-control form-value" required></textarea>
+                                    <hr class="space s" />
+                                    <button class="anima-button circle-button btn-sm btn" type="submit"><i class="fa fa-envelope-o"></i>Send messagge</button>
+                                </div>
+                            </div>
+                            <div class="success-box">
+                                <div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
+                            </div>
+                            <div class="error-box">
+                                <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-center footer-minimal">
+        <div class="content" style="margin-top:0">
+            <div class="container">
+                <div class="row footer-main">
+                    <p class="footer-title">CONTACTS</p>
+                    <p>Bedford-Stuyvesant, Brooklyn, New York, United States</p>
+                    <p>federico@framework.com    (+05) 320 3057970    Skype fede.pixor</p>
+                    <hr class="space xs" />
+                    <div class="btn-group navbar-social">
+                        <div class="btn-group social-group">
+                            <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row copy-row">
+                    <div class="col-md-12 copy-text">
+                        <div class="tag-row">
+                            <span>© ALL RIGHTS RESERVED</span>
+                            <span>FRAMEWORK Y</span>
+                            <span>ENVATO MARKETPLACE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <link async rel="stylesheet" href="../../../plugins/font-awesome/css/font-awesome.min.css">
+        <script async src="../../../plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../../../plugins/imagesloaded.min.js"></script>
+        <script src='../../../plugins/google.maps.min.js'></script>
+        <script src='../../../plugins/php/contact-form.js'></script>
+        <script src='https://maps.googleapis.com/maps/api/js?sensor=false'></script>
+    </footer>
+</body>
+</html>

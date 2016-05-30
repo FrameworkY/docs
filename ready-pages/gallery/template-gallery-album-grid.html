@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Album gallery grid | ready pages | Framework Y</title>
+    <meta name="description" content="Album gallery with grid layout and pagination.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../script.js"></script>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../css/animations.css">
+    <link rel="stylesheet" href="../../plugins/magnific-popup.css">
+    <link rel="stylesheet" href="../../css/image-box.css">
+    <link rel="icon" href="/favicon.ico">
+    <script src="../../script-framework-y.js"></script>
+    <!-- Extra optional content header -->
+</head>
+<body>
+    <div id="preloader"></div>
+    <header class="fixed-top" data-menu-anima="fade-in">
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="navbar navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="../../index.html"><img src="../../images/logo.png" alt="logo" /></a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-base">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="title-base text-left">
+                        <h1>PHOTO E VIDEO GALLERIES</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <ol class="breadcrumb b">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li class="active">Data</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-empty">
+        <hr class="space" />
+        <div class="container content">
+            <div class="album-main" data-album-anima="fade-right">
+                <div class="album-list row">
+                    <div class="album-box col-md-4">
+                        <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover">
+                            <a href="#" class="img-box anima-scale-up anima">
+                                <img src="../../images/large/large_wide_1.jpg">
+                            </a>
+                            <div class="caption">
+                                <h2 class="album-name">The first album</h2>
+                                <p>
+                                    Omnis iste natus error
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="album-box col-md-4">
+                        <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover">
+                            <a href="#" class="img-box anima-scale-up anima">
+                                <img src="../../images/large/large_wide_2.jpg">
+                            </a>
+                            <div class="caption">
+                                <h2 class="album-name">The second album</h2>
+                                <p>
+                                    Omnis iste natus error
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="album-box col-md-4">
+                        <div class="img-box scale adv-img adv-img-half-content" data-anima="fade-left" data-trigger="hover">
+                            <a href="#" class="img-box anima-scale-up anima">
+                                <img src="../../images/large/large_wide_3.jpg">
+                            </a>
+                            <div class="caption">
+                                <h2 class="album-name">The third album</h2>
+                                <p>
+                                    Omnis iste natus error
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- INSERT OTHERS MENU ITEMS HERE -->
+                </div>
+                <div class="cont-album-box">
+                    <p class="album-title">
+                        <span>...</span>
+                        <a class="button-list btn btn-default btn-sm"><i class="fa fa-arrow-left"></i> Album list</a>
+                    </p>
+                    <div class="album-item">
+                        <div class="grid-list gallery">
+                            <div class="grid-box row" data-lightbox-anima="fade-in">
+                                <div class="grid-item col-md-4">
+                                    <a class="img-box img-scale-up i-center" href="../../images/large/large_wide_1.jpg">
+                                        <i class="fa fa-camera"></i>
+                                        <img src="../../images/thumbs/thumb_wide_1.jpg">
+                                    </a>
+                                </div>
+                                <div class="grid-item col-md-4">
+                                    <a class="img-box img-scale-up mfp-iframe i-center" href="www.youtube.com/watch?v=bpqhStV2_rc">
+                                        <i class="fa fa-film"></i>
+                                        <img src="../../images/thumbs/thumb_wide_video_1.jpg" />
+                                    </a>
+                                </div>
+                                <div class="grid-item col-md-4">
+                                    <a class="img-box img-scale-up i-center" href="../../images/large/large_wide_3.jpg">
+                                        <i class="fa fa-camera"></i>
+                                        <img src="../../images/thumbs/thumb_wide_3.jpg">
+                                    </a>
+                                </div>
+                                <div class="grid-item col-md-4">
+                                    <a class="img-box img-scale-up i-center" href="../../images/large/large_wide_4.jpg">
+                                        <i class="fa fa-camera"></i>
+                                        <img src="../../images/thumbs/thumb_wide_4.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <ul class="pagination-sm pagination-grid" data-page-items="3" data-pagination-anima="fade-in"></ul>
+                        </div>
+                    </div>
+                    <div class="album-item">
+                        <div class="grid-list gallery">
+                            <div class="grid-box row" data-lightbox-anima="fade-in">
+                                <div class="grid-item col-md-4">
+                                    <a class="img-box img-scale-up i-center" href="../../images/large/large_wide_5.jpg">
+                                        <i class="fa fa-camera"></i>
+                                        <img src="../../images/thumbs/thumb_wide_5.jpg">
+                                    </a>
+                                </div>
+                                <div class="grid-item col-md-4">
+                                    <a class="img-box img-scale-up mfp-iframe i-center" href="www.youtube.com/watch?v=bpqhStV2_rc">
+                                        <i class="fa fa-film"></i>
+                                        <img src="../../images/thumbs/thumb_wide_video_1.jpg" />
+                                    </a>
+                                </div>
+                                <div class="grid-item col-md-4">
+                                    <a class="img-box img-scale-up i-center" href="../../images/large/large_wide_6.jpg">
+                                        <i class="fa fa-camera"></i>
+                                        <img src="../../images/thumbs/thumb_wide_6.jpg">
+                                    </a>
+                                </div>
+                                <div class="grid-item col-md-4">
+                                    <a class="img-box img-scale-up i-center" href="../../images/large/large_wide_8.jpg">
+                                        <i class="fa fa-camera"></i>
+                                        <img src="../../images/thumbs/thumb_wide_8.jpg">
+                                    </a>
+                                </div>
+                                <div class="grid-item col-md-4">
+                                    <a class="img-box img-scale-up mfp-iframe i-center" href="https://www.youtube.com/watch?v=-BrDlrytgm8">
+                                        <i class="fa fa-film"></i>
+                                        <img src="../../images/thumbs/thumb_wide_video_3.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="list-nav">
+                                <a href="#" class="circle-button btn-sm load-more-grid" data-pagination-anima="fade-bottom" data-page-items="3">
+                                    Load More <i class="fa fa-arrow-down"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="album-item">
+                        <div class="grid-list gallery">
+                            <div class="grid-box row" data-lightbox-anima="fade-in">
+                                <div class="grid-item col-md-4">
+                                    <a class="img-box img-scale-up i-center" href="../../images/large/large_wide_9.jpg">
+                                        <i class="fa fa-camera"></i>
+                                        <img src="../../images/thumbs/thumb_wide_9.jpg">
+                                    </a>
+                                </div>
+                                <div class="grid-item col-md-4">
+                                    <a class="img-box img-scale-up i-center" href="../../images/large/large_wide_10.jpg">
+                                        <i class="fa fa-camera"></i>
+                                        <img src="../../images/thumbs/thumb_wide_10.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- INSERT OTHERS ALBUMS HERE -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-center">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.framework-y.com/">Tweet</a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                    <p class="footer-main">
+                        Designed and built with love by <a href="http://www.pixor.it/en/federico-schiocchet/" target="blank">Federico Schiocchet</a>
+                        and <a href="http://www.pixor.it/en/" target="blank">Pixor</a>.
+                        <br />
+                        © All Rights Reserved Federico Schiocchet - Pixor.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <link rel="stylesheet" href="../../plugins/font-awesome/css/font-awesome.min.css">
+        <script src="../../plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../../plugins/isotope.min.js"></script>
+        <script src="../../plugins/imagesloaded.min.js"></script>
+        <script src="../../plugins/jquery.magnific-popup.min.js"></script>
+        <script src="../../plugins/jquery.twbsPagination.min.js"></script>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,668 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu documentation dropdowns | components | Framework Y</title>
+    <meta name="description" content="Bootstrap mega menu dropdown, classic dropdown and single column.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../script.js"></script>
+    <script src="../../script-framework-y.js"></script>
+    <link rel="stylesheet" href="../../style-framework-y.css">
+    <link rel="stylesheet" href="../../style.css">
+
+    <link rel="icon" href="/favicon.ico"> <!-- Extra optional content header -->
+</head>
+<body>
+    <div id="preloader"></div>
+    <header class="demo">
+        <div class="navbar navbar-default mega-menu-fullwidth" role="navigation">
+            <div class="navbar navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="../../index.html"><img src="../../images/logo.png" alt="logo" /></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav ">
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Icon list <span class="caret"></span></a>
+                                <div class="mega-menu dropdown-menu multi-level row bg-menu" style="background-image:url(../../images/menu-bg-1.jpg)">
+                                    <div class="col">
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-cloud"></i> <a href="#">Winter collection</a></li>
+                                            <li><i class="fa-li fa fa-sun-o"></i> <a href="#">Summer collection</a></li>
+                                            <li><i class="fa-li fa fa-glass"></i> <a href="#">Sunglasses</a></li>
+                                            <li><i class="fa-li fa fa-bookmark"></i> <a href="#">Bags</a></li>
+                                            <li><i class="fa-li fa fa-shopping-cart"></i> <a href="#">Shoes</a></li>
+                                            <li><i class="fa-li fa fa-male"></i> <a href="#">Shirts</a></li>
+                                            <li><i class="fa-li fa fa-user-plus"></i> <a href="#">Accossories</a></li>
+                                            <li><i class="fa-li fa fa-exchange"></i> <a href="#">Others</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown mega-dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Icon list mega <span class="caret"></span></a>
+                                <div class="mega-menu dropdown-menu multi-level row">
+                                    <div class="col">
+                                        <h5>Clouthing</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-cloud"></i> <a href="#">Winter collection</a></li>
+                                            <li><i class="fa-li fa fa-sun-o"></i> <a href="#">Summer collection</a></li>
+                                            <li><i class="fa-li fa fa-eye"></i> <a href="#">Sunglasses</a></li>
+                                            <li><i class="fa-li fa fa-bookmark"></i> <a href="#">Bags</a></li>
+                                            <li><i class="fa-li fa fa-shopping-cart"></i> <a href="#">Shoes</a></li>
+                                            <li><i class="fa-li fa fa-male"></i> <a href="#">Shirts</a></li>
+                                            <li><i class="fa-li fa fa-user-plus"></i> <a href="#">Accossories</a></li>
+                                            <li><i class="fa-li fa fa-exchange"></i> <a href="#">Others</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h5>Garden & outdoor</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-tree"></i> <a href="#">Winter collection</a></li>
+                                            <li><i class="fa-li fa fa-thumbs-o-up"></i> <a href="#">Summer collection</a></li>
+                                            <li><i class="fa-li fa fa-pagelines"></i> <a href="#">Sunglasses</a></li>
+                                            <li><i class="fa-li fa fa-sun-o"></i> <a href="#">Bags</a></li>
+                                            <li><i class="fa-li fa fa-leaf"></i> <a href="#">Shoes</a></li>
+                                            <li><i class="fa-li fa fa-trash"></i> <a href="#">Shirts</a></li>
+                                            <li><i class="fa-li fa fa-globe"></i> <a href="#">Accossories</a></li>
+                                            <li><i class="fa-li fa fa-recycle"></i> <a href="#">Others</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h5>Home</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-home"></i> <a href="#">Accessories</a></li>
+                                            <li><i class="fa-li fa fa-gamepad"></i> <a href="#">Games</a></li>
+                                            <li><i class="fa-li fa fa-bed"></i> <a href="#">Beds</a></li>
+                                        </ul>
+                                        <hr class="space xs" />
+                                        <h5>Food & drinks</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-coffee"></i> <a href="#">Winter collection</a></li>
+                                            <li><i class="fa-li fa fa-beer"></i> <a href="#">Summer collection</a></li>
+                                            <li><i class="fa-li fa fa-glass"></i> <a href="#">Sunglasses</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown mega-dropdown mega-tabs">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tabs mega dropdown <span class="caret"></span></a>
+                                <div class="mega-menu dropdown-menu multi-level row">
+                                    <div class="tab-box">
+                                        <ul class="nav nav-tabs">
+                                            <li class="active"><a href="#">Home</a></li>
+                                            <li><a href="#">Profile</a></li>
+                                            <li><a href="#">Messages</a></li>
+                                        </ul>
+                                        <div class="panel active">
+                                            <div class="col">
+                                                <h5>Clouthing</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-cloud"></i> <a href="#">Winter collection</a></li>
+                                                    <li><i class="fa-li fa fa-sun-o"></i> <a href="#">Summer collection</a></li>
+                                                    <li><i class="fa-li fa fa-eye"></i> <a href="#">Sunglasses</a></li>
+                                                    <li><i class="fa-li fa fa-bookmark"></i> <a href="#">Bags</a></li>
+                                                    <li><i class="fa-li fa fa-shopping-cart"></i> <a href="#">Shoes</a></li>
+                                                    <li><i class="fa-li fa fa-male"></i> <a href="#">Shirts</a></li>
+                                                    <li><i class="fa-li fa fa-user-plus"></i> <a href="#">Accossories</a></li>
+                                                    <li><i class="fa-li fa fa-exchange"></i> <a href="#">Others</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <h5>Garden & outdoor</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-tree"></i> <a href="#">Winter collection</a></li>
+                                                    <li><i class="fa-li fa fa-thumbs-o-up"></i> <a href="#">Summer collection</a></li>
+                                                    <li><i class="fa-li fa fa-pagelines"></i> <a href="#">Sunglasses</a></li>
+                                                    <li><i class="fa-li fa fa-sun-o"></i> <a href="#">Bags</a></li>
+                                                    <li><i class="fa-li fa fa-leaf"></i> <a href="#">Shoes</a></li>
+                                                    <li><i class="fa-li fa fa-trash"></i> <a href="#">Shirts</a></li>
+                                                    <li><i class="fa-li fa fa-globe"></i> <a href="#">Accossories</a></li>
+                                                    <li><i class="fa-li fa fa-recycle"></i> <a href="#">Others</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <h5>Home</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-home"></i> <a href="#">Accessories</a></li>
+                                                    <li><i class="fa-li fa fa-gamepad"></i> <a href="#">Games</a></li>
+                                                    <li><i class="fa-li fa fa-bed"></i> <a href="#">Beds</a></li>
+                                                </ul>
+                                                <hr class="space xs" />
+                                                <h5>Food & drinks</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-coffee"></i> <a href="#">Winter collection</a></li>
+                                                    <li><i class="fa-li fa fa-beer"></i> <a href="#">Summer collection</a></li>
+                                                    <li><i class="fa-li fa fa-glass"></i> <a href="#">Sunglasses</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="panel">
+                                            <div class="col">
+                                                <h5>Country</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-jpy"></i> <a href="#">Accessories</a></li>
+                                                    <li><i class="fa-li fa fa-joomla"></i> <a href="#">Games</a></li>
+                                                    <li><i class="fa-li fa fa-ge"></i> <a href="#">Beds</a></li>
+                                                    <li><i class="fa-li fa fa-star-half"></i> <a href="#">Bags</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <h5>Stars</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-star"></i> <a href="#">Winter collection</a></li>
+                                                    <li><i class="fa-li fa fa-sun-o"></i> <a href="#">Summer collection</a></li>
+                                                    <li><i class="fa-li fa fa-star-o"></i> <a href="#">Sunglasses</a></li>
+                                                    <li><i class="fa-li fa fa-star-half"></i> <a href="#">Bags</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <h5>Planets</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-heart"></i> <a href="#">Accessories</a></li>
+                                                    <li><i class="fa-li fa fa-heart"></i> <a href="#">Games</a></li>
+                                                    <li><i class="fa-li fa fa-heart"></i> <a href="#">Beds</a></li>
+                                                    <li><i class="fa-li fa fa-sun-o"></i> <a href="#">Summer collection</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <h5>Home</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-home"></i> <a href="#">Accessories</a></li>
+                                                    <li><i class="fa-li fa fa-gamepad"></i> <a href="#">Games</a></li>
+                                                    <li><i class="fa-li fa fa-bed"></i> <a href="#">Beds</a></li>
+                                                    <li><i class="fa-li fa fa-star-half"></i> <a href="#">Bags</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="panel">
+                                            <div class="col">
+                                                <h5>City</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-home"></i> <a href="#">Accessories</a></li>
+                                                    <li><i class="fa-li fa fa-gamepad"></i> <a href="#">Games</a></li>
+                                                    <li><i class="fa-li fa fa-bed"></i> <a href="#">Beds</a></li>
+                                                </ul>
+                                                <hr class="space xs" />
+                                                <h5>Travel</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-cloud"></i> <a href="#">Winter collection</a></li>
+                                                    <li><i class="fa-li fa fa-sun-o"></i> <a href="#">Summer collection</a></li>
+                                                    <li><i class="fa-li fa fa-eye"></i> <a href="#">Sunglasses</a></li>
+                                                    <li><i class="fa-li fa fa-bookmark"></i> <a href="#">Bags</a></li>
+                                                    <li><i class="fa-li fa fa-shopping-cart"></i> <a href="#">Shoes</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <h5>Home</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-home"></i> <a href="#">Accessories</a></li>
+                                                    <li><i class="fa-li fa fa-gamepad"></i> <a href="#">Games</a></li>
+                                                    <li><i class="fa-li fa fa-bed"></i> <a href="#">Beds</a></li>
+                                                </ul>
+                                                <hr class="space xs" />
+                                                <h5>Food & drinks</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-coffee"></i> <a href="#">Winter collection</a></li>
+                                                    <li><i class="fa-li fa fa-beer"></i> <a href="#">Summer collection</a></li>
+                                                    <li><i class="fa-li fa fa-glass"></i> <a href="#">Sunglasses</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Dropdown multi level<i class="caret"></i></a>
+                                <ul class="dropdown-menu multi-level">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                    <li class="dropdown dropdown-submenu">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Single item</a></li>
+                                            <li><a href="#">Single item</a></li>
+                                            <li class="dropdown dropdown-submenu">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#">Single item</a></li>
+                                                    <li><a href="#">Single item</a></li>
+                                                    <li><a href="#">Single item</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-bootstrap">
+        <div class="title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="row vertical-row">
+                            <div class="col-md-2">
+                                <i class="fa fa-info"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <span>Menu component</span>
+                                <h1>Menu dropdowns documentation</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <ol class="breadcrumb b white right-side">
+                            <li><a href="../../index.html">Home</a></li>
+                            <li class="active">Menu dropdowns documentation</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="documentation-subtitle">Usage</h4>
+                <div class="tab-box inverse gray documentation-tab" data-tab-anima="fade-in">
+                    <div class="panel active">
+<pre class="prettyprint">
+&lt;header>
+    &lt;div class="navbar navbar-default" role="navigation">
+        &lt;div class="navbar navbar-main">
+            &lt;div class="container">
+                &lt;div class="navbar-header">
+                    &lt;button type="button" class="navbar-toggle">
+                        &lt;i class="fa fa-bars">&lt;/i>
+                    &lt;/button>
+                    &lt;a class="navbar-brand" href="index.html">&lt;img src="logo.png" alt="logo" />&lt;/a>
+                &lt;/div>
+                &lt;div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    &lt;ul class="nav navbar-nav mega-menu-fullwidth">
+                        &lt;li class="dropdown">
+                            &lt;a class="dropdown-toggle" data-toggle="dropdown" href="#">Icon list &lt;span class="caret">&lt;/span>&lt;/a>
+                            &lt;div class="mega-menu dropdown-menu multi-level row bg-menu" style="background-image:url(image.jpg)">
+                                &lt;div class="col">
+                                    &lt;ul class="fa-ul text-s">
+                                        &lt;li>&lt;i class="fa-li fa fa-cloud">&lt;/i> &lt;a href="#">Winter collection&lt;/a>&lt;/li>
+                                        &lt;li>&lt;i class="fa-li fa fa-sun-o">&lt;/i> &lt;a href="#">Summer collection&lt;/a>&lt;/li>
+                                        &lt;li>&lt;i class="fa-li fa fa-glass">&lt;/i> &lt;a href="#">Sunglasses&lt;/a>&lt;/li>
+                                    &lt;/ul>
+                                &lt;/div>
+                            &lt;/div>
+                        &lt;/li>
+                        &lt;li class="dropdown">
+                            &lt;a class="dropdown-toggle" data-toggle="dropdown" href="#">Icon list mega &lt;span class="caret">&lt;/span>&lt;/a>
+                            &lt;div class="mega-menu dropdown-menu multi-level row">
+                                &lt;div class="col">
+                                    &lt;h5>Clouthing&lt;/h5>
+                                    &lt;ul class="fa-ul text-s">
+                                        &lt;li>&lt;i class="fa-li fa fa-cloud">&lt;/i> &lt;a href="#">Winter collection&lt;/a>&lt;/li>
+                                        &lt;li>&lt;i class="fa-li fa fa-sun-o">&lt;/i> &lt;a href="#">Summer collection&lt;/a>&lt;/li>
+                                        &lt;li>&lt;i class="fa-li fa fa-eye">&lt;/i> &lt;a href="#">Sunglasses&lt;/a>&lt;/li>
+                                    &lt;/ul>
+                                &lt;/div>
+                                &lt;div class="col">
+                                    &lt;h5>Garden & outdoor&lt;/h5>
+                                    &lt;ul class="fa-ul text-s">
+                                        &lt;li>&lt;i class="fa-li fa fa-tree">&lt;/i> &lt;a href="#">Winter collection&lt;/a>&lt;/li>
+                                        &lt;li>&lt;i class="fa-li fa fa-thumbs-o-up">&lt;/i> &lt;a href="#">Summer collection&lt;/a>&lt;/li>
+                                        &lt;li>&lt;i class="fa-li fa fa-pagelines">&lt;/i> &lt;a href="#">Sunglasses&lt;/a>&lt;/li>
+                                    &lt;/ul>
+                                &lt;/div>
+                                &lt;div class="col">
+                                    &lt;h5>Home&lt;/h5>
+                                    &lt;ul class="fa-ul text-s">
+                                        &lt;li>&lt;i class="fa-li fa fa-home">&lt;/i> &lt;a href="#">Accessories&lt;/a>&lt;/li>
+                                        &lt;li>&lt;i class="fa-li fa fa-gamepad">&lt;/i> &lt;a href="#">Games&lt;/a>&lt;/li>
+                                        &lt;li>&lt;i class="fa-li fa fa-bed">&lt;/i> &lt;a href="#">Beds&lt;/a>&lt;/li>
+                                    &lt;/ul>
+                                    &lt;hr class="space xs" />
+                                    &lt;h5>Food & drinks&lt;/h5>
+                                    &lt;ul class="fa-ul text-s">
+                                        &lt;li>&lt;i class="fa-li fa fa-coffee">&lt;/i> &lt;a href="#">Winter collection&lt;/a>&lt;/li>
+                                        &lt;li>&lt;i class="fa-li fa fa-beer">&lt;/i> &lt;a href="#">Summer collection&lt;/a>&lt;/li>
+                                        &lt;li>&lt;i class="fa-li fa fa-glass">&lt;/i> &lt;a href="#">Sunglasses&lt;/a>&lt;/li>
+                                    &lt;/ul>
+                                &lt;/div>
+                            &lt;/div>
+                        &lt;/li>
+                        &lt;li class="dropdown">
+                            &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Dropdown &lt;span class="caret">&lt;/span>&lt;/a>
+                            &lt;ul class="dropdown-menu">
+                                &lt;li>&lt;a href="#">Action&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="#">Another action&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="#">Something else here&lt;/a>&lt;/li>
+                            &lt;/ul>
+                        &lt;/li>
+                        &lt;li class="dropdown">
+                            &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Dropdown multi level&lt;i class="caret">&lt;/i>&lt;/a>
+                            &lt;ul class="dropdown-menu multi-level">
+                                &lt;li>&lt;a href="#">Action&lt;/a>&lt;/li>
+                                &lt;li class="divider">&lt;/li>
+                                &lt;li class="dropdown dropdown-submenu">
+                                    &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown&lt;/a>
+                                    &lt;ul class="dropdown-menu">
+                                        &lt;li>&lt;a href="#">Single item&lt;/a>&lt;/li>
+                                        &lt;li>&lt;a href="#">Single item&lt;/a>&lt;/li>
+                                        &lt;li class="dropdown dropdown-submenu">
+                                            &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown&lt;/a>
+                                            &lt;ul class="dropdown-menu">
+                                                &lt;li>&lt;a href="#">Single item&lt;/a>&lt;/li>
+                                                &lt;li>&lt;a href="#">Single item&lt;/a>&lt;/li>
+                                            &lt;/ul>
+                                        &lt;/li>
+                                    &lt;/ul>
+                                &lt;/li>
+                            &lt;/ul>
+                        &lt;/li>
+                    &lt;/ul>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+&lt;/header>
+</pre>
+                    </div>
+                    <div class="panel">
+                        <pre class="prettyprint">
+&lt;header>
+    ...
+    &lt;ul class="nav navbar-nav">
+        ...
+        &lt;li class="dropdown">
+            &lt;a class="dropdown-toggle" data-toggle="dropdown" href="#">Icon list &lt;span class="caret">&lt;/span>&lt;/a>
+            &lt;div class="mega-menu dropdown-menu multi-level row bg-menu" style="background-image:url(image.jpg)">
+                &lt;div class="col">
+                    &lt;ul class="fa-ul text-s">
+                        &lt;li>&lt;i class="fa-li fa fa-cloud">&lt;/i> &lt;a href="#">Winter collection&lt;/a>&lt;/li>
+                        &lt;li>&lt;i class="fa-li fa fa-sun-o">&lt;/i> &lt;a href="#">Summer collection&lt;/a>&lt;/li>
+                        &lt;li>&lt;i class="fa-li fa fa-glass">&lt;/i> &lt;a href="#">Sunglasses&lt;/a>&lt;/li>
+                    &lt;/ul>
+                &lt;/div>
+            &lt;/div>
+         &lt;/li>
+         ...
+    &lt;/ul>
+    ...
+&lt;/header>
+</pre>
+                    </div>
+                    <div class="panel">
+                        <pre class="prettyprint">
+&lt;header>
+    ...
+    &lt;ul class="nav navbar-nav">
+        ...
+        &lt;li class="dropdown mega-dropdown">
+            &lt;a class="dropdown-toggle" data-toggle="dropdown" href="#">Icon list mega &lt;span class="caret">&lt;/span>&lt;/a>
+            &lt;div class="mega-menu dropdown-menu multi-level row">
+                &lt;div class="col">
+                    &lt;h5>Clouthing&lt;/h5>
+                    &lt;ul class="fa-ul text-s">
+                        &lt;li>&lt;i class="fa-li fa fa-cloud">&lt;/i> &lt;a href="#">Winter collection&lt;/a>&lt;/li>
+                        &lt;li>&lt;i class="fa-li fa fa-sun-o">&lt;/i> &lt;a href="#">Summer collection&lt;/a>&lt;/li>
+                        &lt;li>&lt;i class="fa-li fa fa-eye">&lt;/i> &lt;a href="#">Sunglasses&lt;/a>&lt;/li>
+                    &lt;/ul>
+                &lt;/div>
+                &lt;div class="col">
+                    &lt;h5>Garden & outdoor&lt;/h5>
+                    &lt;ul class="fa-ul text-s">
+                        &lt;li>&lt;i class="fa-li fa fa-tree">&lt;/i> &lt;a href="#">Winter collection&lt;/a>&lt;/li>
+                        &lt;li>&lt;i class="fa-li fa fa-thumbs-o-up">&lt;/i> &lt;a href="#">Summer collection&lt;/a>&lt;/li>
+                        &lt;li>&lt;i class="fa-li fa fa-pagelines">&lt;/i> &lt;a href="#">Sunglasses&lt;/a>&lt;/li>
+                    &lt;/ul>
+                &lt;/div>
+                &lt;div class="col">
+                    &lt;h5>Home&lt;/h5>
+                    &lt;ul class="fa-ul text-s">
+                        &lt;li>&lt;i class="fa-li fa fa-home">&lt;/i> &lt;a href="#">Accessories&lt;/a>&lt;/li>
+                        &lt;li>&lt;i class="fa-li fa fa-gamepad">&lt;/i> &lt;a href="#">Games&lt;/a>&lt;/li>
+                        &lt;li>&lt;i class="fa-li fa fa-bed">&lt;/i> &lt;a href="#">Beds&lt;/a>&lt;/li>
+                    &lt;/ul>
+                    &lt;hr class="space xs" />
+                    &lt;h5>Food & drinks&lt;/h5>
+                    &lt;ul class="fa-ul text-s">
+                        &lt;li>&lt;i class="fa-li fa fa-coffee">&lt;/i> &lt;a href="#">Winter collection&lt;/a>&lt;/li>
+                        &lt;li>&lt;i class="fa-li fa fa-beer">&lt;/i> &lt;a href="#">Summer collection&lt;/a>&lt;/li>
+                        &lt;li>&lt;i class="fa-li fa fa-glass">&lt;/i> &lt;a href="#">Sunglasses&lt;/a>&lt;/li>
+                    &lt;/ul>
+                &lt;/div>
+            &lt;/div>
+        &lt;/li>
+         ...
+    &lt;/ul>
+    ...
+&lt;/header>
+</pre>
+                    </div>
+                    <div class="panel">
+                        <pre class="prettyprint">
+&lt;header>
+    ...
+    &lt;ul class="nav navbar-nav">
+       ...
+       &lt;li class="dropdown mega-dropdown mega-tabs">
+            &lt;a class="dropdown-toggle" data-toggle="dropdown" href="#">Tabs mega dropdown &lt;span class="caret">&lt;/span>&lt;/a>
+            &lt;div class="mega-menu dropdown-menu multi-level row">
+                &lt;div class="tab-box">
+                    &lt;ul class="nav nav-tabs">
+                        &lt;li class="active">&lt;a href="#">Home&lt;/a>&lt;/li>
+                        &lt;li>&lt;a href="#">Profile&lt;/a>&lt;/li>
+                        &lt;li>&lt;a href="#">Messages&lt;/a>&lt;/li>
+                    &lt;/ul>
+                    &lt;div class="panel active">
+                        &lt;div class="col">
+                            &lt;h5>Clouthing&lt;/h5>
+                            &lt;ul class="fa-ul text-s">
+                                &lt;li>&lt;i class="fa-li fa fa-cloud">&lt;/i> &lt;a href="#">Winter collection&lt;/a>&lt;/li>
+                                &lt;li>&lt;i class="fa-li fa fa-sun-o">&lt;/i> &lt;a href="#">Summer collection&lt;/a>&lt;/li>
+                            &lt;/ul>
+                        &lt;/div>
+                        &lt;div class="col">
+                            &lt;h5>Garden & outdoor&lt;/h5>
+                            &lt;ul class="fa-ul text-s">
+                                &lt;li>&lt;i class="fa-li fa fa-globe">&lt;/i> &lt;a href="#">Accossories&lt;/a>&lt;/li>
+                                &lt;li>&lt;i class="fa-li fa fa-recycle">&lt;/i> &lt;a href="#">Others&lt;/a>&lt;/li>
+                            &lt;/ul>
+                        &lt;/div>
+                    &lt;/div>
+                    &lt;div class="panel">
+                        &lt;div class="col">
+                            ...
+                        &lt;/div>
+                    &lt;/div>
+                    &lt;div class="panel">
+                        &lt;div class="col">
+                            ...
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+        &lt;/li>
+        ...
+    &lt;/ul>
+    ...
+&lt;/header>
+</pre>
+                    </div>
+                    <div class="panel">
+                        <pre class="prettyprint">
+&lt;header>
+    ...
+    &lt;ul class="nav navbar-nav">
+        ...
+        &lt;li class="dropdown">
+            &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Dropdown &lt;span class="caret">&lt;/span>&lt;/a>
+            &lt;ul class="dropdown-menu">
+                &lt;li>&lt;a href="#">Action&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#">Another action&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#">Something else here&lt;/a>&lt;/li>
+            &lt;/ul>
+        &lt;/li>
+         ...
+    &lt;/ul>
+    ...
+&lt;/header>
+</pre>
+                    </div>
+                    <div class="panel">
+                        <pre class="prettyprint">
+&lt;header>
+    ...
+    &lt;ul class="nav navbar-nav">
+        ...
+        &lt;li class="dropdown">
+            &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Dropdown multi level&lt;i class="caret">&lt;/i>&lt;/a>
+            &lt;ul class="dropdown-menu multi-level">
+                &lt;li>&lt;a href="#">Action&lt;/a>&lt;/li>
+                &lt;li class="divider">&lt;/li>
+                &lt;li class="dropdown dropdown-submenu">
+                    &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown&lt;/a>
+                    &lt;ul class="dropdown-menu">
+                        &lt;li>&lt;a href="#">Single item&lt;/a>&lt;/li>
+                        &lt;li>&lt;a href="#">Single item&lt;/a>&lt;/li>
+                        &lt;li class="dropdown dropdown-submenu">
+                            &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown&lt;/a>
+                            &lt;ul class="dropdown-menu">
+                                &lt;li>&lt;a href="#">Single item&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="#">Single item&lt;/a>&lt;/li>
+                            &lt;/ul>
+                        &lt;/li>
+                    &lt;/ul>
+                &lt;/li>
+            &lt;/ul>
+        &lt;/li>
+         ...
+    &lt;/ul>
+    ...
+&lt;/header>
+</pre>
+                    </div>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">HTML</a></li>
+                        <li><a href="#">Icon list</a></li>
+                        <li><a href="#">Icon list mega</a></li>
+                        <li><a href="#">Tabs list mega</a></li>
+                        <li><a href="#">Dropdown</a></li>
+                        <li><a href="#">Dropdown multi level</a></li>
+                    </ul>
+                </div>
+                <hr class="space s" />
+                <h4 class="documentation-subtitle">Main settings</h4>
+                <table class="table table-bordered table-striped documentation-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Icons list</td>
+                            <td>Mixed</td>
+                            <td>
+                                Icons list is a feature of <a href="../components.html">components</a>.
+                                Complete documenteation <a href="../components.html">here <i class="fa fa-share"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Mega menu background image</td>
+                            <td>CSS</td>
+                            <td>
+                                To set a background image add class <code>bg-menu</code> and style <code>background-image:url(image.jpg)</code> to item object.
+                                <br />Example: <code>&lt;div class="mega-menu dropdown-menu multi-level row bg-menu" style="background-image:url(image.jpg)"> ... &lt;/div></code>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Mega menu full width</td>
+                            <td>CSS class</td>
+                            <td>
+                                To set full width mega menu add class <code>mega-menu-fullwidth</code> to navbar object.
+                                <br />Example: <code>&lt;div class="navbar navbar-default mega-menu-fullwidth" role="navigation"> ... &lt;/div></code>.
+                                <br /><br />
+                                To set partial full width mega menu add class <code>mega-menu-fullwidth</code> to ul nav object.
+                                <br />Example: <code>&lt;ul class="nav navbar-nav mega-menu-fullwidth"> ... &lt;/ul></code>.
+                                <br /><br />
+                                To remove full width to a single mega menu item add class <code>dropdown</code> to li menu item.
+                                Example: <code>&lt;ul class="nav navbar-nav mega-menu-fullwidth">&lt;li class="dropdown"> ... &lt;/li>&lt;/ul></code>.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Tabs mega menu</td>
+                            <td>Information</td>
+                            <td>
+                                <div class="bs-callout documentation-callout bs-callout documentation-callout-danger">
+                                    <h5>Plugin dependency</h5>
+                                    <p>This feature require Tabs Plugin (<code>../plugins/jquery.tab-accordion.js</code> and <code>../css/components.css</code>)</p>
+                                </div>
+                                Tabs documentation <a href="./../../containers/others.html">here <i class="fa fa-share"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr class="space s" />
+                <div class="bs-callout documentation-callout bs-callout documentation-callout-information">
+                    <h5>Menu global documentation</h5>
+                    <p>Menu big logo is part of <a href="menu-documentation.html">menu global documentation page</a>. Complete documentation <a href="menu-documentation.html">here <i class="fa fa-share"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-center">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.framework-y.com/">Tweet</a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                    <p class="footer-main">
+                        Designed and built with love by <a href="http://www.pixor.it/en/federico-schiocchet/" target="blank">Federico Schiocchet</a>
+                        and <a href="http://www.pixor.it/en/" target="blank">Pixor</a>.
+                        <br />
+                        © All Rights Reserved Federico Schiocchet - Pixor.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <link rel="stylesheet" href="../../plugins/font-awesome/css/font-awesome.min.css">
+        <script src="../../plugins/bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../../style-framework-y.css">
+        <script src="../../plugins/prettify.js"></script>
+        <link rel="stylesheet" href="../../plugins/prettify.css">
+        <link rel="stylesheet" href="../../css/components.css">
+        <script src="../../plugins/jquery.tab-accordion.js"></script>
+    </footer>
+</body>
+</html>

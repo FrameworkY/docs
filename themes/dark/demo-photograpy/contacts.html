@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacts | Photography demo | Framework Y</title>
+    <meta name="description" content="Contacts page classic with contact form in HTML.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../../script.js"></script>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../css/animations.css">
+    <link rel="stylesheet" href="../theme.css">
+    <link rel="icon" href="/images/favicon.png">
+    <!-- Extra optional content header -->
+</head>
+<body class="contacts">
+    <div id="preloader"></div>
+    <header data-menu-anima="fade-left">
+        <div class="navbar navbar-default over wide-area" role="navigation">
+            <div class="navbar navbar-main over">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" /></a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav over">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Home</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="index.html">Home 1</a></li>
+                                    <li><a href="index-1.html">Home 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html">About</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Photos</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="gallery-grid.html">Grid gallery</a></li>
+                                    <li><a href="gallery-masonry.html">Masonry gallery</a></li>
+                                    <li><a href="gallery-album.html">Albums gallery</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Blog</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="blog.html">Classic blog</a></li>
+                                    <li><a href="blog-masonry.html">Masonry blog</a></li>
+                                </ul>
+                            </li>
+                            <li class="current-active"><a href="contacts.html">Contacts</a></li>
+                        </ul>
+                        <div class="nav navbar-nav navbar-right">
+                            <div class="navbar-left custom-area">
+                                +1 800 356 17 49
+                            </div>
+                            <div class="btn-group navbar-left navbar-social">
+                                <div class="btn-group social-group">
+                                    <a target="_blank" href="#"><i class="fa fa-facebook-square"></i></a>
+                                    <a target="_blank" href="#"><i class="fa fa-twitter-square"></i></a>
+                                    <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                                    <a target="_blank" href="#"><i class="fa fa-youtube-square"></i></a>
+                                </div>
+                            </div>
+                            <ul class="nav navbar-nav over lan-menu">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><img src="images/en.png" />EN <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"><img src="images/it.png" />IT</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="section-empty">
+        <div class="google-map" data-address="via bettin 234, italy" data-skin="gray" data-zoom="15" data-marker="http://www.framework-y.com/themes/dark/demo-photograpy/images/marker.png"></div>
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="http://www.framework-y.com/plugins/php/contact-form.php" class="form-box form-ajax" role="form" method="post">
+                        <h3>SEND A MESSAGGE</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Name</p>
+                                <input id="name" name="name" placeholder="name" type="text" class="form-control form-value" required>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Email</p>
+                                <input id="email" name="email" placeholder="email" type="email" class="form-control form-value" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <hr class="space xs" />
+                                <p>Phone</p>
+                                <input id="phone" name="phone" placeholder="phone" type="text" class="form-control form-value">
+                                <hr class="space xs" />
+                                <p>Messagge</p>
+                                <textarea id="messagge" name="messagge" class="form-control form-value" required></textarea>
+                                <hr class="space s" />
+                                <button class="anima-button circle-button btn-sm btn" type="submit"><i class="fa fa-envelope-o"></i>Send messagge</button>
+                            </div>
+                        </div>
+                        <div class="success-box">
+                            <div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
+                        </div>
+                        <div class="error-box">
+                            <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h3>HOW TO REACH US</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <hr class="space s" />
+                    <h3>OUR ADDRESS</h3>
+                    <p>
+                        Sturlly Technologies<br />
+                        PO Box 16122, Collins Street West,<br />
+                        Victoria 8007, United States.<br />
+                    </p>
+                    <hr class="space s" />
+                    <h3 class="subtitle">CONTACTS</h3>
+                    <ul class="fa-ul text-s">
+                        <li><i class="fa-li fa fa-phone"></i>(+39) 320-30500975</li>
+                        <li><i class="fa-li fa fa-comments-o"></i>hello@pixor.it</li>
+                        <li><i class="fa-li fa fa-link"></i><a href="http://www.pixor.it/">www.pixor.it</a></li>
+                    </ul>
+                </div>
+                <hr class="space" />
+                <div class="col-md-12 text-center">
+                    <div class="btn-group" role="group">
+                        <a class="btn btn-default"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-default"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-default"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-default"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-default"><i class="fa fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="wide-area">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 footer-left">
+                        <p>Copyright © 2021 Framework Y WordPress Theme. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 footer-right">
+                        <span>+1 800 355 21 05</span>
+                        <span class="space"></span>
+                        <div class="btn-group navbar-social">
+                            <div class="btn-group social-group">
+                                <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                                <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <link async rel="stylesheet" href="../../../plugins/font-awesome/css/font-awesome.min.css">
+        <script async src="../../../plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../../../plugins/imagesloaded.min.js"></script>
+        <script src='../../../plugins/google.maps.min.js'></script>
+        <script src='https://maps.googleapis.com/maps/api/js?sensor=false'></script>
+        <script src='../../../plugins/php/contact-form.js'></script>
+    </footer>
+</body>
+</html>

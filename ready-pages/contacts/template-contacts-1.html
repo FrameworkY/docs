@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacts template | ready pages | Framework Y</title>
+    <meta name="description" content="Contacts page with Google Maps and custom marker, online form for sending a messagge and contact infos.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../script.js"></script>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="/favicon.ico">
+    <script src="../../script-framework-y.js"></script>
+    <!-- Extra optional content header -->
+</head>
+<body>
+    <div id="preloader"></div>
+    <header class="fixed-top" data-menu-anima="fade-in">
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="navbar navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="../../index.html"><img src="../../images/logo.png" alt="logo" /></a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="google-map" data-address="via bettin 234, italy" data-skin="gray" data-zoom="15" data-marker="http://www.framework-y.com/images/marker-map.png"></div>
+    <div class="section-empty">
+        <div class="container content">
+            <hr class="space" />
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="http://www.framework-y.com/plugins/php/contact-form.php" class="form-box form-ajax" role="form" method="post">
+                        <h3>SEND A MESSAGGE</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Name</p>
+                                <input id="name" name="name" placeholder="name" type="text" class="form-control form-value" required>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Email</p>
+                                <input id="email" name="email" placeholder="email" type="email" class="form-control form-value" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <hr class="space xs" />
+                                <p>Phone</p>
+                                <input id="phone" name="phone" placeholder="phone" type="text" class="form-control form-value">
+                                <hr class="space xs" />
+                                <p>Messagge</p>
+                                <textarea id="messagge" name="messagge" class="form-control form-value" required></textarea>
+                                <hr class="space s" />
+                                <button class="anima-button circle-button btn-sm btn" type="submit"><i class="fa fa-envelope-o"></i>Send messagge</button>
+                            </div>
+                        </div>
+                        <div class="success-box">
+                            <div class="alert alert-success">Congratulations. Your message has been sent successfully</div>
+                        </div>
+                        <div class="error-box">
+                            <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h3>HOW TO REACH US</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <hr class="space s" />
+                    <h3>OUR ADDRESS</h3>
+                    <p>
+                        Sturlly Technologies<br />
+                        PO Box 16122, Collins Street West,<br />
+                        Victoria 8007, United States.<br />
+                    </p>
+                    <hr class="space s" />
+                    <h3 class="subtitle">CONTACTS</h3>
+                    <ul class="fa-ul text-s">
+                        <li><i class="fa-li fa fa-phone"></i>(+39) 320-30500975</li>
+                        <li><i class="fa-li fa fa-comments-o"></i>hello@pixor.it</li>
+                        <li><i class="fa-li fa fa-link"></i><a href="http://www.pixor.it/">www.pixor.it</a></li>
+                    </ul>
+                </div>
+                <hr class="space" />
+                <div class="col-md-12 text-center">
+                    <div class="btn-group" role="group">
+                        <a class="btn btn-default"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-default"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-default"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-default"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-default"><i class="fa fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-center">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.framework-y.com/">Tweet</a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                    <p class="footer-main">
+                        Designed and built with love by <a href="http://www.pixor.it/en/federico-schiocchet/" target="blank">Federico Schiocchet</a>
+                        and <a href="http://www.pixor.it/en/" target="blank">Pixor</a>.
+                        <br />
+                        © All Rights Reserved Federico Schiocchet - Pixor.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <link rel="stylesheet" href="../../plugins/font-awesome/css/font-awesome.min.css">
+        <script src="../../plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src='../../plugins/php/contact-form.js'></script>
+        <script src='../../plugins/google.maps.min.js'></script>
+        <script src='https://maps.googleapis.com/maps/api/js?sensor=false'></script>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,435 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restaurant | Hotel demo | Framework Y</title>
+    <meta name="description" content="Restaurant, food and drinks page built with HTML template and lateral menu.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../../script.js"></script>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href='../../../plugins/flexslider/flexslider.css'>
+    <link rel="stylesheet" href='../../../css/image-box.css'>
+    <link rel="stylesheet" href='../../../plugins/magnific-popup.css'>
+
+    <link rel="stylesheet" href="../theme.css">
+</head>
+<body class="side-menu-container">
+    <div id="preloader"></div>
+    <header class="side-menu-header side-menu-lateral" data-menu-anima="default">
+        <div class="navbar-header">
+            <a class="hamburger-button" data-menu-anima="fade-left">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" /></a>
+        </div>
+        <div class="side-menu-fixed">
+            <div class="top-area">
+                <a class="brand" href="index.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </div>
+            <aside class="sidebar mi-menu">
+                <nav class="sidebar-nav scroll-content">
+                    <ul class="side-menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="panel-item">
+                            <span>Rooms<span class="fa arrow"></span></span>
+                            <div class="collapse panel bg-menu" style="background-image:url(images/menu-bg.png)">
+                                <ul class="collapse" style="margin-top:169px;">
+                                    <li><a href="room.html">Deluxe room</a></li>
+                                    <li><a href="room.html">Family room</a></li>
+                                    <li><a href="room.html">Single room</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="restaurant.html">Restaurant</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <div class="bottom-area">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                    <img src="../../../images/en.png" />
+                </a>
+                <span class="space"></span>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                    <img src="../../../images/it.png" />
+                </a>
+                <hr class="space xs" />
+                <div class="social-group">
+                    <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                    <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                    <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                    <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+                <p>Copyright 2016. All rights reserved. </p>
+            </div>
+        </div>
+    </header>
+    <div class="section-bg-image box-middle-container overlay-container full-screen-size parallax-window" data-natural-height="921" data-natural-width="1600" data-parallax="scroll" data-image-src="images/wide-1.jpg">
+        <div class="container content overlay-content box-middle white text-center">
+            <hr class="space" />
+            <p>FROM 1965 OUR FAMILY BELIVE IN THIS</p>
+            <h1 class="main-title text-xl">A HISTORY LONG 53 YEARS</h1>
+            <hr class="space s" />
+            <hr class="e" />
+            <hr class="space s" />
+            <p>
+                L'orem ipsum dolor, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore<br />
+                magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+            </p>
+            <hr class="space" />
+        </div>
+    </div>
+    <div class="section-bg-image box-middle-container overlay-container parallax-window" data-natural-height="921" data-natural-width="1600" data-parallax="scroll" data-image-src="images/bg-texture-2.jpg">
+        <div class="container content overlay-content box-middle">
+            <hr class="space" />
+            <div class="row">
+                <div class="col-md-6">
+                    <p>STAY CALM AND RELAX</p>
+                    <h1 class="main-title text-xl">ENJOY OUR SPA WITH SAUNA<br /> AND SWIMMING POOL</h1>
+                    <hr class="space s" />
+                    <hr class="e" />
+                    <hr class="space s" />
+                    <p>
+                        L'orem ipsum dolor, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. L'orem ipsum dolor, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="flexslider slider white visible-dir-nav" data-options="controlNav:false">
+                        <ul class="slides">
+                            <li>
+                                <a class="img-box thumbnail img-scale-rotate lightbox" href="images/about-large-1.jpg" data-lightbox-anima="fade-in">
+                                    <img src="images/about-1.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box thumbnail img-scale-rotate lightbox" href="images/about-large-2.jpg" data-lightbox-anima="fade-in">
+                                    <img src="images/about-2.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box thumbnail img-scale-rotate lightbox" href="images/about-large-3.jpg" data-lightbox-anima="fade-in">
+                                    <img src="images/about-3.jpg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box thumbnail img-scale-rotate lightbox" href="images/about-large-4.jpg" data-lightbox-anima="fade-in">
+                                    <img src="images/about-4.jpg" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="space" />
+        </div>
+    </div>
+    <div class="section-bg-image box-middle-container overlay-container full-screen-size parallax-window" data-natural-height="921" data-natural-width="1600" data-parallax="scroll" data-image-src="images/wide-2.jpg">
+        <div class="container content overlay-content box-middle white text-center">
+            <hr class="space" />
+            <p>HUMAN FREE NATURE</p>
+            <h1 class="main-title text-xl">A BEAUTIFUL PLACE</h1>
+            <hr class="space s" />
+            <hr class="e" />
+            <hr class="space s" />
+            <p>
+                L'orem ipsum dolor, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore<br />
+                magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+            </p>
+            <hr class="space" />
+        </div>
+    </div>
+    <div class="section-bg-image box-middle-container overlay-container parallax-window" data-natural-height="921" data-natural-width="1600" data-parallax="scroll" data-image-src="images/bg-texture-2.jpg">
+        <div class="container content overlay-content box-middle text-center">
+            <hr class="space" />
+            <p>SOME OF NEAR PLACE TO VISIT</p>
+            <h1 class="main-title text-xl">LOCATIONS NEAR THE HOTEL</h1>
+            <hr class="space s" />
+            <hr class="e" />
+            <hr class="space s" />
+            <div class="flexslider carousel visible-dir-nav outer-navs" data-options="minWidth:150,itemMargin:8,numItems:4" style="height:200px">
+                <ul class="slides">
+                    <li>
+                        <div class="img-box adv-img adv-img-classic-box white">
+                            <a class="img-box lightbox mpf-inline" href="#ADV_BOX_1" data-lightbox-anima="fade-in">
+                                <img src="images/nature-1.jpg">
+                            </a>
+                            <div class="caption">
+                                <div class="caption-inner">
+                                    <h2>ANIMALS OF THE FOREST</h2>
+                                    <p class="sub-text">10 minuts by walk </p>
+                                    <p class="big-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box adv-img adv-img-classic-box white">
+                            <a class="img-box lightbox mpf-inline" href="#ADV_BOX_2" data-lightbox-anima="fade-in">
+                                <img src="images/nature-2.jpg">
+                            </a>
+                            <div class="caption">
+                                <div class="caption-inner">
+                                    <h2>BOAT TRIP</h2>
+                                    <p class="sub-text">13 minuts by walk </p>
+                                    <p class="big-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box adv-img adv-img-classic-box white">
+                            <a class="img-box lightbox mpf-inline" href="#ADV_BOX_3" data-lightbox-anima="fade-in">
+                                <img src="images/nature-3.jpg">
+                            </a>
+                            <div class="caption">
+                                <div class="caption-inner">
+                                    <h2>MAGNIFIC LAKE</h2>
+                                    <p class="sub-text">5 minuts by walk </p>
+                                    <p class="big-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box adv-img adv-img-classic-box white">
+                            <a class="img-box lightbox mpf-inline" href="#ADV_BOX_4" data-lightbox-anima="fade-in">
+                                <img src="images/nature-4.jpg">
+                            </a>
+                            <div class="caption">
+                                <div class="caption-inner">
+                                    <h2>MAGICAL SUNSETS</h2>
+                                    <p class="sub-text">25 minuts by walk </p>
+                                    <p class="big-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box adv-img adv-img-classic-box white">
+                            <a class="img-box lightbox mpf-inline" href="#ADV_BOX_5" data-lightbox-anima="fade-in">
+                                <img src="images/nature-5.jpg">
+                            </a>
+                            <div class="caption">
+                                <div class="caption-inner">
+                                    <h2>THE FLOWER ROAD</h2>
+                                    <p class="sub-text">18 minuts by walk </p>
+                                    <p class="big-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box adv-img adv-img-classic-box white">
+                            <a class="img-box lightbox mpf-inline" href="#ADV_BOX_6" data-lightbox-anima="fade-in">
+                                <img src="images/nature-6.jpg">
+                            </a>
+                            <div class="caption">
+                                <div class="caption-inner">
+                                    <h2>SKY CHURCH</h2>
+                                    <p class="sub-text">10 minuts by walk </p>
+                                    <p class="big-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="ADV_BOX_1" class="box-lightbox l">
+                <div class="row">
+                    <div class="col-md-7">
+                        <img src="images/nature-1.jpg" />
+                    </div>
+                    <div class="col-md-5">
+                        <h3>ANIMALS OF THE FOREST</h3>
+                        <hr class="e" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                        <hr class="space s" />
+                        <p class="text-uppercase">5 minuts by walk - from our hotel</p>
+                    </div>
+                </div>
+            </div>
+            <div id="ADV_BOX_2" class="box-lightbox l">
+                <div class="row">
+                    <div class="col-md-7">
+                        <img src="images/nature-2.jpg" />
+                    </div>
+                    <div class="col-md-5">
+                        <h3>BOAT TRIP</h3>
+                        <hr class="e" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                        <hr class="space s" />
+                        <p class="text-uppercase">5 minuts by walk - from our hotel</p>
+                    </div>
+                </div>
+            </div>
+            <div id="ADV_BOX_3" class="box-lightbox l">
+                <div class="row">
+                    <div class="col-md-7">
+                        <img src="images/nature-3.jpg" />
+                    </div>
+                    <div class="col-md-5">
+                        <h3>MAGNIFIC LAKE</h3>
+                        <hr class="e" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                        <hr class="space s" />
+                        <p class="text-uppercase">5 minuts by walk - from our hotel</p>
+                    </div>
+                </div>
+            </div>
+            <div id="ADV_BOX_4" class="box-lightbox l">
+                <div class="row">
+                    <div class="col-md-7">
+                        <img src="images/nature-4.jpg" />
+                    </div>
+                    <div class="col-md-5">
+                        <h3>MAGICAL SUNSETS</h3>
+                        <hr class="e" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                        <hr class="space s" />
+                        <p class="text-uppercase">5 minuts by walk - from our hotel</p>
+                    </div>
+                </div>
+            </div>
+            <div id="ADV_BOX_5" class="box-lightbox l">
+                <div class="row">
+                    <div class="col-md-7">
+                        <img src="images/nature-5.jpg" />
+                    </div>
+                    <div class="col-md-5">
+                        <h3>THE FLOWER ROAD</h3>
+                        <hr class="e" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                        <hr class="space s" />
+                        <p class="text-uppercase">5 minuts by walk - from our hotel</p>
+                    </div>
+                </div>
+            </div>
+            <div id="ADV_BOX_6" class="box-lightbox l">
+                <div class="row">
+                    <div class="col-md-7">
+                        <img src="images/nature-6.jpg" />
+                    </div>
+                    <div class="col-md-5">
+                        <h3>SKY CHURCH</h3>
+                        <hr class="e" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                        <hr class="space s" />
+                        <p class="text-uppercase">5 minuts by walk - from our hotel</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="space" />
+        </div>
+    </div>
+    <div class="section-bg-image box-middle-container overlay-container full-screen-size parallax-window" data-natural-height="921" data-natural-width="1600" data-parallax="scroll" data-image-src="images/wide-3.jpg">
+        <div class="container content overlay-content box-middle white text-center">
+            <hr class="space" />
+            <p>YOU ARE WELCOME</p>
+            <h1 class="main-title text-xl">COME TO VISIT US</h1>
+            <hr class="space s" />
+            <hr class="e" />
+            <hr class="space s" />
+            <p>
+                L'orem ipsum dolor, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore<br />
+                magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+            </p>
+            <hr class="space" />
+
+        </div>
+    </div>
+    <footer>
+        <link async rel="stylesheet" href="../../../plugins/font-awesome/css/font-awesome.min.css">
+        <script async src="../../../plugins/bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../../../css/animations.css">
+        <script src="../../../plugins/imagesloaded.min.js"></script>
+        <script src='../../../plugins/flexslider/jquery.flexslider-min.js'></script>
+        <script src="../../../plugins/parallax.min.js"></script>
+        <script src="../../../plugins/jquery.magnific-popup.min.js"></script>
+        <script src='../../../plugins/jquery.slimscroll.min.js'></script>
+        <style>
+            .img-box.thumbnail {
+                border: 1px solid #888 !important;
+            }
+
+            .adv-img-classic-box .caption {
+                top: 4px;
+                bottom: 4px;
+                right: 4px;
+                width: auto;
+                left: 4px;
+                height: auto;
+            }
+
+            .adv-img-classic-box {
+                border: 1px solid #888 !important;
+                border-radius: 4px;
+                padding: 4px;
+            }
+
+            .box-lightbox {
+                padding: 0 25px 0 0;
+            }
+
+                .box-lightbox .col-md-5 {
+                    padding: 25px 15px;
+                }
+            @media (max-width: 768px) {
+                 .box-lightbox {
+                padding: 10px;
+                margin: 35px 5px;
+            }
+            }
+        </style>
+    </footer>
+</body>
+
+</html>

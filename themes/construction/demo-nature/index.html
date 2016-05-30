@@ -1,0 +1,412 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Nature demo | Framework Y</title>
+    <meta name="description" content="Template HTML construction and building theme demo.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../../script.js"></script>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../css/image-box.css">
+    <link rel="stylesheet" href="../../../css/content-box.css">
+    <link rel="stylesheet" href="../../../css/animations.css">
+    <link rel="stylesheet" href='../../../plugins/flexslider/flexslider.css'>
+    <link rel="stylesheet" href="../theme.css">
+    <link rel="icon" href="/images/favicon.png">
+    <!-- Extra optional content header -->
+</head>
+<body>
+    <div id="preloader"></div>
+    <header class="bg-transparent menu-transparent scroll-change">
+        <div class="navbar navbar-default navbar-fixed-top over" role="navigation">
+            <div class="navbar navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand scroll-hide" href="index.html"><img src="images/logo-light.png" alt="logo" /></a>
+                        <a class="navbar-brand scroll-show" href="index.html"><img src="images/logo.png" alt="logo" /></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <div class="nav navbar-nav navbar-right">
+                            <ul class="nav navbar-nav over">
+                                <li class="active current-active"><a href="index.html">Home</a></li>
+                                <li><a href="accomodations.html">Accomodations</a></li>
+                                <li><a href="activites.html">Activites</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contacts.html">Contacts</a></li>
+                            </ul>
+                            <ul class="nav navbar-nav over lan-menu">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                                        <img src="images/en.png" />EN <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"><img src="images/it.png" />IT</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="section-slider" style="height:550px;">
+        <div class="flexslider advanced-slider slider white" data-options="animation:fade">
+            <ul class="slides">
+                <li data-slider-anima="fade-right" data-timeline="asc" data-time="2000">
+                    <div class="section-slide">
+                        <div class="bg-cover" style="background-image:url('images/slide-1.jpg')"></div>
+                        <div class="container">
+                            <img class="pos-slider pos-bottom pos-right anima anima-fade-bottom" height="405" src="images/animals.png" />
+                            <div class="container-middle">
+                                <div class="container-inner white text-left">
+                                    <h1 class="text-bold text-xl anima">EXPLORE THE NATURE</h1>
+                                    <p class="anima">
+                                        Lorem ipsum dolor sit amet, consectetur <br />adipisicing elit, sed do eiusmod
+                                        tempor incididunt.
+                                    </p>
+                                    <hr class="space s" />
+                                    <button class="btn btn-default anima" type="button">Show service</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li data-slider-anima="show-scale" data-timeline="asc" data-time="2000" data-timeline-time="1000">
+                    <div class="section-slide">
+                        <div class="bg-cover" style="background-image:url('images/slide-2.jpg')"></div>
+                        <div class="container">
+                            <div class="container-middle">
+                                <div class="container-inner white">
+                                    <h1 class="text-bold text-xl anima">SAFARI TOUR FOR ALL FAMILY</h1>
+                                    <p class="anima">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt.
+                                    </p>
+                                    <hr class="space s" />
+                                    <button class="btn btn-default anima" type="button">Who we are</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li data-slider-anima="fade-right" data-timeline="asc" data-time="2000">
+                    <div class="section-slide">
+                        <div class="bg-cover" style="background-image:url('images/slide-3.jpg')"></div>
+                        <div class="container">
+                            <div class="container-middle">
+                                <div class="container-inner white text-left">
+                                    <h1 class="text-bold text-xl anima">LOCAL BIO PRODUCTS</h1>
+                                    <p class="anima">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br />
+                                        tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br />
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                    </p>
+                                    <hr class="space s" />
+                                    <button class="btn btn-default anima" type="button">Show prices</button>
+                                </div>
+                            </div>
+                            <img class="pos-slider pos-middle pos-right anima anima-show-scale hidden-xs" height="154" style="z-index:2" src="images/flower1.png" />
+                            <img class="pos-slider pos-middle pos-right anima anima-show-scale hidden-xs" height="138" style="z-index:3" src="images/flower2.png" />
+                            <img class="pos-slider pos-middle pos-right anima anima-show-scale hidden-xs" height="285" style="z-index:1" src="images/fruit-1.png" />
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="section-empty">
+        <hr class="space" />
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-10 text-center">
+                    <div class="title-base title-small " data-anima="show-scale" data-trigger="hover">
+                        <h2>WHO WE ARE</h2>
+                        <hr class="anima" />
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore aliqua. Ut enim ad minim venia xercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat duis aute irure dolor.  Lorem ipsum dol  consectetur adipisicing elit, sed <br />do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis xercitation ullamco<br /> laboris nisi ut
+                        aliquip ex ea commodo consequat duis aute irure dolor.
+                        <br /><br />
+                        Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis<br /> xercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat duis aute irure dolor.
+                    </p>
+                </div>
+                <div class="col-md-1">
+                </div>
+            </div>
+            <hr class="space" />
+            <div class="title-base title-small text-center" data-anima="show-scale" data-trigger="hover">
+                <h2>LATEST PROMOTIONS</h2>
+                <hr class="anima" />
+            </div>
+            <div class="row" data-anima="fade-bottom">
+                <div class="col-md-3">
+                    <div class="advs-box advs-box-top-icon" data-anima="rotate-20" data-trigger="hover">
+                        <i class="fa text-m icon circle onlycover anima" style="background-image:url('images/promotion_1.jpg')"></i>
+                        <h4>LOCAL FOOD</h4>
+                        <p>
+                            L'orem ipsum dolor "sitamet", consectetur 'adipisicing' elit, sed do eiusmod tempor incididunt
+                            ut labore.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="advs-box advs-box-top-icon" data-anima="rotate-20" data-trigger="hover">
+                        <i class="fa text-m icon circle onlycover anima" style="background-image:url('images/promotion_2.jpg')"></i>
+                        <h4>SAFARI TOUR</h4>
+                        <p>
+                            L'orem ipsum dolor "sitamet", consectetur 'adipisicing' elit, sed do eiusmod tempor incididunt
+                            ut labore.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="advs-box advs-box-top-icon" data-anima="rotate-20" data-trigger="hover">
+                        <i class="fa text-m icon circle onlycover anima" style="background-image:url('images/promotion_3.jpg')"></i>
+                        <h4>AWESOME RESORTS</h4>
+                        <p>
+                            L'orem ipsum dolor "sitamet", consectetur 'adipisicing' elit, sed do eiusmod tempor incididunt
+                            ut labore.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="advs-box advs-box-top-icon" data-anima="rotate-20" data-trigger="hover">
+                        <i class="fa text-m icon circle onlycover anima" style="background-image:url('images/promotion_4.jpg')"></i>
+                        <h4>LOCAL DRINKS</h4>
+                        <p>
+                            L'orem ipsum dolor "sitamet", consectetur 'adipisicing' elit, sed do eiusmod tempor incididunt
+                            ut labore.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="space" />
+    </div>
+    <div class="section-bg-image parallax-window box-middle-container" style="height:500px;" data-natural-height="600" data-natural-width="1980" data-parallax="scroll" data-image-src="images/bg-wide.jpg">
+        <div class="container content overlay-content white text-center">
+            <div class="box-middle">
+                <h1 class="text-xl">MEET PEOPLE OF OTHER LANDS</h1>
+                <p>
+                    L'orem ipsum dolor, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore<br />
+                    magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="section-empty">
+        <hr class="space " />
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title-base title-small text-left" data-anima="show-scale" data-trigger="hover">
+                        <h2>TOP ACCOMODATIONS</h2>
+                        <hr class="anima" />
+                    </div>
+                </div>
+            </div>
+            <div class="row vertical-row">
+                <div class="col-md-7">
+                    <div class="flexslider carousel outer-navs" data-options="minWidth:250,itemMargin:15,numItems:2">
+                        <ul class="slides">
+                            <li>
+                                <a class="img-box adv-circle circle adv-circle-center-2 show" href="#">
+                                    <i class="fa fa-scissors anima"></i>
+                                    <img src="images/thumb-1.jpg">
+                                    <div class="caption">
+                                        <div class="inner">
+                                            <h2>BORA BORA - SEA HOME</h2>
+                                            <p>Sed do eiusmod tempor incididunt ut labore</p>
+                                            <p class="sub">FROM <b>25 € / day</b> </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box adv-circle circle adv-circle-center-2 show" href="#">
+                                    <i class="fa fa-scissors"></i>
+                                    <img src="images/thumb-2.jpg">
+                                    <div class="caption">
+                                        <div class="inner">
+                                            <h2>JUNGLE - TWO FLORS TREE HOUSE</h2>
+                                            <p>Sed do eiusmod tempor incididunt ut labore</p>
+                                            <p class="sub">FROM <b>25 € / day</b> </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box adv-circle circle adv-circle-center-2 show" href="#">
+                                    <i class="fa fa-scissors"></i>
+                                    <img src="images/thumb-3.jpg">
+                                    <div class="caption">
+                                        <div class="inner">
+                                            <h2>THE LUXURY BIG COTTAGE</h2>
+                                            <p>Sed do eiusmod tempor incididunt ut labore</p>
+                                            <p class="sub">FROM <b>275 € / day</b> </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box adv-circle circle adv-circle-center-2 show" href="#">
+                                    <i class="fa fa-scissors anima"></i>
+                                    <img src="images/thumb-4.jpg">
+                                    <div class="caption anima">
+                                        <div class="inner">
+                                            <h2>THE LUXURY PRIVE FOR COUPLES</h2>
+                                            <p>Sed do eiusmod tempor incididunt ut labore</p>
+                                            <p class="sub">FROM <b>130 € / day</b> </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Ut enim ad minim venia xercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor. Lorem ipsum dol consectetur adipisicing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis xercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="section-empty">
+        <hr class="space " />
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title-base title-small text-right" data-anima="show-scale" data-trigger="hover">
+                        <h2>TOP ACTIVITES</h2>
+                        <hr class="anima" />
+                    </div>
+                </div>
+            </div>
+            <div class="row vertical-row">
+                <div class="col-md-4">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Ut enim ad minim venia xercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor. Lorem ipsum dol consectetur adipisicing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis xercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.
+                    </p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-7">
+                    <div class="flexslider carousel outer-navs" data-options="minWidth:250,itemMargin:15,numItems:2">
+                        <ul class="slides">
+                            <li>
+                                <a class="img-box adv-circle circle adv-circle-center-2 show" href="#">
+                                    <i class="fa fa-scissors anima"></i>
+                                    <img src="images/thumb-1b.jpg">
+                                    <div class="caption">
+                                        <div class="inner">
+                                            <h2>QUAD RACING</h2>
+                                            <p>Sed do eiusmod tempor incididunt ut labore</p>
+                                            <p class="sub">FROM <b>35 € / hour</b> </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box adv-circle circle adv-circle-center-2 show" href="#">
+                                    <i class="fa fa-scissors"></i>
+                                    <img src="images/thumb-2b.jpg">
+                                    <div class="caption">
+                                        <div class="inner">
+                                            <h2>SAFARI TOUR</h2>
+                                            <p>Sed do eiusmod tempor incididunt ut labore</p>
+                                            <p class="sub">FROM <b>155 €</b> </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box adv-circle circle adv-circle-center-2 show" href="#">
+                                    <i class="fa fa-scissors"></i>
+                                    <img src="images/thumb-3b.jpg">
+                                    <div class="caption">
+                                        <div class="inner">
+                                            <h2>THE UBUNTU TRIBÙ</h2>
+                                            <p>Sed do eiusmod tempor incididunt ut labore</p>
+                                            <p class="sub">FROM <b>275 €</b> </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-box adv-circle circle adv-circle-center-2 show" href="#">
+                                    <i class="fa fa-scissors anima"></i>
+                                    <img src="images/thumb-4b.jpg">
+                                    <div class="caption anima">
+                                        <div class="inner">
+                                            <h2>AFRICAN ANIMALS</h2>
+                                            <p>Sed do eiusmod tempor incididunt ut labore</p>
+                                            <p class="sub">FROM <b>130 €</b> </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-center footer-minimal">
+        <div class="content">
+            <div class="container">
+                <div class="row footer-main">
+                    <p class="footer-title">CONTACTS</p>
+                    <p>Bedford-Stuyvesant, Brooklyn, New York, United States</p>
+                    <p>federico@framework.com    (+05) 320 3057970    Skype fede.pixor</p>
+                    <hr class="space xs" />
+                    <div class="btn-group navbar-social">
+                        <div class="btn-group social-group">
+                            <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row copy-row">
+                    <div class="col-md-12 copy-text">
+                        <div class="tag-row">
+                            <span>© ALL RIGHTS RESERVED</span>
+                            <span>FRAMEWORK Y</span>
+                            <span>ENVATO MARKETPLACE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <link async rel="stylesheet" href="../../../plugins/font-awesome/css/font-awesome.min.css">
+        <script async src="../../../plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../../../plugins/imagesloaded.min.js"></script>
+        <script src='../../../plugins/flexslider/jquery.flexslider-min.js'></script>
+        <script src='../../../plugins/parallax.min.js'></script>
+    </footer>
+</body>
+</html>

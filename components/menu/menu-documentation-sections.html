@@ -1,0 +1,766 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu documentation sections| components | Framework Y</title>
+    <meta name="description" content="All sections of a complete HTML/CSS menu.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../script.js"></script>
+    <script src="../../script-framework-y.js"></script>
+    <link rel="stylesheet" href="../../style-framework-y.css">
+    <link rel="stylesheet" href="../../style.css">
+
+    <link rel="icon" href="/favicon.ico"> <!-- Extra optional content header -->
+</head>
+<body>
+    <div id="preloader"></div>
+    <header class="fixed-top demo">
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="navbar-mini scroll-hide">
+                <div class="container">
+                    <div class="nav navbar-nav navbar-left">
+                        <span><i class="fa fa-phone"></i>+1-23-4226789</span>
+                        <hr />
+                        <span><i class="fa fa-envelope-o"></i>hello@pixor.com</span>
+                    </div>
+                    <div class="nav navbar-nav navbar-right">
+                        <ul class="nav navbar-nav lan-menu">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><img src="../../images/en.png" />EN <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><img src="../../images/it.png" />IT</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="navbar-form" role="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search for...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">GO</button>
+                                </span>
+                            </div>
+                        </form>
+                        <div class="minisocial-group">
+                            <a target="_blank" href="#"><i class="fa fa-facebook first"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--NAVBAR BIG-->
+            <div class="navbar navbar-big scroll-hide">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="../../index.html"><img src="../../images/logo.png" alt="logo" /></a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">About <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="nav navbar-nav navbar-right">
+                            <form class="navbar-form" role="search">
+                                <!--SEARCH B-->
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search for...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="submit">GO</button>
+                                    </span>
+                                </div>
+                                <!--SEARCH C-->
+                                <div class="search-box-menu">
+                                    <div class="search-box scrolldown">
+                                        <input type="text" class="form-control" placeholder="Search for...">
+                                    </div>
+                                    <button type="button" class="btn btn-default btn-search">
+                                        <span class="fa fa-search"></span>
+                                    </button>
+                                </div>
+                            </form>
+                            <!--SOCIAL ICONS-->
+                            <div class="btn-group navbar-social">
+                                <div class="btn-group social-group">
+                                    <a target="_blank" href="#"><i class="fa fa-facebook-square"></i></a>
+                                    <a target="_blank" href="#"><i class="fa fa-twitter-square"></i></a>
+                                    <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                                    <a target="_blank" href="#"><i class="fa fa-youtube-square"></i></a>
+                                </div>
+                            </div>
+                            <ul class="nav navbar-nav lan-menu">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><img src="../../images/en.png" />EN <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"><img src="../../images/it.png" />IT</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="navbar-left custom-area">
+                                <img src="../../images/custom-area.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--NAVBAR MAIN-->
+            <div class="navbar navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="../../index.html"><img src="../../images/logo.png" alt="logo" /></a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">About <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="nav navbar-nav navbar-right">
+                            <form class="navbar-form" role="search">
+                                <!--SEARCH B-->
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search for...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="submit">GO</button>
+                                    </span>
+                                </div>
+                                <!--SEARCH C-->
+                                <div class="search-box-menu">
+                                    <div class="search-box scrolldown">
+                                        <input type="text" class="form-control" placeholder="Search for...">
+                                    </div>
+                                    <button type="button" class="btn btn-default btn-search">
+                                        <span class="fa fa-search"></span>
+                                    </button>
+                                </div>
+                            </form>
+                            <!--SOCIAL ICONS-->
+                            <div class="btn-group navbar-social">
+                                <div class="btn-group social-group">
+                                    <a target="_blank" href="#"><i class="fa fa-facebook-square"></i></a>
+                                    <a target="_blank" href="#"><i class="fa fa-twitter-square"></i></a>
+                                    <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                                    <a target="_blank" href="#"><i class="fa fa-youtube-square"></i></a>
+                                </div>
+                            </div>
+                            <div class="custom-area">
+                                <img src="../../images/custom-area.png" />
+                            </div>
+                            <ul class="nav navbar-nav lan-menu">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><img src="../../images/en.png" />EN <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"><img src="../../images/it.png" />IT</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-bootstrap">
+        <div class="title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="row vertical-row">
+                            <div class="col-md-2">
+                                <i class="fa fa-info"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <span>Menu component</span>
+                                <h1>Menu sections documentation</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <ol class="breadcrumb b white right-side">
+                            <li><a href="../../index.html">Home</a></li>
+                            <li class="active">Menu sections documentation</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="documentation-subtitle">Usage</h4>
+                <div class="tab-box inverse gray documentation-tab" data-tab-anima="fade-in">
+                    <div class="panel active">
+<pre class="prettyprint">
+    &lt;header>
+    &lt;div class="navbar navbar-default" role="navigation">
+        &lt;!--NAVBAR MINI-->
+        &lt;div class="navbar-mini scroll-hide">
+            &lt;div class="container">
+                &lt;!-- LEFT AREA -->
+                &lt;div class="nav navbar-nav navbar-left">
+                    ...
+                &lt;/div>
+                &lt;!-- RIGHT AREA -->
+                &lt;div class="nav navbar-nav navbar-right">
+                    ...
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+        &lt;!--NAVBAR BIG-->
+        &lt;div class="navbar navbar-big scroll-hide">
+            &lt;div class="container">
+                &lt;div class="navbar-header">
+                    &lt;button type="button" class="navbar-toggle">
+                        &lt;i class="fa fa-bars">&lt;/i>
+                    &lt;/button>
+                    &lt;a class="navbar-brand" href="index.html">&lt;img src="logo.png" alt="logo" />&lt;/a>
+                &lt;/div>
+                &lt;div class="collapse navbar-collapse">
+                    &lt;!-- MAIN MENU -->
+                    &lt;ul class="nav navbar-nav">
+                        &lt;li>&lt;a href="#">Home&lt;/a>&lt;/li>
+                    &lt;/ul>
+                    &lt;!-- RIGHT AREA -->
+                    &lt;div class="nav navbar-nav navbar-right">
+                        ...
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+        &lt;!--NAVBAR MAIN-->
+        &lt;div class="navbar navbar-main">
+            &lt;div class="container">
+                &lt;div class="navbar-header">
+                    &lt;button type="button" class="navbar-toggle">
+                        &lt;i class="fa fa-bars">&lt;/i>
+                    &lt;/button>
+                    &lt;a class="navbar-brand" href="index.html">&lt;img src="images/logo.png" alt="logo" />&lt;/a>
+                &lt;/div>
+                &lt;div class="collapse navbar-collapse">
+                    &lt;!-- MAIN MENU -->
+                    &lt;ul class="nav navbar-nav">
+                        &lt;li class="active">&lt;a href="#">Home&lt;/a>&lt;/li>
+                    &lt;/ul>
+                    &lt;!-- RIGHT AREA -->
+                    &lt;div class="nav navbar-nav navbar-right">
+                        ...
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+&lt;/header>
+</pre>
+                    </div>
+                    <div class="panel">
+<pre class="prettyprint">
+&lt;div class="navbar-mini scroll-hide">
+    &lt;div class="container">
+        &lt;div class="nav navbar-nav navbar-left">
+            &lt;span>&lt;i class="fa fa-phone">&lt;/i>+1-23-4226789&lt;/span>
+            &lt;hr />
+            &lt;span>&lt;i class="fa fa-envelope-o">&lt;/i>hello@pixor.com&lt;/span>
+        &lt;/div>
+        &lt;div class="nav navbar-nav navbar-right">
+            &lt;ul class="nav navbar-nav lan-menu">
+                &lt;li class="dropdown">
+                    &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">&lt;img src="images/en.png" />EN &lt;span class="caret">&lt;/span>&lt;/a>
+                    &lt;ul class="dropdown-menu">
+                        &lt;li>&lt;a href="#">&lt;img src="images/it.png" />IT&lt;/a>&lt;/li>
+                    &lt;/ul>
+                &lt;/li>
+            &lt;/ul>
+            &lt;form class="navbar-form" role="search">
+                &lt;div class="input-group">
+                    &lt;input type="text" class="form-control" placeholder="Search for...">
+                    &lt;span class="input-group-btn">
+                        &lt;button class="btn btn-default" type="submit">GO&lt;/button>
+                    &lt;/span>
+                &lt;/div>
+            &lt;/form>
+            &lt;div class="minisocial-group">
+                &lt;a target="_blank" href="#">&lt;i class="fa fa-facebook first">&lt;/i>&lt;/a>
+                &lt;a target="_blank" href="#">&lt;i class="fa fa-twitter">&lt;/i>&lt;/a>
+                &lt;a target="_blank" href="#">&lt;i class="fa fa-instagram">&lt;/i>&lt;/a>
+                &lt;a target="_blank" href="#">&lt;i class="fa fa-youtube">&lt;/i>&lt;/a>
+                &lt;a target="_blank" href="#">&lt;i class="fa fa-linkedin">&lt;/i>&lt;/a>
+                &lt;a target="_blank" href="#">&lt;i class="fa fa-pinterest">&lt;/i>&lt;/a>
+                &lt;a target="_blank" href="#">&lt;i class="fa fa-google-plus">&lt;/i>&lt;/a>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+&lt;/div>
+</pre>
+                    </div>
+                    <div class="panel">
+<pre class="prettyprint">
+&lt;div class="navbar navbar-big scroll-hide">
+    &lt;div class="container">
+        &lt;div class="navbar-header">
+            &lt;button type="button" class="navbar-toggle">
+                &lt;i class="fa fa-bars">&lt;/i>
+            &lt;/button>
+            &lt;a class="navbar-brand" href="index.html">&lt;img src="images/logo.png" alt="logo" />&lt;/a>
+        &lt;/div>
+        &lt;div class="collapse navbar-collapse">
+            &lt;ul class="nav navbar-nav">
+                &lt;li>&lt;a href="#">Home&lt;/a>&lt;/li>
+                &lt;li class="dropdown">
+                    &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">About &lt;span class="caret">&lt;/span>&lt;/a>
+                    &lt;ul class="dropdown-menu">
+                        &lt;li>&lt;a href="#">Action&lt;/a>&lt;/li>
+                        &lt;li>&lt;a href="#">Another action&lt;/a>&lt;/li>
+                        &lt;li>&lt;a href="#">Something else here&lt;/a>&lt;/li>
+                        &lt;li role="separator" class="divider">&lt;/li>
+                        &lt;li>&lt;a href="#">Separated link&lt;/a>&lt;/li>
+                        &lt;li role="separator" class="divider">&lt;/li>
+                        &lt;li>&lt;a href="#">One more separated link&lt;/a>&lt;/li>
+                    &lt;/ul>
+                &lt;/li>
+            &lt;/ul>
+            &lt;div class="nav navbar-nav navbar-right">
+                &lt;form class="navbar-form" role="search">
+                    &lt;!--SEARCH B-->
+                    &lt;div class="input-group">
+                        &lt;input type="text" class="form-control" placeholder="Search for...">
+                        &lt;span class="input-group-btn">
+                            &lt;button class="btn btn-default" type="submit">GO&lt;/button>
+                        &lt;/span>
+                    &lt;/div>
+                &lt;/form>
+                &lt;!--SOCIAL ICONS-->
+                &lt;div class="btn-group navbar-social">
+                    &lt;div class="btn-group social-group">
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-facebook-square">&lt;/i>&lt;/a>
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-twitter-square">&lt;/i>&lt;/a>
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-instagram">&lt;/i>&lt;/a>
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-youtube-square">&lt;/i>&lt;/a>
+                    &lt;/div>
+                &lt;/div>
+                &lt;ul class="nav navbar-nav lan-menu">
+                    &lt;li class="dropdown">
+                        &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">&lt;img src="images/en.png" />EN &lt;span class="caret">&lt;/span>&lt;/a>
+                        &lt;ul class="dropdown-menu">
+                            &lt;li>&lt;a href="#">&lt;img src="images/it.png" />IT&lt;/a>&lt;/li>
+                        &lt;/ul>
+                    &lt;/li>
+                &lt;/ul>
+                &lt;div class="navbar-left custom-area">
+                    &lt;img src="images/custom-area.png" />
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+&lt;/div>
+</pre>
+                    </div>
+                    <div class="panel">
+<pre class="prettyprint">
+&lt;header class="fixed-top">
+    &lt;div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        &lt;div class="navbar-mini scroll-hide">
+            &lt;div class="container">
+                &lt;div class="nav navbar-nav navbar-left">
+                    &lt;span>&lt;i class="fa fa-phone">&lt;/i>+1-23-4226789&lt;/span>
+                    &lt;hr />
+                    &lt;span>&lt;i class="fa fa-envelope-o">&lt;/i>hello@pixor.com&lt;/span>
+                &lt;/div>
+                &lt;div class="nav navbar-nav navbar-right">
+                    &lt;ul class="nav navbar-nav lan-menu">
+                        &lt;li class="dropdown">
+                            &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">&lt;img src="images/en.png" />EN &lt;span class="caret">&lt;/span>&lt;/a>
+                            &lt;ul class="dropdown-menu">
+                                &lt;li>&lt;a href="#">&lt;img src="images/it.png" />IT&lt;/a>&lt;/li>
+                            &lt;/ul>
+                        &lt;/li>
+                    &lt;/ul>
+                    &lt;form class="navbar-form" role="search">
+                        &lt;div class="input-group">
+                            &lt;input type="text" class="form-control" placeholder="Search for...">
+                            &lt;span class="input-group-btn">
+                                &lt;button class="btn btn-default" type="submit">GO&lt;/button>
+                            &lt;/span>
+                        &lt;/div>
+                    &lt;/form>
+                    &lt;div class="minisocial-group">
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-facebook first">&lt;/i>&lt;/a>
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-twitter">&lt;/i>&lt;/a>
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-instagram">&lt;/i>&lt;/a>
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-youtube">&lt;/i>&lt;/a>
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-linkedin">&lt;/i>&lt;/a>
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-pinterest">&lt;/i>&lt;/a>
+                        &lt;a target="_blank" href="#">&lt;i class="fa fa-google-plus">&lt;/i>&lt;/a>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+        &lt;!--NAVBAR BIG-->
+        &lt;div class="navbar navbar-big scroll-hide">
+            &lt;div class="container">
+                &lt;div class="navbar-header">
+                    &lt;button type="button" class="navbar-toggle">
+                        &lt;i class="fa fa-bars">&lt;/i>
+                    &lt;/button>
+                    &lt;a class="navbar-brand" href="index.html">&lt;img src="images/logo.png" alt="logo" />&lt;/a>
+                &lt;/div>
+                &lt;div class="collapse navbar-collapse">
+                    &lt;ul class="nav navbar-nav">
+                        &lt;li>&lt;a href="#">Home&lt;/a>&lt;/li>
+                        &lt;li class="dropdown">
+                            &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">About &lt;span class="caret">&lt;/span>&lt;/a>
+                            &lt;ul class="dropdown-menu">
+                                &lt;li>&lt;a href="#">Action&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="#">Another action&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="#">Something else here&lt;/a>&lt;/li>
+                                &lt;li role="separator" class="divider">&lt;/li>
+                                &lt;li>&lt;a href="#">Separated link&lt;/a>&lt;/li>
+                                &lt;li role="separator" class="divider">&lt;/li>
+                                &lt;li>&lt;a href="#">One more separated link&lt;/a>&lt;/li>
+                            &lt;/ul>
+                        &lt;/li>
+                    &lt;/ul>
+                    &lt;div class="nav navbar-nav navbar-right">
+                        &lt;form class="navbar-form" role="search">
+                            &lt;!--SEARCH B-->
+                            &lt;div class="input-group">
+                                &lt;input type="text" class="form-control" placeholder="Search for...">
+                                &lt;span class="input-group-btn">
+                                    &lt;button class="btn btn-default" type="submit">GO&lt;/button>
+                                &lt;/span>
+                            &lt;/div>
+                            &lt;!--SEARCH C-->
+                            &lt;div class="search-box-menu">
+                                &lt;div class="search-box scrolldown">
+                                    &lt;input type="text" class="form-control" placeholder="Search for...">
+                                &lt;/div>
+                                &lt;button type="button" class="btn btn-default btn-search">
+                                    &lt;span class="fa fa-search">&lt;/span>
+                                &lt;/button>
+                            &lt;/div>
+                        &lt;/form>
+                        &lt;!--SOCIAL ICONS-->
+                        &lt;div class="btn-group navbar-social">
+                            &lt;div class="btn-group social-group">
+                                &lt;a target="_blank" href="#">&lt;i class="fa fa-facebook-square">&lt;/i>&lt;/a>
+                                &lt;a target="_blank" href="#">&lt;i class="fa fa-twitter-square">&lt;/i>&lt;/a>
+                                &lt;a target="_blank" href="#">&lt;i class="fa fa-instagram">&lt;/i>&lt;/a>
+                                &lt;a target="_blank" href="#">&lt;i class="fa fa-youtube-square">&lt;/i>&lt;/a>
+                            &lt;/div>
+                        &lt;/div>
+                        &lt;ul class="nav navbar-nav lan-menu">
+                            &lt;li class="dropdown">
+                                &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">&lt;img src="images/en.png" />EN &lt;span class="caret">&lt;/span>&lt;/a>
+                                &lt;ul class="dropdown-menu">
+                                    &lt;li>&lt;a href="#">&lt;img src="images/it.png" />IT&lt;/a>&lt;/li>
+                                &lt;/ul>
+                            &lt;/li>
+                        &lt;/ul>
+                        &lt;div class="navbar-left custom-area">
+                            &lt;img src="images/custom-area.png" />
+                        &lt;/div>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+        &lt;!--NAVBAR MAIN-->
+        &lt;div class="navbar navbar-main">
+            &lt;div class="container">
+                &lt;div class="navbar-header">
+                    &lt;button type="button" class="navbar-toggle">
+                        &lt;i class="fa fa-bars">&lt;/i>
+                    &lt;/button>
+                    &lt;a class="navbar-brand" href="index.html">&lt;img src="images/logo.png" alt="logo" />&lt;/a>
+                &lt;/div>
+                &lt;div class="collapse navbar-collapse">
+                    &lt;ul class="nav navbar-nav">
+                        &lt;li class="active">&lt;a href="#">Home&lt;/a>&lt;/li>
+                        &lt;li class="dropdown">
+                            &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">About &lt;span class="caret">&lt;/span>&lt;/a>
+                            &lt;ul class="dropdown-menu">
+                                &lt;li>&lt;a href="#">Action&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="#">Another action&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="#">Something else here&lt;/a>&lt;/li>
+                                &lt;li role="separator" class="divider">&lt;/li>
+                                &lt;li>&lt;a href="#">Separated link&lt;/a>&lt;/li>
+                                &lt;li role="separator" class="divider">&lt;/li>
+                                &lt;li>&lt;a href="#">One more separated link&lt;/a>&lt;/li>
+                            &lt;/ul>
+                        &lt;/li>
+                    &lt;/ul>
+                    &lt;div class="nav navbar-nav navbar-right">
+                        &lt;form class="navbar-form" role="search">
+                            &lt;!--SEARCH B-->
+                            &lt;div class="input-group">
+                                &lt;input type="text" class="form-control" placeholder="Search for...">
+                                &lt;span class="input-group-btn">
+                                    &lt;button class="btn btn-default" type="submit">GO&lt;/button>
+                                &lt;/span>
+                            &lt;/div>
+                            &lt;!--SEARCH C-->
+                            &lt;div class="search-box-menu">
+                                &lt;div class="search-box scrolldown">
+                                    &lt;input type="text" class="form-control" placeholder="Search for...">
+                                &lt;/div>
+                                &lt;button type="button" class="btn btn-default btn-search">
+                                    &lt;span class="fa fa-search">&lt;/span>
+                                &lt;/button>
+                            &lt;/div>
+                        &lt;/form>
+                        &lt;!--SOCIAL ICONS-->
+                        &lt;div class="btn-group navbar-social">
+                            &lt;div class="btn-group social-group">
+                                &lt;a target="_blank" href="#">&lt;i class="fa fa-facebook-square">&lt;/i>&lt;/a>
+                                &lt;a target="_blank" href="#">&lt;i class="fa fa-twitter-square">&lt;/i>&lt;/a>
+                                &lt;a target="_blank" href="#">&lt;i class="fa fa-instagram">&lt;/i>&lt;/a>
+                                &lt;a target="_blank" href="#">&lt;i class="fa fa-youtube-square">&lt;/i>&lt;/a>
+                            &lt;/div>
+                        &lt;/div>
+                        &lt;div class="custom-area">
+                            &lt;img src="images/custom-area.png" />
+                        &lt;/div>
+                        &lt;ul class="nav navbar-nav lan-menu">
+                            &lt;li class="dropdown">
+                                &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">&lt;img src="images/en.png" />EN &lt;span class="caret">&lt;/span>&lt;/a>
+                                &lt;ul class="dropdown-menu">
+                                    &lt;li>&lt;a href="#">&lt;img src="images/it.png" />IT&lt;/a>&lt;/li>
+                                &lt;/ul>
+                            &lt;/li>
+                        &lt;/ul>
+                    &lt;/div>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+&lt;/header>
+</pre>
+                    </div>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">Structura</a></li>
+                        <li><a href="#">Navbar mini</a></li>
+                        <li><a href="#">Navbar big</a></li>
+                        <li><a href="#">Full HTML</a></li>
+                    </ul>
+                </div>
+                <hr class="space s" />
+                <h4>Menu components examples</h4>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>Search box A</h5>
+                        <div class="nav navbar-nav" style="display: inline-block;max-width: 200px;">
+                            <form class="navbar-form navbar-left" role="search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search for...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="submit">GO</button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Search box B</h5>
+                        <div class="nav navbar-nav" style="display: inline-block;max-width: 200px;">
+                            <form class="navbar-form navbar-left" role="search">
+                                <div class="search-box-menu">
+                                    <div class="search-box scrolldown">
+                                        <input type="text" class="form-control" placeholder="Search for...">
+                                    </div>
+                                    <button type="button" class="btn btn-default btn-search">
+                                        <span class="fa fa-search"></span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Social box</h5>
+                        <div class="btn-group navbar-left navbar-social">
+                            <div class="btn-group social-group">
+                                <a target="_blank" href="#"><i class="fa fa-facebook-square"></i></a>
+                                <a target="_blank" href="#"><i class="fa fa-twitter-square"></i></a>
+                                <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                                <a target="_blank" href="#"><i class="fa fa-youtube-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Language menu</h5>
+                        <ul class="nav navbar-nav lan-menu">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                                    <img src="../../images/en.png" />EN <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><img src="../../images/it.png" />IT</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="space s" />
+                <h4>Menu components usage</h4>
+                <div class="tab-box inverse gray documentation-tab" data-tab-anima="fade-in">
+                    <div class="panel active">
+<pre class="prettyprint">
+&lt;div class="nav navbar-nav">
+    &lt;form class="navbar-form" role="search">
+        &lt;div class="form-group">
+            &lt;input type="text" class="form-control" placeholder="Search">
+        &lt;/div>
+        &lt;button type="submit" class="btn btn-default">GO&lt;/button>
+    &lt;/form>
+&lt;/div>
+</pre>
+                    </div>
+                    <div class="panel">
+<pre class="prettyprint">
+&lt;div class="search-box-menu">
+    &lt;div class="search-box scrolldown">
+        &lt;input type="text" class="form-control" placeholder="Search for...">
+    &lt;/div>
+    &lt;button type="button" class="btn btn-default btn-search">
+        &lt;span class="fa fa-search">&lt;/span>
+    &lt;/button>
+&lt;/div>
+</pre>
+                    </div>
+                    <div class="panel">
+<pre class="prettyprint">
+&lt;div class="btn-group navbar-social">
+        &lt;div class="btn-group social-group">
+            &lt;a target="_blank" href="#">&lt;i class="fa fa-facebook-square">&lt;/i>&lt;/a>
+            &lt;a target="_blank" href="#">&lt;i class="fa fa-twitter-square">&lt;/i>&lt;/a>
+            &lt;a target="_blank" href="#">&lt;i class="fa fa-instagram">&lt;/i>&lt;/a>
+            &lt;a target="_blank" href="#">&lt;i class="fa fa-youtube-square">&lt;/i>&lt;/a>
+        &lt;/div>
+    &lt;/div>
+&lt;/div>
+</pre>
+                    </div>
+                    <div class="panel">
+<pre class="prettyprint">
+&lt;ul class="nav navbar-nav lan-menu">
+    &lt;li class="dropdown">
+        &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+            &lt;img src="../../images/en.png" />EN &lt;span class="caret">&lt;/span>
+        &lt;/a>
+        &lt;ul class="dropdown-menu">
+            &lt;li>&lt;a href="#">&lt;img src="../../images/it.png" />IT&lt;/a>&lt;/li>
+        &lt;/ul>
+    &lt;/li>
+&lt;/ul>
+</pre>
+                    </div>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">Search box A</a></li>
+                        <li><a href="#">Search box B</a></li>
+                        <li><a href="#">Social box</a></li>
+                        <li><a href="#">Language menu</a></li>
+                    </ul>
+                </div>
+                <hr class="space s" />
+                <h4 class="documentation-subtitle">Main settings</h4>
+                <table class="table table-bordered table-striped documentation-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Hide on scroll</td>
+                            <td>CSS class</td>
+                            <td>
+                                To hide a menu section on page scroll add class <code>scroll-hide</code> to object you want to hide.
+                                Scroll hide is a feature of <a rel="nofollow" target="_blank" href="../components-base.html#js-base">components - base</a>.
+                                Complete documenteation <a rel="nofollow" target="_blank" href="../components.html#js-base">here <i class="fa fa-share"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Show on scroll</td>
+                            <td>CSS class</td>
+                            <td>
+                                To show a menu section on page scroll add class <code>scroll-show</code> to object you want to hide.
+                                <br />Scroll show is a feature of <a rel="nofollow" target="_blank" href="../components-base.html#js-base">components - base</a>.
+                                Complete documentation <a rel="nofollow" target="_blank" href="../components.html#js-base">here <i class="fa fa-share"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr class="space s" />
+                <div class="bs-callout documentation-callout bs-callout documentation-callout-information">
+                    <h5>Menu global documentation</h5>
+                    <p>Menu big logo is part of <a href="menu-documentation.html">menu global documentation page</a>. Complete documentation <a href="menu-documentation.html">here <i class="fa fa-share"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-center">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.framework-y.com/">Tweet</a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                    <p class="footer-main">
+                        Designed and built with love by <a href="http://www.pixor.it/en/federico-schiocchet/" target="blank">Federico Schiocchet</a>
+                        and <a href="http://www.pixor.it/en/" target="blank">Pixor</a>.
+                        <br />
+                        © All Rights Reserved Federico Schiocchet - Pixor.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <link rel="stylesheet" href="../../plugins/font-awesome/css/font-awesome.min.css">
+        <script src="../../plugins/bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../../css/animations.css">
+
+        <link rel="stylesheet" href="../../style-framework-y.css">
+        <script src="../../plugins/prettify.js"></script>
+        <link rel="stylesheet" href="../../plugins/prettify.css">
+        <link rel="stylesheet" href="../../css/components.css">
+        <script src="../../plugins/jquery.tab-accordion.js"></script>
+    </footer>
+</body>
+</html>

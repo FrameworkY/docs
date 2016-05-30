@@ -1,0 +1,445 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu side | components | Framework Y</title>
+    <meta name="description" content="Side lateral menu with scroll box and drodowns.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../script.js"></script>
+    <script src="../../script-framework-y.js"></script>
+    <link rel="stylesheet" href="../../style-framework-y.css">
+    <link rel="stylesheet" href="../../style.css">
+
+    <link rel="icon" href="/favicon.ico"> <!-- Extra optional content header -->
+</head>
+<body class="side-menu-container">
+    <div id="preloader"></div>
+    <header class="demo side-menu-header" data-menu-anima="default">
+        <div class="navbar-header">
+            <a class="hamburger-button" data-menu-anima="fade-left">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a class="navbar-brand" href="../../index.html"><img src="../../images/logo.png" alt="logo" /></a>
+        </div>
+        <div class="side-menu-fixed">
+            <div class="top-area">
+                <a class="brand" href="../../index.html">
+                    <img src="../../images/logo.png" alt="logo">
+                </a>
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit">GO</button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <aside class="sidebar mi-menu">
+                <nav class="sidebar-nav scroll-content">
+                    <ul class="side-menu">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-home"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">Dropdown <span class="fa arrow"></span></a>
+                            <ul class="collapse">
+                                <li><a href="#">item 1.1</a></li>
+                                <li><a href="#">item 1.2</a></li>
+                                <li>
+                                    <a href="#">Menu 1.3 <span class="fa plus-times"></span></a>
+                                    <ul class="collapse">
+                                        <li><a href="#">item 1.3.1</a></li>
+                                        <li><a href="#">item 1.3.2</a></li>
+                                        <li><a href="#">item 1.3.3</a></li>
+                                        <li><a href="#">item 1.3.4</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">item 1.4</a></li>
+                                <li>
+                                    <a href="#">Menu 1.5 <span class="fa plus-minus"></span></a>
+                                    <ul class="collapse">
+                                        <li><a href="#">item 1.5.1</a></li>
+                                        <li><a href="#">item 1.5.2</a></li>
+                                        <li><a href="#">item 1.5.3</a></li>
+                                        <li><a href="#">item 1.5.4</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Dropdown 2<span class="fa arrow"></span></a>
+                            <ul class="collapse">
+                                <li><a href="#">item 1.1</a></li>
+                                <li><a href="#">item 1.2</a></li>
+                                <li>
+                                    <a href="#">Menu 1.3 <span class="fa plus-times"></span></a>
+                                    <ul class="collapse">
+                                        <li><a href="#">item 1.3.1</a></li>
+                                        <li><a href="#">item 1.3.2</a></li>
+                                        <li><a href="#">item 1.3.3</a></li>
+                                        <li><a href="#">item 1.3.4</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">item 1.4</a></li>
+                                <li>
+                                    <a href="#">Menu 1.5 <span class="fa plus-minus"></span></a>
+                                    <ul class="collapse">
+                                        <li><a href="#">item 1.5.1</a></li>
+                                        <li><a href="#">item 1.5.2</a></li>
+                                        <li><a href="#">item 1.5.3</a></li>
+                                        <li><a href="#">item 1.5.4</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Dropdown 3<span class="fa arrow"></span></a>
+                            <ul class="collapse">
+                                <li><a href="#">item 1.1</a></li>
+                                <li><a href="#">item 1.2</a></li>
+                            </ul>
+                        </li>
+                        <li class="panel-item">
+                            <span>Another lateral Panel<span class="fa arrow"></span></span>
+                            <div class="collapse panel bg-menu">
+                                <ul class="collapse" style="margin-top:107px;">
+                                    <li><a href="#">Latest news</a></li>
+                                    <li><a href="#">Some features</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <div class="bottom-area">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                    <img src="../../images/en.png" />
+                </a>
+                <span class="space"></span>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                    <img src="../../images/it.png" />
+                </a>
+                <hr class="space xs" />
+                <div class="social-group">
+                    <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                    <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                    <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                    <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+                <p>© Copyright 2016. All rights reserved. </p>
+            </div>
+        </div>
+    </header>
+    <div class="header-bootstrap">
+        <div class="title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="row vertical-row">
+                            <div class="col-md-2">
+                                <i class="fa fa-bars"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <span>Menu component</span>
+                                <h1>Side menu</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <ol class="breadcrumb b white right-side">
+                            <li><a href="../../index.html">Home</a></li>
+                            <li class="active">Side menu</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="documentation-subtitle">Usage</h4>
+                <div class="tab-box inverse gray documentation-tab" data-tab-anima="fade-in">
+                    <div class="panel active">
+<pre class="prettyprint">
+&lt;header class="side-menu-header" data-menu-anima="default">
+    &lt;div class="navbar-header">
+        &lt;a class="hamburger-button" data-menu-anima="fade-left">
+            &lt;i class="fa fa-bars">&lt;/i>
+        &lt;/a>
+        &lt;a class="navbar-brand" href="index.html">&lt;img src="logo.png" alt="logo" />&lt;/a>
+    &lt;/div>
+    &lt;div class="side-menu-fixed">
+        &lt;div class="top-area">
+            &lt;a class="brand" href="index.html">
+                &lt;img src="logo.png" alt="logo">
+            &lt;/a>
+            &lt;form class="navbar-form" role="search">
+                &lt;div class="input-group">
+                    &lt;input type="text" class="form-control" placeholder="Search for...">
+                    &lt;span class="input-group-btn">
+                        &lt;button class="btn btn-default" type="submit">GO&lt;/button>
+                    &lt;/span>
+                &lt;/div>
+            &lt;/form>
+        &lt;/div>
+        &lt;aside class="sidebar mi-menu">
+            &lt;nav class="sidebar-nav scroll-content">
+                &lt;ul class="side-menu">
+                    &lt;li>
+                        &lt;a href="#">
+                            &lt;i class="fa fa-home">&lt;/i>
+                            Home
+                        &lt;/a>
+                    &lt;/li>
+                    &lt;li>
+                        &lt;a href="#">Dropdown &lt;span class="fa arrow">&lt;/span>&lt;/a>
+                        &lt;ul class="collapse">
+                            &lt;li>&lt;a href="#">item 1.1&lt;/a>&lt;/li>
+                            &lt;li>&lt;a href="#">item 1.2&lt;/a>&lt;/li>
+                            &lt;li>
+                                &lt;a href="#">Menu 1.3 &lt;span class="fa plus-times">&lt;/span>&lt;/a>
+                                &lt;ul class="collapse">
+                                    &lt;li>&lt;a href="#">item 1.3.1&lt;/a>&lt;/li>
+                                    &lt;li>&lt;a href="#">item 1.3.2&lt;/a>&lt;/li>
+                                    &lt;li>&lt;a href="#">item 1.3.3&lt;/a>&lt;/li>
+                                    &lt;li>&lt;a href="#">item 1.3.4&lt;/a>&lt;/li>
+                                &lt;/ul>
+                            &lt;/li>
+                            &lt;li>&lt;a href="#">item 1.4&lt;/a>&lt;/li>
+                            &lt;li>
+                                &lt;a href="#">Menu 1.5 &lt;span class="fa plus-minus">&lt;/span>&lt;/a>
+                                &lt;ul class="collapse">
+                                    &lt;li>&lt;a href="#">item 1.5.1&lt;/a>&lt;/li>
+                                    &lt;li>&lt;a href="#">item 1.5.2&lt;/a>&lt;/li>
+                                    &lt;li>&lt;a href="#">item 1.5.3&lt;/a>&lt;/li>
+                                    &lt;li>&lt;a href="#">item 1.5.4&lt;/a>&lt;/li>
+                                &lt;/ul>
+                            &lt;/li>
+                        &lt;/ul>
+                    &lt;/li>
+                    &lt;li class="panel-item">
+                        &lt;span>Menu Lateral Panel&lt;span class="fa arrow">&lt;/span>&lt;/span>
+                        &lt;div class="collapse panel bg-menu" style="background-image:url(../../images/bg-gradient-1.jpg)">
+                            &lt;ul class="collapse" style="margin-top:133px;">
+                                &lt;li>&lt;a href="#">item 1.1&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="#">item 1.2&lt;/a>&lt;/li>
+                                &lt;li>
+                                    &lt;a href="#">Menu 1.3 &lt;span class="fa plus-times">&lt;/span>&lt;/a>
+                                    &lt;ul class="collapse">
+                                        &lt;li>&lt;a href="#">item 1.3.1&lt;/a>&lt;/li>
+                                        &lt;li>&lt;a href="#">item 1.3.2&lt;/a>&lt;/li>
+                                        &lt;li>&lt;a href="#">item 1.3.3&lt;/a>&lt;/li>
+                                        &lt;li>&lt;a href="#">item 1.3.4&lt;/a>&lt;/li>
+                                    &lt;/ul>
+                                &lt;/li>
+                                &lt;li>&lt;a href="#">item 1.4&lt;/a>&lt;/li>
+                                &lt;li>
+                                    &lt;a href="#">Menu 1.5 &lt;span class="fa plus-minus">&lt;/span>&lt;/a>
+                                    &lt;ul class="collapse">
+                                        &lt;li>&lt;a href="#">item 1.5.1&lt;/a>&lt;/li>
+                                        &lt;li>&lt;a href="#">item 1.5.2&lt;/a>&lt;/li>
+                                        &lt;li>&lt;a href="#">item 1.5.3&lt;/a>&lt;/li>
+                                        &lt;li>&lt;a href="#">item 1.5.4&lt;/a>&lt;/li>
+                                    &lt;/ul>
+                                &lt;/li>
+                            &lt;/ul>
+                        &lt;/div>
+                    &lt;/li>
+                    &lt;li class="panel-item">
+                        &lt;span>Another lateral Panel&lt;span class="fa arrow">&lt;/span>&lt;/span>
+                        &lt;div class="collapse panel bg-menu">
+                            &lt;ul class="collapse" style="margin-top:107px;">
+                                &lt;li>&lt;a href="#">Latest news&lt;/a>&lt;/li>
+                                &lt;li>&lt;a href="#">Some features&lt;/a>&lt;/li>
+                            &lt;/ul>
+                        &lt;/div>
+                    &lt;/li>
+                    &lt;li>&lt;a href="#">Portfolio&lt;/a>&lt;/li>
+                    &lt;li>&lt;a href="#">Contacts&lt;/a>&lt;/li>
+                &lt;/ul>
+            &lt;/nav>
+        &lt;/aside>
+        &lt;div class="bottom-area">
+             &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                 &lt;img src="../../images/en.png" />
+             &lt;/a>
+             &lt;span class="space">&lt;/span>
+             &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                 &lt;img src="../../images/it.png" />
+             &lt;/a>
+             &lt;hr class="space xs" />
+            &lt;div class="social-group">
+                &lt;a target="_blank" href="#">&lt;i class="fa fa-facebook-square">&lt;/i>&lt;/a>
+                &lt;a target="_blank" href="#">&lt;i class="fa fa-twitter-square">&lt;/i>&lt;/a>
+                &lt;a target="_blank" href="#">&lt;i class="fa fa-instagram">&lt;/i>&lt;/a>
+                &lt;a target="_blank" href="#">&lt;i class="fa fa-youtube-square">&lt;/i>&lt;/a>
+            &lt;/div>
+            &lt;p>© Copyright 2016. All rights reserved. &lt;/p>
+        &lt;/div>
+    &lt;/div>
+&lt;/header>
+</pre>
+                    </div>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">HTML</a></li>
+                    </ul>
+                </div>
+                <hr class="space s" />
+                <h4 class="documentation-subtitle">Installation</h4>
+                <div class="panel panel-default">
+<pre class="prettyprint well">
+&lt;script src='../plugins/jquery.slimscroll.min.js'&gt;&lt;/script&gt;
+</pre>
+                </div>
+                <hr class="space s" />
+                <h4 class="documentation-subtitle">Main settings</h4>
+                <table class="table table-bordered table-striped documentation-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Page container</td>
+                            <td>CSS class</td>
+                            <td>
+                                Add class <code>side-menu-container</code> to body object. Example: <code>&lt;body class="side-menu-container"> ... &lt;/body></code>.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Icons</td>
+                            <td>Mixed</td>
+                            <td>
+                                To add a icon to a menu item insert <code>&lt;span class="sidebar-nav-item-icon fa fa-icon-name"&gt;&lt;/span&gt;&lt;span class="sidebar-nav-item"&gt; ... &lt;/span&gt;</code>
+                                and replace <code>fa-icon-name</code> with class icon you want. Icons are a feature of <a rel="nofollow" target="_blank" href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>. Complete icons list <a rel="nofollow" target="_blank" href="http://fortawesome.github.io/Font-Awesome/icons/">here <i class="fa fa-share"></i></a>.
+                                <br>Example:<br>
+<pre class="prettyprint">
+&lt;ul class="side-menu">
+    ...
+    &lt;li>
+        &lt;a href="#">
+            &lt;span class="sidebar-nav-item-icon fa fa-home">&lt;/span>
+            &lt;span class="sidebar-nav-item">Menu item text&lt;/span>
+        &lt;/a>
+    &lt;/li>
+    ...
+&lt;/ul>
+</pre>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Panel item</td>
+                            <td>HTML</td>
+                            <td>
+                                To add a panel menu item insert this code into ul <code>&lt;ul class="side-menu"> ... &lt;/ul></code> obejct.
+                                <br>Example:<br>
+<pre class="prettyprint">
+&lt;ul class="side-menu">
+    ...
+    &lt;li class="panel-item">
+        &lt;span>Lateral Panel&lt;span class="fa arrow">&lt;/span>&lt;/span>
+        &lt;div class="collapse panel bg-menu">
+            ...
+        &lt;/div>
+    &lt;/li>
+    ...
+&lt;/ul>
+</pre>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Panel item background image</td>
+                            <td>HTML</td>
+                            <td>
+                                To add a background image to panel item add class <code>bg-menu</code> to menu item and add style <code>style="background-image:url(image.jpg)"</code>
+                                <br>Example:<br>
+<pre class="prettyprint">
+&lt;ul class="side-menu">
+    ...
+    &lt;li class="panel-item bg-menu" style="background-image:url(image.jpg)">
+        &lt;span>Lateral Panel&lt;span class="fa arrow">&lt;/span>&lt;/span>
+        &lt;div class="collapse panel bg-menu">
+            ...
+        &lt;/div>
+    &lt;/li>
+    ...
+&lt;/ul>
+</pre>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Lateral dropdown</td>
+                            <td>CSS class</td>
+                            <td>
+                                Add class <code>side-menu-lateral</code> to header object. Example: <code>&lt;header class="demo side-menu-header side-menu-lateral"> ... &lt;/header></code>.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Scroll box</td>
+                            <td>CSS class</td>
+                            <td>
+                                Add class <code>scroll-content</code> to nav object.
+                                Example: <code>&lt;aside class="sidebar scroll-content"&gt; ... &lt;/aside&gt;</code>.
+                                <div class="bs-callout documentation-callout bs-callout documentation-callout-danger">
+                                    <h5>Plugin dependency</h5>
+                                    <p>This feature require Slim Scroll Plugin (<code>../plugins/jquery.slimscroll.min.js</code>)</p>
+                                </div>
+                                Slim Scroll documentation <a href="../components.html#scroll-box">here <i class="fa fa-share"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr class="space s" />
+                <div class="bs-callout documentation-callout bs-callout documentation-callout-information">
+                    <h5>Menu documentation</h5>
+                    <p>Menu side is part of <a href="menu-documentation.html">menu component</a>. Complete documentation <a href="menu-documentation.html">here <i class="fa fa-share"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-center">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.framework-y.com/">Tweet</a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                    <p class="footer-main">
+                        Designed and built with love by <a href="http://www.pixor.it/en/federico-schiocchet/" target="blank">Federico Schiocchet</a>
+                        and <a href="http://www.pixor.it/en/" target="blank">Pixor</a>.
+                        <br />
+                        © All Rights Reserved Federico Schiocchet - Pixor.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <link rel="stylesheet" href="../../plugins/font-awesome/css/font-awesome.min.css">
+        <script src="../../plugins/bootstrap/js/bootstrap.min.js"></script>
+
+        <script src="../../plugins/jquery.slimscroll.min.js"></script>
+        <link rel="stylesheet" href="../../css/animations.css">
+        <link rel="stylesheet" href="../../style-framework-y.css">
+        <script src="../../plugins/prettify.js"></script>
+        <link rel="stylesheet" href="../../plugins/prettify.css">
+        <link rel="stylesheet" href="../../css/components.css">
+        <script src="../../plugins/jquery.tab-accordion.js"></script>
+    </footer>
+</body>
+</html>

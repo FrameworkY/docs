@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu subline | components | Framework Y</title>
+    <meta name="description" content="Menu with bottom bar with menu items, show menu sub items horizzontally into a horizontal bar.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../script.js"></script>
+    <script src="../../script-framework-y.js"></script>
+    <link rel="stylesheet" href="../../style-framework-y.css">
+    <link rel="stylesheet" href="../../style.css">
+
+    <link rel="icon" href="/favicon.ico"> <!-- Extra optional content header -->
+</head>
+<body>
+    <div id="preloader"></div>
+    <header class="demo">
+        <div class="navbar navbar-default" role="navigation">
+            <div class="navbar navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="../../index.html"><img src="../../images/logo.png" alt="logo" /></a>
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav subline-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About <span class="caret"></span></a></li>
+                            <li><a href="#">Services <span class="caret"></span></a></li>
+                            <li><a href="#">Team <span class="caret"></span></a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Faq <span class="caret"></span></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subline-bar">
+            <div class="container">
+                <ul></ul>
+                <ul>
+                    <li><a href="#">Who we are</a></li>
+                    <li><a href="#">What we do</a></li>
+                    <li><a href="#">Our philosophy</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Web sites</a></li>
+                    <li><a href="#">Graphics</a></li>
+                    <li><a href="#">Seo</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Power Point</a></li>
+                    <li><a href="#">Counsulting</a></li>
+                    <li><a href="#">Illutrations</a></li>
+                    <li><a href="#">Copy writing</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Main team</a></li>
+                    <li><a href="#">Collaborators</a></li>
+                    <li><a href="#">CEO</a></li>
+                </ul>
+                <ul></ul>
+                <ul>
+                    <li><a href="#">Users FAQ</a></li>
+                    <li><a href="#">B2B FAQ</a></li>
+                    <li><a href="#">General informations</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="header-bootstrap">
+        <div class="title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="row vertical-row">
+                            <div class="col-md-2">
+                                <i class="fa fa-bars"></i>
+                            </div>
+                            <div class="col-md-10">
+                                <span>Menu component</span>
+                                <h1>Menu subline</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <ol class="breadcrumb b white right-side">
+                            <li><a href="../../index.html">Home</a></li>
+                            <li class="active">Menu subline</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="documentation-subtitle">Usage</h4>
+                <div class="tab-box inverse gray documentation-tab" data-tab-anima="fade-in">
+                    <div class="panel active">
+<pre class="prettyprint">
+&lt;header>
+    &lt;div class="navbar navbar-default" role="navigation">
+        &lt;div class="navbar navbar-main">
+            &lt;div class="container">
+                &lt;div class="navbar-header">
+                    &lt;a class="navbar-brand" href="index.html">&lt;img src="images/logo.png" alt="logo" />&lt;/a>
+                    &lt;button type="button" class="navbar-toggle">
+                        &lt;i class="fa fa-bars">&lt;/i>
+                    &lt;/button>
+                &lt;/div>
+                &lt;div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    &lt;ul class="nav navbar-nav subline-menu">
+                        &lt;li>&lt;a href="#">Home&lt;/a>&lt;/li>
+                        &lt;li>&lt;a href="#">About &lt;span class="caret">&lt;/span>&lt;/a>&lt;/li>
+                        &lt;li>&lt;a href="#">Services &lt;span class="caret">&lt;/span>&lt;/a>&lt;/li>
+                        &lt;li>&lt;a href="#">Team &lt;span class="caret">&lt;/span>&lt;/a>&lt;/li>
+                        &lt;li>&lt;a href="#">Contact us&lt;/a>&lt;/li>
+                        &lt;li>&lt;a href="#">Faq &lt;span class="caret">&lt;/span>&lt;/a>&lt;/li>
+                    &lt;/ul>
+                &lt;/div>
+            &lt;/div>
+        &lt;/div>
+    &lt;/div>
+    &lt;div class="subline-bar">
+        &lt;div class="container">
+            &lt;ul>&lt;/ul>
+            &lt;ul>
+                &lt;li>&lt;a href="#">Who we are&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#">What we do&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#">Our philosophy&lt;/a>&lt;/li>
+            &lt;/ul>
+            &lt;ul>
+                &lt;li>&lt;a href="#">Web sites&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#">Graphics&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#">Seo&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#">Videos&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#">Power Point&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#">Counsulting&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#">Illutrations&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#">Copy writing&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#">Newsletter&lt;/a>&lt;/li>
+            &lt;/ul>
+            &lt;ul>
+                &lt;li>&lt;a href="#">Main team&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#">Collaborators&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#">CEO&lt;/a>&lt;/li>
+            &lt;/ul>
+            &lt;ul>&lt;/ul>
+            &lt;ul>
+                &lt;li>&lt;a href="#">Users FAQ&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#">B2B FAQ&lt;/a>&lt;/li>
+                &lt;li>&lt;a href="#">General informations&lt;/a>&lt;/li>
+            &lt;/ul>
+        &lt;/div>
+    &lt;/div>
+&lt;/header>
+</pre>
+                    </div>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">HTML</a></li>
+                    </ul>
+                </div>
+                <hr class="space s" />
+                <h4 class="documentation-subtitle">Main settings</h4>
+                <table class="table table-bordered table-striped documentation-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sub menus</td>
+                            <td>Mixed</td>
+                            <td>
+                                Sub menus are auto linked to menu items, by calculate item index. If some menu item not have a
+                                submenu add a empty <code>&lt;ul>&lt;/ul></code> to correct position of submenu object, like showed on examples.
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <hr class="space s" />
+                <div class="bs-callout documentation-callout bs-callout documentation-callout-information">
+                    <h5>Menu documentation</h5>
+                    <p>Menu subline is part of <a href="menu-documentation.html">menu component</a>. Complete documentation <a href="menu-documentation.html">here <i class="fa fa-share"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-center">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.framework-y.com/">Tweet</a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                    <p class="footer-main">
+                        Designed and built with love by <a href="http://www.pixor.it/en/federico-schiocchet/" target="blank">Federico Schiocchet</a>
+                        and <a href="http://www.pixor.it/en/" target="blank">Pixor</a>.
+                        <br />
+                        © All Rights Reserved Federico Schiocchet - Pixor.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <link rel="stylesheet" href="../../plugins/font-awesome/css/font-awesome.min.css">
+        <script src="../../plugins/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+        <link rel="stylesheet" href="../../style-framework-y.css">
+        <script src="../../plugins/prettify.js"></script>
+        <link rel="stylesheet" href="../../plugins/prettify.css">
+        <link rel="stylesheet" href="../../css/components.css">
+        <script src="../../plugins/jquery.tab-accordion.js"></script>
+    </footer>
+</body>
+</html>

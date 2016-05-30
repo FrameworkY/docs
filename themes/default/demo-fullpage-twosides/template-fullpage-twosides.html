@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Generic demo | Twosides template | Framework Y</title>
+    <meta name="description" content="Two sides template, innovative HTML web site effects and design.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../../plugins/bootstrap/css/bootstrap.css">
+    <script src="../../../script.js"></script>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../css/fullpage.twoside.css">
+    <link rel="stylesheet" href='../../../css/animations.css'>
+    <link rel="stylesheet" href='../../../css/content-box.css'>
+    <link rel="stylesheet" href='../../../css/components.css'>
+    <link rel="stylesheet" href='../../../css/image-box.css'>
+    <link rel="stylesheet" href="../../../plugins/magnific-popup.css">
+    <link rel="icon" href="/favicon.ico">
+    <!-- Extra optional content header -->
+</head>
+<body>
+    <div id="preloader"></div>
+    <div class="background-page" style="background-image:url('images/bg-full-4.jpg')"></div>
+    <div class="sec-twoside white">
+        <div class="row">
+            <div class="half-side left">
+                <div class="content">
+                    <h1 class="text-xl">WELCOME</h1>
+                    <h2 class="subtxt-demo">The wait is almost over<br />our new event is cooming !</h2>
+                    <hr class="space" />
+                    <div class="countdown countdown-demo" date-time="10/01/2017 10:30:00" date-utc-offset="-5">
+                        <span class="days countdown-values text-xl">00</span><span class="countdown-label"> Days</span>
+                        <span class="hours countdown-values text-xl">00</span><span class="countdown-label"> Hours</span>
+                        <span class="minutes countdown-values text-xl">00</span><span class="countdown-label"> Minutes</span>
+                        <span class="seconds countdown-values text-xl">00</span><span class="countdown-label"> Seconds</span>
+                    </div>
+                    <hr class="space" />
+                    <a href="#" class="circle-button btn-sm btn-primary hidden-xs" onclick="openSection(0)">Start the show</a>
+                </div>
+            </div>
+            <div class="half-side right">
+                <div class="content">
+                    <div id="twosides-menu">
+                        <div class="twoside-open"><hr />About us</div>
+                        <div class="twoside-open"><hr />Gallery</div>
+                        <div class="twoside-open"><hr />Services</div>
+                    </div>
+                </div>
+            </div>
+            <div id="twosides-main">
+                <div class="section center-box">
+                    <div class="content">
+                        <div class="subtitle e right ricon">
+                            <h1>WHO WE ARE</h1>
+                        </div>
+                        <p>
+                            L'orem ipsum dolor, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea coSed ut perspiciatis unde
+                            omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaqueipsa quae ab illo inventore veritatis et
+                            quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam.
+                        </p>
+                        <hr class="space" />
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide" class="img-box scale adv-circle circle adv-circle-half" href="#">
+                                    <img src="images/user-1.jpg">
+                                    <div class="caption anima">
+                                        <p>Sed do eiusmod tempor incididunt beatae vitae dicta site.</p>
+                                    </div>
+                                </a>
+                                <div class="caption-bottom">
+                                    <h2>Sarah melis</h2>
+                                    <p>CEO and founder</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <a data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide" class="img-box scale adv-circle circle adv-circle-half" href="#">
+                                    <img src="images/user-2.jpg">
+                                    <div class="caption anima">
+                                        <p>Sed do eiusmod tempor incididunt beatae vitae dicta sit.</p>
+                                    </div>
+                                </a>
+                                <div class="caption-bottom">
+                                    <h2>Mark zulik</h2>
+                                    <p>Designer</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <a data-anima="fade-bottom" data-trigger="hover" data-anima-out="hide" class="img-box scale adv-circle circle adv-circle-half" href="#">
+                                    <img src="images/user-3.jpg">
+                                    <div class="caption anima">
+                                        <p>Sed do eiusmod tempor incididunt beatae vitae dicta sit voluptatem.</p>
+                                    </div>
+                                </a>
+                                <div class="caption-bottom">
+                                    <h2>Peter Pan</h2>
+                                    <p>Marketing manager</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="section center-box">
+                    <div class="content demo-scroll">
+                        <div class="subtitle e right ricon">
+                            <h1 class="title-main text-center">PHOTOS & VIDEOS GALLERY</h1>
+                        </div>
+                        <div class="scroll-content" data-height="395" data-options="color:#fff">
+                            <div class="grid-list gallery">
+                                <div class="grid-box row demo-grid" data-lightbox-anima="show-scale">
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box thumbnail i-center img-scale-up" href="images/large/large_wide_1.jpg">
+                                            <span>
+                                                <i class="fa fa-camera"></i>
+                                                <img src="images/thumbs/thumb_wide_1.jpg">
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box thumbnail i-center img-scale-up" href="images/large/large_wide_2.jpg">
+                                            <span>
+                                                <i class="fa fa-camera"></i>
+                                                <img src="images/thumbs/thumb_wide_2.jpg">
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box thumbnail mfp-iframe i-center img-scale-up" href="www.youtube.com/watch?v=bpqhStV2_rc">
+                                            <span>
+                                                <i class="fa fa-film"></i>
+                                                <img src="images/thumbs/thumb_wide_video_1.jpg" />
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box thumbnail i-center img-scale-up" href="images/large/large_wide_4.jpg">
+                                            <span>
+                                                <i class="fa fa-camera"></i>
+                                                <img src="images/thumbs/thumb_wide_4.jpg">
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box thumbnail i-center img-scale-up" href="images/large/large_wide_5.jpg">
+                                            <span>
+                                                <i class="fa fa-camera"></i>
+                                                <img src="images/thumbs/thumb_wide_5.jpg">
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box thumbnail i-center img-scale-up" href="images/large/large_wide_6.jpg">
+                                            <span>
+                                                <i class="fa fa-camera"></i>
+                                                <img src="images/thumbs/thumb_wide_6.jpg">
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box thumbnail i-center img-scale-up" href="images/large/large_wide_1.jpg">
+                                            <span>
+                                                <i class="fa fa-camera"></i>
+                                                <img src="images/thumbs/thumb_wide_1.jpg">
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box thumbnail i-center img-scale-up" href="images/large/large_wide_2.jpg">
+                                            <span>
+                                                <i class="fa fa-camera"></i>
+                                                <img src="images/thumbs/thumb_wide_2.jpg">
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box thumbnail mfp-iframe i-center img-scale-up" href="www.youtube.com/watch?v=bpqhStV2_rc">
+                                            <span>
+                                                <i class="fa fa-film"></i>
+                                                <img src="images/thumbs/thumb_wide_video_1.jpg" />
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box thumbnail i-center img-scale-up" href="images/large/large_wide_4.jpg">
+                                            <span>
+                                                <i class="fa fa-camera"></i>
+                                                <img src="images/thumbs/thumb_wide_4.jpg">
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box thumbnail i-center img-scale-up" href="images/large/large_wide_5.jpg">
+                                            <span>
+                                                <i class="fa fa-camera"></i>
+                                                <img src="images/thumbs/thumb_wide_5.jpg">
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-item col-md-4">
+                                        <a class="img-box thumbnail i-center img-scale-up" href="images/large/large_wide_6.jpg">
+                                            <span>
+                                                <i class="fa fa-camera"></i>
+                                                <img src="images/thumbs/thumb_wide_6.jpg">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section center-box">
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="advs-box advs-box-side white" data-anima="fade-left" data-trigger="hover">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <i class="fa fa-laptop icon white"></i>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <h3>WEB SITES</h3>
+                                            <hr class="anima">
+                                            <p>
+                                                L'orem ipsum dolor "sitamet", consectetur 'adipisicing' elit, sed do eiusmod tempor incididunt
+                                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, q rem aperiam ...
+                                            </p>
+                                            <a class="anima-button circle-button btn-sm white" href="#"><i class="fa fa-long-arrow-right "></i>Enter now </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="advs-box advs-box-side white" data-anima="fade-left" data-trigger="hover">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <i class="fa fa-tablet icon white"></i>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <h3>MOBILE APPS</h3>
+                                            <hr class="anima">
+                                            <p>
+                                                L'orem ipsum dolor "sitamet", consectetur 'adipisicing' elit, sed do eiusmod tempor incididunt
+                                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, q rem aperiam ...
+                                            </p>
+                                            <a class="anima-button circle-button btn-sm white" href="#"><i class="fa fa-long-arrow-right "></i>Enter now </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="space" />
+                            <div class="col-md-6">
+                                <div class="advs-box advs-box-side white" data-anima="fade-left" data-trigger="hover">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <i class="fa fa-area-chart icon white"></i>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <h3>SEO AND MARKETING</h3>
+                                            <hr class="anima">
+                                            <p>
+                                                L'orem ipsum dolor "sitamet", consectetur 'adipisicing' elit, sed do eiusmod tempor incididunt
+                                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, q rem aperiam ...
+                                            </p>
+                                            <a class="anima-button circle-button btn-sm white" href="#"><i class="fa fa-long-arrow-right "></i>Enter now </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="advs-box advs-box-side white" data-anima="fade-left" data-trigger="hover">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <i class="fa fa-film icon white"></i>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <h3>VIDEOS</h3>
+                                            <hr class="anima">
+                                            <p>
+                                                L'orem ipsum dolor "sitamet", consectetur 'adipisicing' elit, sed do eiusmod tempor incididunt
+                                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, q rem aperiam ...
+                                            </p>
+                                            <a class="anima-button circle-button btn-sm white" href="#"><i class="fa fa-long-arrow-right "></i>Enter now </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="center-bg"></div>
+            <div class="close-button"></div>
+        </div>
+    </div>
+    <footer>
+        <link async rel="stylesheet" href="../../../plugins/font-awesome/css/font-awesome.min.css">
+        <script async src="../../../plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../../../plugins/fullpage.twoside.js"></script>
+        <script src='../../../plugins/jquery.slimscroll.min.js'></script>
+        <script src='../../../plugins/jquery.progress-counter.js'></script>
+        <script src="../../../plugins/jquery.magnific-popup.min.js"></script>
+    </footer>
+</body>
+</html>
